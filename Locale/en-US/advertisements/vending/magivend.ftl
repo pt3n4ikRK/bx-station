@@ -1,0 +1,10 @@
+advertisement-magivend-1 = Розкидуйся закляттями правильно з MagiVend!
+advertisement-magivend-2 = Стань для себе як Гудіні! Використовуйте MagiVend!
+advertisement-magivend-3 = АОЛДАОІВ
+advertisement-magivend-4 = ФОЛАДИОФЛД
+advertisement-magivend-5 = >МОК
+advertisement-magivend-6 = ХОНК!
+advertisement-magivend-7 = EI NATH
+advertisement-magivend-8 = Знищити станцію!
+advertisement-magivend-9 = Обладнання для викривлення простору та часу!
+advertisement-magivend-10 = 1234 БОЖЕВІЛЬНИХ ЛОЛ!

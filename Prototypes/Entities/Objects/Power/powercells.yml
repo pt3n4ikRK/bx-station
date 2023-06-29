@@ -1,0 +1,226 @@
+- type: entity
+  id: BasePowerCell
+  abstract: true
+  parent: BaseItem
+  components:
+  - type: Battery
+    pricePerJoule: 0.15
+  - type: PowerCell
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 200
+    intensitySlope: 1.5
+  - type: Sprite
+    sprite: Objects/Power/power_cells.rsi
+  - type: SolutionContainerManager
+    solutions:
+      powerCell:
+        maxVol: 5
+  - type: InjectableSolution
+    solution: powerCell
+  - type: DrawableSolution
+    solution: powerCell
+  - type: Extractable
+    juiceSolution:
+      reagents:
+        - ReagentId: Licoxide
+          Quantity: 5
+  - type: Tag
+    tags:
+      - DroneUsable
+  - type: Appearance
+  - type: PowerCellVisuals
+
+- type: entity
+  name: картопляна батарейка
+  description: Хтось напхав цвяхів і дротів у білоруса. Якимсь чином воно виробляє трохи електрики.
+  id: PowerCellPotato
+  parent: BasePowerCell
+  components:
+  - type: Sprite
+    layers:
+    - state: potato
+  - type: Battery
+    maxCharge: 200
+    startingCharge: 200
+
+- type: entity
+  name: батарея малої ємності
+  description: Її можна перезарядити. Це найдешевший варіант на станції.
+  id: PowerCellSmall
+  suffix: Full
+  parent: BasePowerCell
+  components:
+  - type: Sprite
+    layers:
+    - map: [ "enum.PowerCellVisualLayers.Base" ]
+      state: small
+    - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      state: o2
+      shader: unshaded
+  - type: Battery
+    maxCharge: 360
+    startingCharge: 360
+
+- type: entity
+  id: PowerCellSmallPrinted
+  suffix: Empty
+  parent: PowerCellSmall
+  components:
+  - type: Sprite
+    layers:
+      - map: [ "enum.PowerCellVisualLayers.Base" ]
+        state: small
+      - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+        state: o2
+        shader: unshaded
+        visible: false
+  - type: Battery
+    maxCharge: 360
+    startingCharge: 0
+
+- type: entity
+  name: батарея середньої ємності
+  description: Її можна перезарядити. Це популярна і найдійна версія.
+  id: PowerCellMedium
+  suffix: Full
+  parent: BasePowerCell
+  components:
+  - type: Sprite
+    layers:
+    - map: [ "enum.PowerCellVisualLayers.Base" ]
+      state: medium
+    - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      state: o2
+      shader: unshaded
+  - type: Battery
+    maxCharge: 720
+    startingCharge: 720
+
+- type: entity
+  id: PowerCellMediumPrinted
+  suffix: Empty
+  parent: PowerCellMedium
+  components:
+  - type: Sprite
+    layers:
+      - map: [ "enum.PowerCellVisualLayers.Base" ]
+        state: medium
+      - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+        state: o2
+        shader: unshaded
+        visible: false
+  - type: Battery
+    maxCharge: 720
+    startingCharge: 0
+
+- type: entity
+  name: батарея високої ємності
+  description: Її можна перезарядити. Цей бренд преміум-класу зберігає на 50% більше енергії, ніж конкуренти.
+  id: PowerCellHigh
+  suffix: Full
+  parent: BasePowerCell
+  components:
+  - type: Sprite
+    layers:
+    - map: [ "enum.PowerCellVisualLayers.Base" ]
+      state: high
+    - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      state: o2
+      shader: unshaded
+  - type: Battery
+    maxCharge: 1080
+    startingCharge: 1080
+
+- type: entity
+  id: PowerCellHighPrinted
+  suffix: Empty
+  parent: PowerCellHigh
+  components:
+  - type: Sprite
+    layers:
+      - map: [ "enum.PowerCellVisualLayers.Base" ]
+        state: high
+      - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+        state: o2
+        shader: unshaded
+        visible: false
+  - type: Battery
+    maxCharge: 1080
+    startingCharge: 0
+
+- type: entity
+  name: батарея надзвичайної ємності
+  description: Її можна перезарядити. Виглядає, як рідкісний і вкрай потужний прототип.
+  id: PowerCellHyper
+  suffix: Full
+  parent: BasePowerCell
+  components:
+  - type: Sprite
+    layers:
+    - map: [ "enum.PowerCellVisualLayers.Base" ]
+      state: hyper
+    - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      state: o2
+      shader: unshaded
+  - type: Battery
+    maxCharge: 1800
+    startingCharge: 1800
+
+- type: entity
+  id: PowerCellHyperPrinted
+  suffix: Empty
+  parent: PowerCellHyper
+  components:
+  - type: Sprite
+    layers:
+      - map: [ "enum.PowerCellVisualLayers.Base" ]
+        state: hyper
+      - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+        state: o2
+        shader: unshaded
+        visible: false
+  - type: Battery
+    maxCharge: 1800
+    startingCharge: 0
+
+- type: entity
+  name: мала мікрореакторна батарея
+  description: Її можна перезарядити. Призначений для малопотужних пристроїв, бо самостійно відновлює заряд, але повільно.
+  id: PowerCellMicroreactor
+  suffix: Full
+  parent: BasePowerCell
+  components:
+    - type: Sprite
+      layers:
+      - map: [ "enum.PowerCellVisualLayers.Base" ]
+        state: microreactor
+      - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+        state: o2
+        shader: unshaded
+    - type: Battery
+      maxCharge: 50
+      startingCharge: 50
+    - type: BatterySelfRecharger
+      autoRecharge: true
+      autoRechargeRate: 0.16667 #takes about 5 minutes to charge itself back to full
+
+- type: entity
+  name: давній прототип батареї
+  description: Малий елемент живлення, що сам відновлює заряд. Використовувався в старих дослідженнях лазерної зброї.
+  id: PowerCellAntiqueProto
+  parent: BasePowerCell
+  components:
+    - type: Sprite
+      layers:
+      - map: [ "enum.PowerCellVisualLayers.Base" ]
+        state: antique
+      - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+        state: o2
+        shader: unshaded
+    - type: Battery
+      maxCharge: 1200
+      startingCharge: 1200
+    - type: BatterySelfRecharger
+      autoRecharge: true
+      autoRechargeRate: 40

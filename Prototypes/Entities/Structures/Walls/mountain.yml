@@ -1,0 +1,19 @@
+- type: entity
+  id: MountainRock
+  parent: AsteroidRock
+  name: Кам'яна порода
+  description: Скеляста стіна.
+  components:
+  - type: Sprite
+    sprite: Structures/Walls/mountain_rock.rsi
+    state: full
+
+- type: entity
+  id: MountainRockMining
+  parent: AsteroidRockMining
+  name: Кам'яна порода
+  description: Скеляста стіна.
+  components:
+  - type: Sprite
+    sprite: Structures/Walls/mountain_rock.rsi
+    state: full

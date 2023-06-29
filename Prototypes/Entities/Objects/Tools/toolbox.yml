@@ -1,0 +1,102 @@
+- type: entity
+  id: ToolboxBase
+  parent: BaseStorageItem
+  abstract: true
+  components:
+  - type: Sprite
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/toolbox_drop.ogg
+  - type: Storage
+    capacity: 60
+  - type: Item
+    size: 9999
+  - type: ItemCooldown
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 12
+    soundHit:
+      path: "/Audio/Weapons/smash.ogg"
+  - type: Tag
+    tags:
+    - DroneUsable
+    - Toolbox
+
+- type: entity
+  name: аварійний ящик для інструментів
+  parent: ToolboxBase
+  id: ToolboxEmergency
+  description: Яскраво-червоний ящик, укомплектований інструментами для надзвичайних ситуацій.
+  components:
+  - type: Sprite
+    sprite: Objects/Tools/Toolboxes/toolbox_red.rsi
+    state: icon
+  - type: Item
+    sprite: Objects/Tools/Toolboxes/toolbox_red.rsi
+
+- type: entity
+  name: ящик для інструментів механіка
+  parent: ToolboxBase
+  id: ToolboxMechanical
+  description: Синій ящик, укомплектований інструментами для механіка.
+  components:
+  - type: Sprite
+    sprite: Objects/Tools/Toolboxes/toolbox_blue.rsi
+    state: icon
+  - type: Item
+    sprite: Objects/Tools/Toolboxes/toolbox_blue.rsi
+
+- type: entity
+  name: ящик для інструментів електрика
+  parent: ToolboxBase
+  id: ToolboxElectrical
+  description: Ящик, що зазвичай наповнений спорядженням для електрика.
+  components:
+  - type: Sprite
+    sprite: Objects/Tools/Toolboxes/toolbox_yellow.rsi
+    state: icon
+  - type: Item
+    sprite: Objects/Tools/Toolboxes/toolbox_yellow.rsi
+
+- type: entity
+  name: митецький ящик для інструментів
+  parent: ToolboxBase
+  id: ToolboxArtistic
+  description: Ящик, що зазвичай наповнений митецьким приладдям.
+  components:
+  - type: Sprite
+    sprite: Objects/Tools/Toolboxes/toolbox_green.rsi
+    state: icon
+  - type: Item
+    sprite: Objects/Tools/Toolboxes/toolbox_green.rsi
+
+- type: entity
+  name: підозрілий ящик для інструментів
+  parent: ToolboxBase
+  id: ToolboxSyndicate
+  description: Зловісного вигляду ящик, наповнений елітними інструментами синдикату.
+  components:
+  - type: Sprite
+    sprite: Objects/Tools/Toolboxes/toolbox_syn.rsi
+    state: icon
+  - type: Item
+    sprite: Objects/Tools/Toolboxes/toolbox_syn.rsi
+  - type: Storage
+    capacity: 170 # this seems silly high
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 20
+
+- type: entity
+  name: золотий ящик з інструментами
+  parent: ToolboxBase
+  id: ToolboxGolden
+  description: Ящик із твердого золота. Янукович вбив би за таке...
+  components:
+  - type: Sprite
+    sprite: Objects/Tools/Toolboxes/toolbox_gold.rsi
+    state: icon
+  - type: Item
+    sprite: Objects/Tools/Toolboxes/toolbox_gold.rsi

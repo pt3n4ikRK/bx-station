@@ -1,0 +1,9 @@
+advertisement-happyhonk-1 = Хонк! Хонк! Чому б не замовити Happy Honk Meal сьогодні?
+advertisement-happyhonk-2 = Клоуни заслуговують на обійми, якщо ви побачите клоуна, обов'язково подякуйте йому.
+advertisement-happyhonk-3 = Якщо ви знайдете Золотий Гудок, то моліться богам, вам дуже пощастило.
+advertisement-happyhonk-4 = Happy Honk, це їжа, це те що треба, це пластикова іграшка, яка змусить вас верещати.
+advertisement-happyhonk-5 = Що чорно-біле та покрите червоним? Мім яка померла від тупої травми голови!
+advertisement-happyhonk-6 = Скільки охоронців потрібно, щоб вас заарештувати? Троє! Один, щоб забити вас до смерті, другий, щоб надіти наручники, і третій, щоб викинути ваше тіло у смітник.
+advertisement-happyhonk-7 = Happy Honk не несе відповідальності за якість їжі, покладеної в наші коробки з їжею Happy Honk.
+advertisement-happyhonk-8 = Чому б не попросити наш обмежений випуск Mime Happy Honk Meal?
+advertisement-happyhonk-9 = Happy Honk є торговою маркою компанії Honk! і набагато краща за Robust Nukie Food corp.

@@ -1,0 +1,38 @@
+<Document>
+# Поліпшення обладнання
+
+Різні пристрої підтримують роботу станції, а ви, будучи вченим, можете допомогти їй працювати ще ефективніше!
+
+## Компоненти
+<Box>Базові компоненти:</Box>
+<Box>
+<GuideEntityEmbed Entity="CapacitorStockPart"/>
+<GuideEntityEmbed Entity="MatterBinStockPart"/>
+<GuideEntityEmbed Entity="MicroManipulatorStockPart"/>
+</Box>
+Ви можете оглядати компоненти, щоб визначити їхній тип і рівень якості, який може бути від 1 до 4.
+
+Компоненти вищих рівнів можуть бути вивчені та надруковані, а також знайдені утилізаторами або отримані за допомогою артефактів.
+<Box>
+<GuideEntityEmbed Entity="AdvancedMatterBinStockPart"/>
+<GuideEntityEmbed Entity="SuperMatterBinStockPart"/>
+<GuideEntityEmbed Entity="BluespaceMatterBinStockPart"/>
+</Box>
+
+## Процес поліпшення
+Дізнатися, чи можна поліпшити той чи інший пристрій, можна, оглянувши його та переконавшись у наявності іконки [color=#a4885c]стрілки[/color] у правому нижньому кутку опису. Клікнувши по цій іконці, ви зможете дізнатися, як цей пристрій було покращено.
+
+Оглянувши плату можна дізнатися, які компоненти необхідні для створення пристрою. Спробуйте самі:
+<Box Orientation="Vertical">
+<GuideEntityEmbed Entity="ProtolatheMachineCircuitboard"/>
+<GuideEntityEmbed Entity="CloningPodMachineCircuitboard"/>
+<GuideEntityEmbed Entity="TraversalDistorterMachineCircuitboard"/>
+<GuideEntityEmbed Entity="ThermomachineFreezerMachineCircuitBoard"/>
+</Box>
+Ви можете використовувати компоненти будь-якого рівня якості. Вищий рівень компонента - вища ефективність того чи іншого параметра пристрою.
+
+Для модернізації вже зібраного пристрою необхідно спершу розібрати його за допомогою викрутки і лома, а потім замінити наявні компоненти.
+
+RPED допоможе вам зі швидким поліпшенням обладнання. Помістіть компоненти в RPED, і клікніть ним по пристрою, попередньо відкрутивши технічну панель, якщо така є. Поміщені в RPED компоненти швидко замінять уже встановлені.
+<GuideEntityEmbed Entity="RPED"/>
+</Document>

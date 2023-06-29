@@ -1,0 +1,94 @@
+- type: entity
+  id: SignalTimer
+  name: Сигнальний таймер
+  description: Це таймер, який надсилає синхронізовані сигнали пристроям.
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wallmount
+  components:
+  - type: Transform
+    anchored: true
+  - type: WallMount
+    arc: 360
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Sprite
+    sprite: Structures/Wallmounts/switch.rsi
+    state: on
+  - type: Appearance
+  - type: Rotatable
+  - type: SignalTimer
+    canEditLabel: false
+  - type: DeviceLinkSource
+    ports:
+      - Start
+      - Timer
+  - type: ActivatableUI
+    key: enum.SignalTimerUiKey.Key
+  - type: UserInterface
+    interfaces:
+    - key: enum.SignalTimerUiKey.Key
+      type: SignalTimerBoundUserInterface
+  - type: ApcPowerReceiver
+    powerLoad: 100
+  - type: Electrified
+    enabled: false
+    usesApcPower: true
+  - type: ExtensionCableReceiver
+  - type: ActivatableUIRequiresPower
+  - type: Construction
+    graph: Timer
+    node: signal
+
+- type: entity
+  id: ScreenTimer
+  parent: SignalTimer
+  name: Екранний таймер
+  description: Це таймер із вбудованим екраном для надсилання синхронізованих сигналів пристроям.
+  components:
+  - type: SignalTimer
+    canEditLabel: true
+  - type: TextScreenVisuals
+  - type: Sprite
+    sprite: Structures/Wallmounts/textscreen.rsi
+    state: textscreen
+    noRot: true
+  - type: Construction
+    graph: Timer
+    node: screen
+
+- type: entity
+  id: BrigTimer
+  parent: ScreenTimer
+  name: Таймер гауптвахти
+  description: Це таймер для гауптвахти.
+  components:
+  - type: AccessReader
+    access: [["Security"]]
+  - type: Construction
+    graph: Timer
+    node: brig
+
+# Construction Frame
+
+- type: entity
+  noSpawn: true
+  id: TimerFrame
+  name: Рамка таймеру
+  description: Каркас для таймеру.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Transform
+    anchored: true
+  - type: Sprite
+    drawdepth: WallMountedItems
+    sprite: Structures/Wallmounts/textscreen.rsi
+    state: textscreen
+  - type: Construction
+    graph: Timer
+    node: frame
+  - type: WallMount

@@ -1,0 +1,11 @@
+﻿advertisement-cigs-1 = Космічні цигарки смакують так, як і повинні смакувати цигарки.
+advertisement-cigs-2 = Краще ломом по голові, ніж стріляти вам ТАКІ цигарки.
+advertisement-cigs-3 = Покури!
+advertisement-cigs-4 = Не слухайте злі язики - куріть сьогодні!
+advertisement-cigs-5 = Мабуть, це не так вже й шкідливо для вас!
+advertisement-cigs-6 = Не вірте вченим!
+advertisement-cigs-7 = Це корисно для вас!
+advertisement-cigs-8 = Не кидайте, купуйте ще!
+advertisement-cigs-9 = Нікотиновий рай.
+advertisement-cigs-10 = Кращі тютюнові вироби з 2150 року.
+advertisement-cigs-11 = Сигари, удостоєні нагород.

@@ -1,0 +1,12 @@
+﻿advertisement-snack-1 = Спробуйте наш новий батончик з нуги!
+advertisement-snack-2 = Вдвічі більше калорій за півціни!
+advertisement-snack-3 = Найкористніше!
+advertisement-snack-4 = Відзначені нагородами шоколадні батончики!
+advertisement-snack-5 = Ммм! Так смачно!
+advertisement-snack-6 = Боже мій, соковито!
+advertisement-snack-7 = Перекуси.
+advertisement-snack-8 = Перекуси корисні для вас!
+advertisement-snack-9 = Have some more Getmore!
+advertisement-snack-10 = Закуски найкращої якості прямо з заводу.
+advertisement-snack-11 = Ми любимо шоколад!
+advertisement-snack-12 = Спробуйте наше нове в'ялене м'ясо!
