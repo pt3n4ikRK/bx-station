@@ -1,4 +1,4 @@
-drone-active = A maintenance drone. It seems totally unconcerned with you.
-drone-dormant = A dormant maintenance drone. Who knows when it will wake up?
-drone-activated = The drone whirrs to life!
-drone-too-close = Your laws prevent this action near {THE($being)}.
+drone-active = Технічний дрон. Здається, йому зовсім байдуже на вас.
+drone-dormant = Бездіяльний технічний дрон. Хто знає, коли він прийде до тями?
+drone-activated = Дрон починає дзижчати та стає дієздатним!
+drone-too-close = Вам заборонено робити цю дію біля {THE($being)} із-за ваших прав.
