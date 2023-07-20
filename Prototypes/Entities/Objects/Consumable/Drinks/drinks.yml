@@ -85,6 +85,8 @@
   parent: DrinkGlassBase
   id: DrinkGlass
   components:
+  - type: BXPrices
+    price: 8
   - type: Sprite
     sprite: Objects/Consumable/Drinks/glass_clear.rsi
     layers:
@@ -107,6 +109,7 @@
     metamorphicDefaultSprite:
       sprite: Objects/Consumable/Drinks/glass_clear.rsi
       state: icon
+  - type: TransformableContainer
 
 - type: entity
   name: Coupe glass
@@ -114,6 +117,8 @@
   parent: DrinkGlassBase
   id: DrinkGlassCoupeShaped
   components:
+    - type: BXPrices
+      price: 4
     - type: Sprite
       sprite: Objects/Consumable/Drinks/glass_coupe_shape.rsi
       layers:

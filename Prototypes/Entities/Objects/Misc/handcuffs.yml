@@ -4,6 +4,8 @@
   id: Handcuffs
   parent: BaseItem
   components:
+  - type: BXPrices
+    price: 15
   - type: Item
     size: 3
   - type: Handcuff
@@ -28,6 +30,8 @@
   id: Cablecuffs
   parent: Handcuffs
   components:
+  - type: BXPrices
+    price: 15
   - type: Item
     size: 5
   - type: Handcuff
@@ -61,6 +65,8 @@
   id: Zipties
   parent: Handcuffs
   components:
+  - type: BXPrices
+    price: 20
   - type: Item
     size: 2
   - type: Handcuff
@@ -88,6 +94,8 @@
   parent: BaseItem
   abstract: true
   components:
+  - type: BXPrices
+    price: 15
   - type: Item
     size: 2
   - type: Tag
@@ -103,6 +111,8 @@
   id: ZiptiesBroken
   parent: BaseHandcuffsBroken
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Objects/Misc/zipties.rsi
     state: cuff-broken
@@ -113,6 +123,8 @@
   id: CablecuffsBroken
   parent: BaseHandcuffsBroken
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Objects/Misc/cablecuffs.rsi
     state: cuff-broken

@@ -35,3 +35,6 @@ ent-CrateBodyBags = Body bags crate
     
 ent-CrateVirologyBiosuit = Virology bio suit crate
     .desc = Contains 2 biohazard suits to ensure that no disease will distract you from treating the crew. Requires Medical access to open.
+
+ent-CrateMedicalCryoSleepPod = Кріокамера сну
+    .desc = Містить одну кріокамеру сну.

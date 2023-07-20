@@ -4,6 +4,8 @@
   id: Jug
   description: Used to contain a very large amount of chemicals or solutions. Chugging is extremely ill-advised.
   components:
+    - type: BXPrices
+      price: 70
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -53,6 +55,8 @@
   id: JugCarbon
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 140
     - type: Label
       currentLabel: Carbon
     - type: SolutionContainerManager
@@ -68,6 +72,8 @@
   id: JugIodine
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 140
     - type: Label
       currentLabel: Iodine
     - type: SolutionContainerManager
@@ -83,6 +89,8 @@
   id: JugFluorine
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 280
     - type: Label
       currentLabel: Fluorine
     - type: SolutionContainerManager
@@ -98,6 +106,8 @@
   id: JugChlorine
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 280
     - type: Label
       currentLabel: Chlorine
     - type: SolutionContainerManager
@@ -113,6 +123,8 @@
   id: JugAluminium
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 140
     - type: Label
       currentLabel: Aluminium
     - type: SolutionContainerManager
@@ -128,6 +140,8 @@
   id: JugPhosphorus
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 140
     - type: Label
       currentLabel: Phosphorus
     - type: SolutionContainerManager
@@ -143,6 +157,8 @@
   id: JugSulfur
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 140
     - type: Label
       currentLabel: Sulfur
     - type: SolutionContainerManager
@@ -158,6 +174,8 @@
   id: JugSilicon
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 140
     - type: Label
       currentLabel: Silicon
     - type: SolutionContainerManager
@@ -173,6 +191,8 @@
   id: JugHydrogen
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 140
     - type: Label
       currentLabel: Hydrogen
     - type: SolutionContainerManager
@@ -188,6 +208,8 @@
   id: JugLithium
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 140
     - type: Label
       currentLabel: Lithium
     - type: SolutionContainerManager
@@ -203,6 +225,8 @@
   id: JugSodium
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 140
     - type: Label
       currentLabel: Sodium
     - type: SolutionContainerManager
@@ -218,6 +242,8 @@
   id: JugPotassium
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 140
     - type: Label
       currentLabel: Potassium
     - type: SolutionContainerManager
@@ -233,6 +259,8 @@
   id: JugRadium
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 140
     - type: Label
       currentLabel: Radium
     - type: SolutionContainerManager
@@ -263,6 +291,8 @@
   id: JugCopper
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 140
     - type: Label
       currentLabel: Copper
     - type: SolutionContainerManager
@@ -293,6 +323,8 @@
   id: JugMercury
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 140
     - type: Label
       currentLabel: Mercury
     - type: SolutionContainerManager
@@ -323,6 +355,8 @@
   id: JugEthanol
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 140
     - type: Label
       currentLabel: Ethanol
     - type: SolutionContainerManager
@@ -338,6 +372,8 @@
   id: JugSugar
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 140
     - type: Label
       currentLabel: Sugar
     - type: SolutionContainerManager
@@ -353,6 +389,8 @@
   id: JugNitrogen
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 140
     - type: Label
       currentLabel: Nitrogen
     - type: SolutionContainerManager
@@ -368,6 +406,8 @@
   id: JugOxygen
   noSpawn: true
   components:
+    - type: BXPrices
+      price: 140
     - type: Label
       currentLabel: Oxygen
     - type: SolutionContainerManager

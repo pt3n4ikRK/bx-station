@@ -4,6 +4,8 @@
   name: purple scrubs
   description: A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Scrubs/purple.rsi
   - type: Clothing
@@ -15,6 +17,8 @@
   name: green scrubs
   description: A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Scrubs/green.rsi
   - type: Clothing
@@ -26,6 +30,8 @@
   name: blue scrubs
   description: A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Scrubs/blue.rsi
   - type: Clothing

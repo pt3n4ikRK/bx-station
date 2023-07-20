@@ -50,6 +50,8 @@
   id: FoodMeat
   description: A slab of raw meat.
   components:
+  - type: BXPrices
+    price: 40
   - type: Tag
     tags:
     - Raw

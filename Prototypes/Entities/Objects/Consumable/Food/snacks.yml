@@ -30,6 +30,8 @@
   id: FoodSnackBoritos
   description: Crunchy, salty tortilla chips. You could probably make nachos with these.
   components:
+  - type: BXPrices
+    price: 5
   - type: FlavorProfile
     flavors:
       - boritos
@@ -45,6 +47,8 @@
   id: FoodSnackCheesie
   description: Bite sized cheesie snacks that will honk all over your mouth.
   components:
+  - type: BXPrices
+    price: 5
   - type: FlavorProfile
     flavors:
       - cheesy
@@ -61,6 +65,8 @@
   id: FoodSnackChips
   description: Commander Riker's What-The-Crisps.
   components:
+  - type: BXPrices
+    price: 5
   - type: FlavorProfile
     flavors:
       - oily
@@ -119,6 +125,8 @@
   id: FoodSnackEnergy
   description: An energy bar with a lot of punch.
   components:
+  - type: BXPrices
+    price: 5
   - type: Sprite
     state: energybar
   - type: Item
@@ -151,6 +159,8 @@
   id: FoodSnackPopcorn
   description: Grown on an unknown planet, by an unknown farmer, popped by some jerk on a space station.
   components:
+  - type: BXPrices
+    price: 5
   - type: FlavorProfile
     flavors:
       - corn

@@ -157,6 +157,8 @@
   name: soda water can
   description: Soda water. Why not make a scotch and soda?
   components:
+  - type: BXPrices
+    price: 10
   - type: SolutionContainerManager
     solutions:
       drink:
@@ -228,6 +230,8 @@
   name: tonic water can
   description: Quinine tastes funny, but at least it'll keep that Space Malaria away.
   components:
+  - type: BXPrices
+    price: 20
   - type: SolutionContainerManager
     solutions:
       drink:

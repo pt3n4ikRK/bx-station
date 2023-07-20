@@ -4,6 +4,8 @@
   name: shaker
   description: The trusty mixing buddy of the bartender.
   components:
+  - type: BXPrices
+    price: 32
   - type: SolutionContainerManager
     solutions:
       drink:
@@ -39,6 +41,8 @@
   name: shot glass
   description: Perfect for slamming down onto the table angrily.
   components:
+  - type: BXPrices
+    price: 4
   - type: SolutionContainerManager
     solutions:
       drink:

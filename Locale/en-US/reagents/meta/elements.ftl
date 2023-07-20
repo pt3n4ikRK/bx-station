@@ -63,3 +63,6 @@ reagent-desc-uranium = Металевий хімічний елемент сір
 
 reagent-name-bananium = бананіум
 reagent-desc-bananium = Жовта радіоактивна органічна речовина.
+
+reagent-name-zinc = цинк
+reagent-desc-zinc = Сріблястий, крихкий метал, який часто використовується в акумуляторах для передачі заряду. 

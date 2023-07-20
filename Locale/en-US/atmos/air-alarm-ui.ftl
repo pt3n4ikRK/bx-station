@@ -13,6 +13,7 @@ air-alarm-ui-window-device-count-label = Всього пристроїв
 air-alarm-ui-window-resync-devices-label = Пересинхронізація
 
 air-alarm-ui-window-mode-label = Режим
+air-alarm-ui-window-auto-mode-label = Автоматичний режим
 
 air-alarm-ui-window-pressure = {$pressure} кПа
 air-alarm-ui-window-pressure-indicator = Тиск: [color={$color}]{$pressure} кПа[/color]

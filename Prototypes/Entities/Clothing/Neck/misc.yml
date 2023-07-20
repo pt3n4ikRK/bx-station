@@ -4,6 +4,8 @@
   name: headphones
   description: Quality headphones from Drunk Masters, with good sound insulation.
   components:
+  - type: BXPrices
+    price: 40
   - type: Sprite
     sprite: Clothing/Neck/Misc/headphones.rsi
   - type: Clothing
@@ -15,6 +17,8 @@
   name: stethoscope
   description: An outdated medical apparatus for listening to the sounds of the human body. It also makes you look like you know what you're doing.
   components:
+  - type: BXPrices
+    price: 40
   - type: Sprite
     sprite: Clothing/Neck/Misc/stethoscope.rsi
   - type: Clothing
@@ -27,6 +31,8 @@
   name: bling
   description: Damn, it feels good to be a gangster.
   components:
+  - type: BXPrices
+    price: 40
   - type: Sprite
     sprite: Clothing/Neck/Misc/bling.rsi
   - type: Clothing
@@ -38,6 +44,8 @@
   name: lawyer badge
   description: A badge to show that the owner is a 'legitimate' lawyer who passed the NT bar exam required to practice law.
   components:
+  - type: BXPrices
+    price: 40
   - type: Sprite
     sprite: Clothing/Neck/Misc/lawyerbadge.rsi
   - type: Clothing

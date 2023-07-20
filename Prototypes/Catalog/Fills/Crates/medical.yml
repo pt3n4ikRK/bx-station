@@ -141,3 +141,12 @@
         amount: 2
       - id: ClothingMaskSterile
         amount: 2
+
+- type: entity
+  id: CrateMedicalCryoSleepPod
+  parent: CrateMedical
+  components:
+    - type: StorageFill
+      contents:
+        - id: MachineCryoSleepPodUnanchored
+          amount: 1

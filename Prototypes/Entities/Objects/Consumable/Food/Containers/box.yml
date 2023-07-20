@@ -73,6 +73,8 @@
   name: egg carton
   description: Don't drop 'em!
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Objects/Consumable/Food/egg.rsi
     state: box-closed
@@ -472,7 +474,7 @@
         orGroup: GiftPool
       - id: ToyNuke
         orGroup: GiftPool
-      - id: ToyAssistant
+      - id: ToyFigurinePassenger
         orGroup: GiftPool
       - id: ToyGriffin
         orGroup: GiftPool
@@ -617,7 +619,7 @@
         orGroup: GiftPool
       - id: ToyNuke
         orGroup: GiftPool
-      - id: ToyAssistant
+      - id: ToyFigurinePassenger
         orGroup: GiftPool
       - id: ToyGriffin
         orGroup: GiftPool

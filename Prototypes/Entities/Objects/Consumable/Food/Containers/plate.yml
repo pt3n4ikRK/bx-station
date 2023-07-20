@@ -108,6 +108,8 @@
   id: FoodPlatePlastic
   description: A large blue plastic plate, excellent for a birthday cake.
   components:
+  - type: BXPrices
+    price: 5
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
     state: plate-plastic
@@ -121,6 +123,8 @@
   id: FoodPlateSmallPlastic
   description: A blue plastic plate, excellent for slices of birthday cake.
   components:
+  - type: BXPrices
+    price: 5
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
     state: plate-small-plastic

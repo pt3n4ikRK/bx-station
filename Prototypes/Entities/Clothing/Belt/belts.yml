@@ -6,6 +6,8 @@
   name: utility belt
   description: Can hold various things.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/utility.rsi
   - type: Clothing
@@ -78,6 +80,8 @@
   name: chief engineer's toolbelt
   description: Holds tools, looks snazzy.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/ce.rsi
   - type: Clothing
@@ -157,6 +161,8 @@
   name: assault belt
   description: A tactical assault belt.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/assault.rsi
   - type: Clothing
@@ -192,6 +198,8 @@
   name: janibelt
   description: A belt used to hold most janitorial supplies.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/janitor.rsi
   - type: Clothing
@@ -233,6 +241,8 @@
   name: medical belt
   description: Can hold various medical equipment.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/medical.rsi
   - type: Clothing
@@ -297,6 +307,8 @@
   name: botanical belt
   description: A belt used to hold most hydroponics supplies. Suprisingly, not green.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/plant.rsi
   - type: Clothing
@@ -352,6 +364,8 @@
   name: security belt
   description: Can hold security gear like handcuffs and flashes.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/security.rsi
   - type: Clothing
@@ -387,6 +401,8 @@
   name: sabre sheath
   description: An ornate sheath designed to hold an officer's blade.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/sheath.rsi
     state: sheath
@@ -413,6 +429,8 @@
   name: bandolier
   description: A bandolier for holding shotgun ammunition.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/bandolier.rsi
   - type: Clothing
@@ -431,6 +449,8 @@
   name: championship belt
   description: Proves to the world that you are the strongest!
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/champion.rsi
   - type: Clothing
@@ -446,6 +466,8 @@
   name: shoulder holster
   description: 'A holster to carry a handgun and ammo. WARNING: Badasses only.'
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/holster.rsi
   - type: Clothing
@@ -459,6 +481,8 @@
   name: syndicate shoulder holster
   description: A deep shoulder holster capable of holding many types of ballistics.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/syndieholster.rsi
   - type: Clothing
@@ -479,6 +503,8 @@
   name: security webbing
   description: Unique and versatile chest rig, can hold security gear.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/securitywebbing.rsi
   - type: Clothing
@@ -490,6 +516,8 @@
   name: mercenarie webbing
   description: Ideal for storing everything from ammo to weapons and combat essentials.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/mercwebbing.rsi
   - type: Clothing
@@ -501,6 +529,8 @@
   name: salvage rig
   description: Universal unloading system for work in space.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/salvagewebbing.rsi
   - type: Clothing
@@ -512,6 +542,8 @@
   name: chest rig
   description: A set of tactical webbing worn by Syndicate boarding parties.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/militarywebbing.rsi
   - type: Clothing
@@ -523,6 +555,8 @@
   name: medical chest rig
   description: A set of tactical webbing worn by Gorlex Marauder medic operatives.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/militarywebbingmed.rsi
   - type: Clothing
@@ -538,6 +572,8 @@
   name: suspenders
   description: For holding your pants up.
   components:
+  - type: BXPrices
+    price: 25
   - type: Tag
     tags:
     - MimeBelt
@@ -554,6 +590,8 @@
   name: wand belt
   description: A belt designed to hold various rods of power. A veritable fanny pack of exotic magic.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Belt/wand.rsi
   - type: Clothing

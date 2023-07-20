@@ -4,6 +4,8 @@
   name: satchel
   description: A trendy looking satchel.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Satchels/satchel.rsi
     state: icon
@@ -33,6 +35,8 @@
   name: leather satchel
   description: A trend-setting satchel from a bygone era.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Back/Satchels/leather.rsi
 
@@ -42,6 +46,8 @@
   name: engineering satchel
   description: A tough satchel with extra pockets.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Satchels/engineering.rsi
 
@@ -51,6 +57,8 @@
   name: clown satchel
   description: For fast running from security.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Satchels/clown.rsi
   - type: Storage
@@ -59,10 +67,21 @@
 
 - type: entity
   parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelMime
+  name: mime satchel
+  description: A satchel designed for the silent and expressive art of miming.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/mime.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelMedical
   name: medical satchel
   description: A sterile satchel used in medical departments.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Satchels/medical.rsi
 
@@ -72,6 +91,8 @@
   name: chemistry satchel
   description: A sterile satchel with chemist colours.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Satchels/chemistry.rsi
 
@@ -81,6 +102,8 @@
   name: virology satchel
   description: A satchel made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Satchels/virology.rsi
 
@@ -90,6 +113,8 @@
   name: genetics satchel
   description: A sterile satchel with geneticist colours.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Satchels/genetics.rsi
 
@@ -99,6 +124,8 @@
   name: science satchel
   description: Useful for holding research materials.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Satchels/science.rsi
 
@@ -108,6 +135,8 @@
   name: security satchel
   description: A robust satchel for security related needs.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Satchels/security.rsi
 
@@ -117,6 +146,8 @@
   name: brigmedic satchel
   description: A sterile satchel for medical related needs.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Satchels/brigmedic.rsi
 
@@ -126,6 +157,8 @@
   name: captain's satchel
   description: An exclusive satchel for Nanotrasen officers.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Satchels/captain.rsi
 
@@ -135,6 +168,8 @@
   name: hydroponics satchel
   description: A satchel made of all natural fibers.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Satchels/hydroponics.rsi
 
@@ -144,6 +179,8 @@
   name: salvage satchel
   description: A robust satchel for stashing your loot.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Back/Satchels/salvage.rsi
 
@@ -153,6 +190,8 @@
   name: satchel of holding
   description: A satchel that opens into a localized pocket of bluespace.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Satchels/holding.rsi
     state: icon

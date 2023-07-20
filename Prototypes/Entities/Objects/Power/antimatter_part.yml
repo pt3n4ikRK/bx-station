@@ -1,6 +1,6 @@
 - type: entity
   parent: BaseItem
-  id: AMEPart
+  id: AmePart
   name: деталь AMД
   description: Плаский пакунок для побудови АМД. Щоб розпакувати використовуйте мультитул.
   components:
@@ -10,7 +10,7 @@
   - type: Sprite
     sprite: Objects/Power/AME/ame_part.rsi
     state: box
-  - type: AMEPart
+  - type: AmePart
   - type: StaticPrice
     price: 500
   - type: GuideHelp

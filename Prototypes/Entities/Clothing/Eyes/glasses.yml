@@ -15,6 +15,8 @@
   name: gar glasses
   description: Go beyond impossible and kick reason to the curb!
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/gar.rsi
   - type: Clothing
@@ -31,6 +33,8 @@
   name: orange gar glasses
   description: Just who the hell do you think I am?!
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/gar.rsi
     state: icon-alt
@@ -50,6 +54,8 @@
   name: giga gar glasses
   description: We evolve past the person we were a minute before. Little by little we advance with each turn. That's how a drill works!
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/gar.rsi
     state: icon-super
@@ -69,6 +75,8 @@
   name: engineering goggles #less confusion
   description: Green-tinted goggles using a proprietary polymer that provides protection from eye damage of all types.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/meson.rsi
   - type: Clothing
@@ -81,11 +89,17 @@
   name: glasses
   description: A pair of spectacular spectacles with prescription lenses.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/glasses.rsi
   - type: Clothing
     sprite: Clothing/Eyes/Glasses/glasses.rsi
   - type: VisionCorrection
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingEyesBase
@@ -93,6 +107,8 @@
   name: outlaw glasses
   description: A must for every self-respecting undercover agent.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/outlawglasses.rsi
   - type: Clothing
@@ -106,6 +122,8 @@
   name: sun glasses
   description: Useful both for security and cargonia.
   components:
+  - type: BXPrices
+    price: 25
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/sunglasses.rsi
   - type: Clothing
@@ -113,6 +131,10 @@
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingEyesBase
@@ -120,6 +142,8 @@
   name: security sunglasses
   description: Strangely ancient technology used to help provide rudimentary eye cover. Enhanced shielding blocks many flashes. Often worn by budget security officers.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/secglasses.rsi
   - type: Clothing
@@ -127,6 +151,10 @@
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingEyesBase
@@ -134,6 +162,8 @@
   name: mercenary glasses
   description: Glasses made for combat, to protect the eyes from bright blinding flashes.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/mercglasses.rsi
   - type: Clothing
@@ -149,6 +179,8 @@
   name: optical thermal scanner
   description: Thermals in the shape of glasses.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/thermal.rsi
   - type: Clothing

@@ -1,17 +1,17 @@
-reagent-name-carpetium = carpetium
-reagent-desc-carpetium = A mystical chemical, usually outsourced from the Clown Planet, that covers everything it touches in carpet.
+reagent-name-carpetium = карпетій
+reagent-desc-carpetium = Містична хімічна речовина, зазвичай постачається з Планети Клоунів, яка вкриває все, до чого торкається, килимом.
 
-reagent-name-fiber = fiber
-reagent-desc-fiber = A raw material, usually extracted from wool or other fabric products.
+reagent-name-fiber = волокно
+reagent-desc-fiber = Сировина, зазвичай видобувається з вовни або інших тканинних виробів.
 
-reagent-name-buzzochloric-bees = Buzzochloric Bees
-reagent-desc-buzzochloric-bees = Liquid bees. Oh god it's LIQUID BEES NO-
+reagent-name-buzzochloric-bees = Топлені бджоли
+reagent-desc-buzzochloric-bees = Рідкі бджоли. О Господи, РІДКІ БДЖОЛИ, НІ-
 
-reagent-name-ground-bee = Ground Bee
-reagent-desc-ground-bee = Bee grounds. Gross.
+reagent-name-ground-bee = Мелена бджола
+reagent-desc-ground-bee = Мука з бджоли. Гидота.
 
-reagent-name-saxoite = Saxoite
-reagent-desc-saxoite = Smells like jazz.
+reagent-name-saxoite = Саксоїд
+reagent-desc-saxoite = Пахне джазом.
 
-reagent-name-licoxide = Licoxide
-reagent-desc-licoxide = It looks... electrifying.
+reagent-name-licoxide = Лікоксид
+reagent-desc-licoxide = Синтетична акумуляторна кислота. Виглядає... наелектризовано.

@@ -6,4 +6,5 @@ ui-escape-guidebook = Довідник
 ui-escape-wiki = Вікі
 ui-escape-disconnect = Відєднатися
 ui-escape-quit = Вийти
+ui-escape-discord = Діскорд
 

@@ -114,6 +114,8 @@
   id: FoodDonutPink
   description: Goes great with a soy latte.
   components:
+  - type: BXPrices
+    price: 5
   - type: FlavorProfile
     flavors:
       - pink
@@ -138,6 +140,8 @@
   id: FoodDonutApple
   description: Goes great with a shot of cinnamon schnapps.
   components:
+  - type: BXPrices
+    price: 5
   - type: FlavorProfile
     flavors:
       - sweet
@@ -162,6 +166,8 @@
   id: FoodDonutChocolate
   description: Goes great with a glass of warm milk.
   components:
+  - type: BXPrices
+    price: 5
   - type: FlavorProfile
     flavors:
       - chocolate
@@ -194,6 +200,8 @@
   id: FoodDonutBungo
   description: Goes great with a mason jar of hippie's delight.
   components:
+  - type: BXPrices
+    price: 5
   - type: FlavorProfile
     flavors:
       - sweet

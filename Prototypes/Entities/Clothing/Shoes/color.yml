@@ -4,6 +4,8 @@
   name: black shoes
   description: Stylish black shoes.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Color/black.rsi
   - type: Clothing
@@ -15,6 +17,8 @@
   name: blue shoes
   description: Stylish blue shoes.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Color/blue.rsi
   - type: Clothing
@@ -26,6 +30,8 @@
   name: brown shoes
   description: A pair of brown shoes.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Color/brown.rsi
   - type: Clothing
@@ -37,6 +43,8 @@
   name: green shoes
   description: Stylish green shoes.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Color/green.rsi
   - type: Clothing
@@ -48,6 +56,8 @@
   name: orange shoes
   description: Stylish orange shoes.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Color/orange.rsi
   - type: Clothing
@@ -59,6 +69,8 @@
   name: purple shoes
   description: Stylish purple shoes.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Color/purple.rsi
   - type: Clothing
@@ -70,6 +82,8 @@
   name: red shoes
   description: Stylish red shoes.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Color/red.rsi
   - type: Clothing
@@ -81,6 +95,8 @@
   name: white shoes
   description: Don't take them off at your office Christmas party.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Color/white.rsi
   - type: Clothing
@@ -92,6 +108,8 @@
   name: yellow shoes
   description: Stylish yellow shoes.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Color/yellow.rsi
   - type: Clothing

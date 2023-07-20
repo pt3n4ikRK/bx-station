@@ -7,5 +7,5 @@ reagent-desc-phenol = Ароматичне кільце вуглецю з гід
 reagent-name-sodium-carbonate = Карбонат натрію
 reagent-desc-sodium-carbonate = Біла, без запаху, водорозчинна сіль, яка утворює лужний розчин у воді.  Також відомий як кальцинована сода.
 
-reagent-name-artifexium = artifexium
-reagent-desc-artifexium = A lavender mixture of microscopic artifact fragments and a strong acid. It has the ability to activate artifacts.
+reagent-name-artifexium = Артифексій
+reagent-desc-artifexium = Лавандова суміш мікроскопічних фрагментів артефактів і сильної кислоти. Має здатність активувати артефакти.

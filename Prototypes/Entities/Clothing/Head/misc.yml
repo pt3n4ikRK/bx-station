@@ -4,6 +4,8 @@
   name: bunny ears
   description: Cute bunny ears.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Misc/bunny.rsi
   - type: Clothing
@@ -15,6 +17,8 @@
   name: cake hat
   description: You put the cake on your head. Brilliant.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Misc/cake.rsi
   - type: Clothing
@@ -26,11 +30,14 @@
   name: chicken head
   description: "It's a chicken head. Bok bok bok!"
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Misc/chickenhead.rsi
   - type: Clothing
     sprite: Clothing/Head/Misc/chickenhead.rsi
   - type: IngestionBlocker
+  - type: IdentityBlocker
 
 - type: entity
   parent: ClothingHeadBase
@@ -38,6 +45,8 @@
   name: flower crown
   description: A coronet of fresh and fragrant flowers.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Misc/flower-crown.rsi
   - type: Clothing
@@ -52,6 +61,8 @@
   name: hairflower
   description: A red rose for beautiful ladies.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Misc/hairflower.rsi
   - type: Clothing
@@ -63,11 +74,14 @@
   name: pumpkin hat
   description: A jack o' lantern! Believed to ward off evil spirits.
   components:
-    - type: Sprite
-      sprite: Clothing/Head/Misc/pumpkin.rsi
-    - type: Clothing
-      sprite: Clothing/Head/Misc/pumpkin.rsi
-    - type: IngestionBlocker
+  - type: BXPrices
+    price: 15
+  - type: Sprite
+    sprite: Clothing/Head/Misc/pumpkin.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Misc/pumpkin.rsi
+  - type: IngestionBlocker
+  - type: IdentityBlocker
 
 - type: entity
   parent: ClothingHeadBase
@@ -75,6 +89,8 @@
   name: pwig
   description: To be honest, those look ridiculous.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Misc/pwig.rsi
   - type: Clothing
@@ -86,11 +102,14 @@
   name: richard
   description: 'Do you like hurting people?'
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Misc/richard.rsi
   - type: Clothing
     sprite: Clothing/Head/Misc/richard.rsi
   - type: IngestionBlocker
+  - type: IdentityBlocker
 
 - type: entity
   parent: ClothingHeadBase
@@ -98,11 +117,14 @@
   name: skub hat
   description: 'Best paired with the Skub Suit.'
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Misc/skubhead.rsi
   - type: Clothing
     sprite: Clothing/Head/Misc/skubhead.rsi
   - type: IngestionBlocker
+  - type: IdentityBlocker
 
 - type: entity
   parent: ClothingHeadBase
@@ -110,10 +132,16 @@
   name: shrine maiden's wig
   description: The tag reads "All proceeds go to the Hakurei Shrine."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Misc/shrine-maidens-wig.rsi
   - type: Clothing
     sprite: Clothing/Head/Misc/shrine-maidens-wig.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBase
@@ -121,6 +149,8 @@
   name: warning cone
   description: This cone is trying to warn you of something!
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Misc/cone.rsi
   - type: Clothing
@@ -135,6 +165,8 @@
   name: fancy crown
   description: It smells like dead rat. Lets you speak like one!
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Misc/fancycrown.rsi
   - type: Clothing
@@ -151,6 +183,8 @@
   description: "NYAH!"
   suffix: DO NOT MAP
   components:
+  - type: BXPrices
+    price: 15
   - type: Tag
     tags: # ignore "WhitelistChameleon" tag
       - DroneUsable
@@ -167,8 +201,11 @@
   name: squiddy
   description: "Scare your friends with this eldritch mask."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Misc/squiddy.rsi
   - type: Clothing
     sprite: Clothing/Head/Misc/squiddy.rsi
   - type: IngestionBlocker
+  - type: IdentityBlocker

@@ -5,6 +5,8 @@
   name: headset
   description: An updated, modular intercom that fits over the head. Takes encryption keys.
   components:
+  - type: BXPrices
+    price: 15
   - type: ContainerContainer
     containers:
       key_slots: !type:Container
@@ -27,6 +29,8 @@
   id: ClothingHeadsetGrey
   name: passenger headset
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Ears/Headsets/base.rsi
 
@@ -36,6 +40,8 @@
   name: cargo headset
   description: A headset used by supply employees.
   components:
+  - type: BXPrices
+    price: 15
   - type: ContainerFill
     containers:
       key_slots:
@@ -52,6 +58,8 @@
   name: mining headset
   description: Headset used by shaft miners.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Ears/Headsets/mining.rsi
   - type: Clothing
@@ -63,6 +71,8 @@
   name: qm headset
   description: A headset used by the quartermaster.
   components:
+  - type: BXPrices
+    price: 15
   - type: ContainerFill
     containers:
       key_slots:
@@ -76,6 +86,8 @@
   name: CentCom headset
   description: A headset used by the upper echelons of Nanotrasen.
   components:
+  - type: BXPrices
+    price: 15
   - type: ContainerFill
     containers:
       key_slots:
@@ -92,6 +104,8 @@
   name: command headset
   description: A headset with a commanding channel.
   components:
+  - type: BXPrices
+    price: 15
   - type: ContainerFill
     containers:
       key_slots:
@@ -107,6 +121,8 @@
   name: engineering headset
   description: A headset for engineers to chat while the station burns around them.
   components:
+  - type: BXPrices
+    price: 15
   - type: ContainerFill
     containers:
       key_slots:
@@ -123,6 +139,8 @@
   name: ce headset
   description: A headset for the chief engineer to ignore all emergency calls on.
   components:
+  - type: BXPrices
+    price: 15
   - type: ContainerFill
     containers:
       key_slots:
@@ -136,6 +154,8 @@
   name: medical headset
   description: A headset for the trained staff of the medbay.
   components:
+  - type: BXPrices
+    price: 15
   - type: ContainerFill
     containers:
       key_slots:
@@ -152,6 +172,8 @@
   name: cmo headset
   description: A headset used by the CMO.
   components:
+  - type: BXPrices
+    price: 15
   - type: ContainerFill
     containers:
       key_slots:
@@ -165,6 +187,8 @@
   name: science headset
   description: A sciency headset. Like usual.
   components:
+  - type: BXPrices
+    price: 15
   - type: ContainerFill
     containers:
       key_slots:
@@ -181,6 +205,8 @@
   name: medical research headset
   description: A headset that is a result of the mating between medical and science.
   components:
+  - type: BXPrices
+    price: 15
   - type: ContainerFill
     containers:
       key_slots:
@@ -197,6 +223,8 @@
   name: robotics headset
   description: Made specifically for the roboticists, who cannot decide between departments.
   components:
+  - type: BXPrices
+    price: 15
   - type: ContainerFill
     containers:
       key_slots:
@@ -213,6 +241,8 @@
   name: rd headset
   description: Lamarr used to love chewing on this...
   components:
+  - type: BXPrices
+    price: 15
   - type: ContainerFill
     containers:
       key_slots:
@@ -226,6 +256,8 @@
   name: security headset
   description: This is used by your elite security force.
   components:
+  - type: BXPrices
+    price: 15
   - type: ContainerFill
     containers:
       key_slots:
@@ -242,6 +274,8 @@
   name: brigmedic headset
   description: A headset that helps to hear the death cries.
   components:
+  - type: BXPrices
+    price: 15
   - type: ContainerFill
     containers:
       key_slots:
@@ -259,6 +293,8 @@
   name: service headset
   description: Headset used by the service staff, tasked with keeping the station full, happy and clean.
   components:
+  - type: BXPrices
+    price: 15
   - type: ContainerFill
     containers:
       key_slots:

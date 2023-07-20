@@ -4,6 +4,8 @@
   name: blue cap
   description: "It's a baseball hat in a tasteless blue colour."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/bluesoft.rsi
   - type: Clothing
@@ -15,6 +17,8 @@
   name: blue cap flipped
   description: "It's a baseball hat in a tasteless blue colour. Flipped."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/bluesoft_flipped.rsi
   - type: Clothing
@@ -26,10 +30,16 @@
   name: cargo cap
   description: "It's a baseball hat painted in Cargo colours."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/cargosoft.rsi
   - type: Clothing
     sprite: Clothing/Head/Soft/cargosoft.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBaseButcherable
@@ -37,6 +47,8 @@
   name: cargo cap flipped
   description: "It's a baseball hat painted in Cargo colours. Flipped."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/cargosoft_flipped.rsi
   - type: Clothing
@@ -48,6 +60,8 @@
   name: quartermaster's cap
   description: "It's a baseball hat painted in the Quartermaster's colors."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/qmsoft.rsi
   - type: Clothing
@@ -59,17 +73,21 @@
   name: quartermaster's cap flipped
   description: "It's a baseball hat painted in the Quartermaster's colors. Flipped."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/qmsoft_flipped.rsi
   - type: Clothing
     sprite: Clothing/Head/Soft/qmsoft_flipped.rsi
-    
+
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatCorpsoft
   name: corporate cap
   description: A baseball bat in corporation colors.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/corpsoft.rsi
   - type: Clothing
@@ -81,6 +99,8 @@
   name: corporate cap flipped
   description: A baseball bat in corporation colors. Flipped.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/corpsoft_flipped.rsi
   - type: Clothing
@@ -92,6 +112,8 @@
   name: green cap
   description: "It's a baseball hat in a tasteless green colour."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/greensoft.rsi
   - type: Clothing
@@ -103,6 +125,8 @@
   name: green cap flipped
   description: "It's a baseball hat in a tasteless green colour. Flipped."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/greensoft_flipped.rsi
   - type: Clothing
@@ -114,6 +138,8 @@
   name: grey cap
   description: "It's a baseball hat in a tasteless grey colour."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/greysoft.rsi
   - type: Clothing
@@ -125,6 +151,8 @@
   name: grey cap flipped
   description: "It's a baseball hat in a tasteless grey colour. Flipped."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/greysoft_flipped.rsi
   - type: Clothing
@@ -136,6 +164,8 @@
   name: mime cap
   description: "It's a baseball hat in a tasteless white colour."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/mimesoft.rsi
   - type: Clothing
@@ -147,6 +177,8 @@
   name: mime cap flipped
   description: It's a baseball hat in a tasteless white colour. Flipped.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/mimesoft_flipped.rsi
   - type: Clothing
@@ -158,6 +190,8 @@
   name: orange cap
   description: It's a baseball hat in a good-looking orange colour.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/orangesoft.rsi
   - type: Clothing
@@ -169,6 +203,8 @@
   name: orange cap flipped
   description: It's a baseball hat in a good-looking orange colour. Flipped.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/orangesoft_flipped.rsi
   - type: Clothing
@@ -180,10 +216,16 @@
   name: purple cap
   description: It's a baseball hat in a tasteless purple colour.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/purplesoft.rsi
   - type: Clothing
     sprite: Clothing/Head/Soft/purplesoft.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBaseButcherable
@@ -191,6 +233,8 @@
   name: purple cap flipped
   description: It's a baseball hat in a tasteless purple colour. Flipped.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/purplesoft_flipped.rsi
   - type: Clothing
@@ -202,6 +246,8 @@
   name: red cap
   description: It's a baseball hat in a tasteless red colour.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/redsoft.rsi
   - type: Clothing
@@ -213,6 +259,8 @@
   name: red cap flipped
   description: It's a baseball hat in a tasteless purple colour. Flipped.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/redsoft_flipped.rsi
   - type: Clothing
@@ -224,6 +272,8 @@
   name: security cap
   description: It's a robust baseball hat in tasteful red colour.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/secsoft.rsi
   - type: Clothing
@@ -235,6 +285,8 @@
   name: security cap flipped
   description: It's a robust baseball hat in tasteful red colour. Flipped.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/secsoft_flipped.rsi
   - type: Clothing
@@ -246,6 +298,8 @@
   name: yellow cap
   description: A yellow baseball hat.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/yellowsoft.rsi
   - type: Clothing
@@ -257,6 +311,8 @@
   name: yellow cap flipped
   description: A yellow flipped baseball hat.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/yellowsoft_flipped.rsi
   - type: Clothing
@@ -268,6 +324,8 @@
   name: troublemaker's soft
   description: A truly.. bizarre accessory.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/bizarresoft.rsi
   - type: Clothing
@@ -279,28 +337,38 @@
   name: troublemaker's soft flipped
   description: A truly.. bizarre accessory, flipped.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/bizarresoft_flipped.rsi
   - type: Clothing
     sprite: Clothing/Head/Soft/bizarresoft_flipped.rsi
-    
+
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatParamedicsoft
   name: paramedic cap
   description: "It's a paramedic's baseball hat with a medical logo."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/paramedicsoft.rsi
   - type: Clothing
     sprite: Clothing/Head/Soft/paramedicsoft.rsi
-    
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
+
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatParamedicsoftFlipped
   name: paramedic cap flipped
   description: "It's a paramedic's baseball hat with a medical logo. Flipped."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Soft/paramedicsoft_flipped.rsi
   - type: Clothing

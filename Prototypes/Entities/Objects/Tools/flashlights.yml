@@ -4,6 +4,8 @@
   id: FlashlightLantern
   description: Незамінний під час блекауту.
   components:
+  - type: BXPrices
+    price: 15
   - type: Tag
     tags:
     - Flashlight
@@ -63,11 +65,11 @@
   - type: Item
     sprite: Objects/Tools/flashlight.rsi
   - type: PointLight
-    netsync: false
     enabled: false
     mask: /Textures/Effects/LightMasks/cone.png
     autoRot: true
     radius: 6
+    netsync: false
   - type: Appearance
   - type: StaticPrice
     price: 40
@@ -78,6 +80,8 @@
   id: FlashlightSeclite
   description: Надійний ліхтарик, який використовує СБ.
   components:
+  - type: BXPrices
+    price: 202
   - type: Tag
     tags:
       - SecBeltEquip
@@ -119,6 +123,8 @@
   id: EmptyFlashlightLantern
   suffix: Empty
   components:
+  - type: BXPrices
+    price: 15
   - type: ItemSlots
     slots:
       cell_slot:

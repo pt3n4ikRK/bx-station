@@ -4,6 +4,8 @@
   name: bartender's uniform
   description: A nice and tidy uniform. Shame about the bar though.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
   - type: Clothing
@@ -15,6 +17,8 @@
   name: captain's jumpskirt
   description: It's a blue jumpskirt with some gold markings denoting the rank of "Captain".
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/captain.rsi
   - type: Clothing
@@ -26,6 +30,8 @@
   name: cargo tech jumpskirt
   description: A sturdy jumpskirt, issued to members of the Cargo department.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/cargotech.rsi
   - type: Clothing
@@ -37,6 +43,8 @@
   name: chief engineer's jumpskirt
   description: It's a high visibility jumpskirt given to those engineers insane enough to achieve the rank of Chief Engineer. It has minor radiation shielding.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/ce.rsi
   - type: Clothing
@@ -52,6 +60,8 @@
   name: chaplain's jumpskirt
   description: It's a black jumpskirt, often worn by religious folk.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpskirt/chaplain.rsi
     - type: Clothing
@@ -63,6 +73,8 @@
   name: chef uniform
   description: Can't cook without this.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/chef.rsi
   - type: Clothing
@@ -74,6 +86,8 @@
   name: chemistry jumpskirt
   description: There's some odd stains on this jumpskirt. Hm.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/chemistry.rsi
   - type: Clothing
@@ -85,6 +99,8 @@
   name: virology jumpskirt
   description: It's made of a special fiber that gives special protection against biohazards. It has a virologist rank stripe on it.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/virology.rsi
   - type: Clothing
@@ -96,6 +112,8 @@
   name: genetics jumpskirt
   description: It's made of a special fiber that gives special protection against biohazards. It has a geneticist rank stripe on it.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/genetics.rsi
   - type: Clothing
@@ -107,6 +125,8 @@
   name: chief medical officer's jumpskirt
   description: It's a jumpskirt worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/cmo.rsi
   - type: Clothing
@@ -118,6 +138,8 @@
   name: hard-worn suit
   description: Someone who wears this means business.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpskirt/detective.rsi
     - type: Clothing
@@ -129,6 +151,8 @@
   name: noir suit
   description: A hard-boiled private investigator's grey suit, complete with tie clip.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpskirt/detective_grey.rsi
     - type: Clothing
@@ -140,6 +164,8 @@
   name: engineering jumpskirt
   description: If this suit was non-conductive, maybe engineers would actually do their damn job.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/engineering.rsi
   - type: Clothing
@@ -151,6 +177,8 @@
   name: head of personnel's jumpskirt
   description: Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/hop.rsi
   - type: Clothing
@@ -162,6 +190,8 @@
   name: head of security's jumpskirt
   description: It's bright red and rather crisp, much like security's victims tend to be. Its sturdy fabric provides minor protection from slash and pierce damage.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/hos.rsi
   - type: Clothing
@@ -178,6 +208,8 @@
   name: head of security's turtleneck
   description: It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security. Its sturdy fabric provides minor protection from slash and pierce damage.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/hos_alt.rsi
   - type: Clothing
@@ -194,6 +226,8 @@
   name: head of security's parade uniform
   description: A head of security's luxury-wear, for special occasions.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/hos_parade.rsi
   - type: Clothing
@@ -205,6 +239,8 @@
   name: hydroponics jumpskirt
   description: Has a strong earthy smell to it. Hopefully it's merely dirty as opposed to soiled.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/hydro.rsi
   - type: Clothing
@@ -216,6 +252,8 @@
   name: janitor jumpskirt
   description: The jumpskirt for the poor sop with a mop.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/janitor.rsi
   - type: Clothing
@@ -227,6 +265,8 @@
   name: medical doctor jumpskirt
   description: It's made of a special fiber that provides minor protection against biohazards. It has a cross on the chest denoting that the wearer is trained medical personnel.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/medical.rsi
   - type: Clothing
@@ -238,6 +278,8 @@
   name: mime jumpskirt
   description: ...
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/mime.rsi
   - type: Clothing
@@ -249,6 +291,8 @@
   name: paramedic jumpskirt
   description: It's got a plus on it, that's a good thing right?
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/paramedic.rsi
   - type: Clothing
@@ -260,6 +304,8 @@
   name: brigmedic jumpskirt
   description: This uniform is issued to qualified personnel who have been trained. No one cares that the training took half a day.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/brigmedic.rsi
   - type: Clothing
@@ -271,6 +317,8 @@
   name: prisoner jumpskirt
   description: Busted.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/prisoner.rsi
   - type: Clothing
@@ -290,6 +338,8 @@
   name: quartermaster's jumpskirt
   description: 'What can brown do for you?'
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/qm.rsi
   - type: Clothing
@@ -301,6 +351,8 @@
   name: research director's turtleneck
   description: It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/rnd.rsi
   - type: Clothing
@@ -312,6 +364,8 @@
   name: scientist jumpskirt
   description: It's made of a special fiber that provides minor protection against explosives. It has markings that denote the wearer as a scientist.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/scientist.rsi
   - type: Clothing
@@ -323,6 +377,8 @@
   name: roboticist jumpskirt
   description: It's a slimming black with reinforced seams; great for industrial work.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/roboticist.rsi
   - type: Clothing
@@ -334,6 +390,8 @@
   name: security jumpskirt
   description: A jumpskirt made of strong material, providing robust protection.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/security.rsi
   - type: Clothing
@@ -345,6 +403,8 @@
   name: warden's uniform
   description: A formal security suit for officers complete with Nanotrasen belt buckle.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/warden.rsi
   - type: Clothing
@@ -358,6 +418,8 @@
   description: A tasteful grey jumpskirt that reminds you of the good old days.
   name: grey jumpskirt
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/Color/grey.rsi
   - type: Clothing
@@ -369,6 +431,8 @@
   name: black jumpskirt
   description: A generic black jumpskirt with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/Color/black.rsi
   - type: Clothing
@@ -380,6 +444,8 @@
   name: blue jumpskirt
   description: A generic blue jumpskirt with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/Color/blue.rsi
   - type: Clothing
@@ -391,6 +457,8 @@
   name: green jumpskirt
   description: A generic green jumpskirt with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/Color/green.rsi
   - type: Clothing
@@ -402,6 +470,8 @@
   name: orange jumpskirt
   description: "Don't wear this near paranoid security officers."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/Color/orange.rsi
   - type: Clothing
@@ -413,6 +483,8 @@
   name: pink jumpskirt
   description: "Just looking at this makes you feel fabulous."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/Color/pink.rsi
   - type: Clothing
@@ -424,6 +496,8 @@
   name: red jumpskirt
   description: A generic red jumpskirt with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/Color/red.rsi
   - type: Clothing
@@ -435,6 +509,8 @@
   name: white jumpskirt
   description: A generic white jumpskirt with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/Color/white.rsi
   - type: Clothing
@@ -446,6 +522,8 @@
   name: yellow jumpskirt
   description: A generic yellow jumpskirt with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/Color/yellow.rsi
   - type: Clothing
@@ -457,6 +535,8 @@
   name: dark blue jumpskirt
   description: A generic dark blue jumpskirt with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/Color/darkblue.rsi
   - type: Clothing
@@ -468,6 +548,8 @@
   name: teal jumpskirt
   description: A generic teal jumpskirt with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/Color/teal.rsi
   - type: Clothing
@@ -479,6 +561,8 @@
   name: purple jumpskirt
   description: A generic purple jumpskirt with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/Color/lightpurple.rsi
   - type: Clothing
@@ -490,6 +574,8 @@
   name: dark green jumpskirt
   description: A generic dark green jumpskirt with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/Color/darkgreen.rsi
   - type: Clothing
@@ -501,6 +587,8 @@
   name: light brown jumpskirt
   description: A generic light brown jumpskirt with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/Color/lightbrown.rsi
   - type: Clothing
@@ -512,6 +600,8 @@
   name: brown jumpskirt
   description: A generic brown jumpskirt with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/Color/brown.rsi
   - type: Clothing
@@ -523,6 +613,8 @@
   name: maroon jumpskirt
   description: A generic maroon jumpskirt with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/Color/maroon.rsi
   - type: Clothing
@@ -534,6 +626,8 @@
   name: performer's jumpskirt
   description: Hi, I'm Scott, president of Donk Pizza. Have you heard of [FAMOUS VIRTUAL PERFORMER]?
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/performer.rsi
   - type: Clothing
@@ -545,6 +639,8 @@
   name: captain's formal dress
   description: A dress for special occasions.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/capformaldress.rsi
   - type: Clothing
@@ -556,6 +652,8 @@
   name: central command formal dress
   description: A dress for special occasions
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/centcomformaldress.rsi
   - type: Clothing
@@ -567,6 +665,8 @@
   name: hos's formal dress
   description: A dress for special occasions.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/hosformaldress.rsi
   - type: Clothing
@@ -578,6 +678,8 @@
   name: operative jumpskirt
   description: Uniform for elite syndicate operatives performing tactical operations in deep space.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/operative_s.rsi
   - type: Clothing
@@ -589,6 +691,8 @@
   name: tacticool jumpskirt
   description: Uniform for subpar operative LARPers performing tactical insulated glove theft in deep space.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpskirt/tacticool_s.rsi
     - type: Clothing
@@ -604,6 +708,8 @@
   name: atmospheric technician jumpskirt
   description: I am at work. I can't leave work. Work is breathing. I am testing air quality.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/atmosf.rsi
   - type: Clothing
@@ -615,6 +721,8 @@
   name: janitorial maid uniform
   description: For professionals, not the posers.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/janimaid.rsi
   - type: Clothing
@@ -626,6 +734,8 @@
   name: janitorial maid uniform with miniskirt
   description: Elite service, not some candy wrappers.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/janimaidmini.rsi
   - type: Clothing
@@ -637,6 +747,8 @@
   name: red lawyer suitskirt
   description: A flashy red suitskirt worn by lawyers and show-offs.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpskirt/lawyerred.rsi
     - type: Clothing
@@ -648,6 +760,8 @@
   name: blue lawyer suitskirt
   description: A flashy blue suitskirt worn by lawyers and show-offs.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpskirt/lawyerblue.rsi
     - type: Clothing
@@ -659,6 +773,8 @@
   name: black lawyer suitskirt
   description: A subtle black suitskirt worn by lawyers and gangsters.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpskirt/lawyerblack.rsi
     - type: Clothing
@@ -670,6 +786,8 @@
   name: purple lawyer suitskirt
   description: A stylish purple piece worn by lawyers and show people.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpskirt/lawyerpurple.rsi
     - type: Clothing
@@ -681,6 +799,8 @@
   name: good lawyer's suitskirt
   description: A tacky suitskirt perfect for a CRIMINAL lawyer!
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpskirt/lawyergood.rsi
     - type: Clothing
@@ -688,10 +808,38 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtSyndieFormalDress
+  name: syndicate formal dress
+  description: "The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this."
+  components:
+    - type: BXPrices
+      price: 15
+    - type: Sprite
+      sprite: Clothing/Uniforms/Jumpskirt/syndieformaldress.rsi
+    - type: Clothing
+      sprite: Clothing/Uniforms/Jumpskirt/syndieformaldress.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtTacticalMaid
+  name: tactical maid suitskirt
+  description: It is assumed that the best maids should have designer suits.
+  components:
+    - type: BXPrices
+      price: 15
+    - type: Sprite
+      sprite: Clothing/Uniforms/Jumpskirt/tacticalmaid.rsi
+    - type: Clothing
+      sprite: Clothing/Uniforms/Jumpskirt/tacticalmaid.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtOfLife
   name: skirt of life
   description: A skirt that symbolizes the joy and positivity of our life.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpskirt/skirtoflife.rsi
     - type: Clothing

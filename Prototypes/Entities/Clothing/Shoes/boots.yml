@@ -4,21 +4,29 @@
   name: workboots
   description: Engineering lace-up work boots for the especially blue-collar.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Boots/workboots.rsi
   - type: Clothing
     sprite: Clothing/Shoes/Boots/workboots.rsi
 
 - type: entity
-  parent: ClothingShoesBaseButcherable
+  parent: ClothingShoesStorageBase
   id: ClothingShoesBootsJack
   name: jackboots
   description: Nanotrasen-issue Security combat boots for combat scenarios or combat situations. All combat, all the time.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Boots/jackboots.rsi
   - type: Clothing
     sprite: Clothing/Shoes/Boots/jackboots.rsi
+  - type: Storage
+    whitelist:
+      tags:
+        - Knife
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -26,6 +34,8 @@
   name: salvage boots
   description: Steel-toed salvage boots for salvaging in hazardous environments.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Boots/explorer.rsi
   - type: Clothing
@@ -37,6 +47,8 @@
   name: performer's boots
   description: These boots provide great traction for when you're up on stage.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Boots/performer.rsi
   - type: Clothing
@@ -48,6 +60,8 @@
   name: combat boots
   description: Robust combat boots for combat scenarios or combat situations. All combat, all the time.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Boots/combatboots.rsi
   - type: Clothing
@@ -63,6 +77,8 @@
   name: mercenary boots
   description: Boots that have gone through many conflicts and that have proven their combat reliability.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Boots/mercboots.rsi
   - type: Clothing
@@ -78,6 +94,8 @@
   name: laceup shoes
   description: The height of fashion, and they're pre-polished!
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Boots/laceups.rsi
   - type: Clothing

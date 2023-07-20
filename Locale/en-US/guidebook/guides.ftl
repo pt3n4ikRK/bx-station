@@ -39,5 +39,9 @@ guide-entry-traversal-distorter = Спотворювач обхіду
 guide-entry-machine-upgrading = Покращення обладнання
 guide-entry-robotics = Робототехніка
 
+
 guide-entry-security = Безпека станції
 guide-entry-dna = ДНК
+
+guide-entry-antagonists = Антагоніст
+guide-entry-nuclear-operatives = Ядерні Оперативники

@@ -1,5 +1,6 @@
 ﻿default-program-name = Program
 notekeeper-program-name = Notekeeper
+banking-program-name = Банкінг
 
 net-probe-program-name = NetProbe
 net-probe-scan = Scanned {$device}!

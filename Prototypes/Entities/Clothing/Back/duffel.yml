@@ -4,6 +4,8 @@
   name: duffel bag
   description: A large duffel bag for holding extra things.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Duffels/duffel.rsi
     state: icon
@@ -36,6 +38,8 @@
   name: engineering duffel bag
   description: A large duffel bag for holding extra tools and supplies.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Duffels/engineering.rsi
 
@@ -45,6 +49,8 @@
   name: medical duffel bag
   description: A large duffel bag for holding extra medical supplies.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Duffels/medical.rsi
 
@@ -54,6 +60,8 @@
   name: captain's duffel bag
   description: A large duffel bag for holding extra captainly goods.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Duffels/captain.rsi
 
@@ -63,6 +71,8 @@
   name: clown duffel bag
   description: A large duffel bag for holding extra honk goods.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Duffels/clown.rsi
   - type: Storage
@@ -75,6 +85,8 @@
   name: security duffel bag
   description: A large duffel bag for holding extra security related goods.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Duffels/security.rsi
 
@@ -84,6 +96,8 @@
   name: brigmedic duffel bag
   description: A large duffel bag for holding extra medical related goods.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Duffels/brigmedic.rsi
 
@@ -93,24 +107,30 @@
   name: chemistry duffel bag
   description: A large duffel bag for holding extra beakers and test tubes.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Duffels/chemistry.rsi
-    
+
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelVirology
   name: virology duffel bag
   description: A large duffel bag made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Duffels/virology.rsi
-    
+
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelGenetics
   name: genetics duffel bag
   description: A large duffel bag for holding extra genetic mutations.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Duffels/genetics.rsi
 
@@ -120,6 +140,8 @@
   name: mime duffel bag
   description: A large duffel bag for holding... mime... stuff.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Duffels/mime.rsi
     storageOpenSound:
@@ -133,6 +155,8 @@
   name: science duffel bag
   description: A large duffel bag for holding extra science related goods.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Duffels/science.rsi
 
@@ -142,6 +166,8 @@
   name: hydroponics duffel bag
   description: A large duffel bag for holding extra gardening tools.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Back/Duffels/hydroponics.rsi
 
@@ -151,6 +177,8 @@
   name: salvage duffel bag
   description: A large duffel bag for holding extra exotic treasures.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Back/Duffels/salvage.rsi
 
@@ -160,6 +188,8 @@
   name: syndicate duffel bag
   description: A large duffel bag for holding various traitor goods.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Duffels/syndicate.rsi
   - type: Storage
@@ -170,6 +200,8 @@
   id: ClothingBackpackDuffelSyndicateBundle
   abstract: true
   components:
+  - type: BXPrices
+    price: 15
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -178,6 +210,8 @@
   id: ClothingBackpackDuffelSyndicateAmmo
   name: syndicate duffel bag
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Duffels/syndicate.rsi
     state: icon-ammo
@@ -187,10 +221,12 @@
     equippedPrefix: ammo
 
 - type: entity
-  parent: ClothingBackpackDuffelSyndicate
+  parent: ClothingBackpackDuffelSyndicateAmmo
   id: ClothingBackpackDuffelSyndicateAmmoBundle
   abstract: true
   components:
+    - type: BXPrices
+      price: 15
     - type: Tag
       tags: [] # ignore "WhitelistChameleon" tag
 
@@ -199,6 +235,8 @@
   id: ClothingBackpackDuffelSyndicateMedical
   name: syndicate duffel bag
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Duffels/syndicate.rsi
     state: icon-med
@@ -208,10 +246,12 @@
     equippedPrefix: med
 
 - type: entity
-  parent: ClothingBackpackDuffelSyndicate
+  parent: ClothingBackpackDuffelSyndicateMedical
   id: ClothingBackpackDuffelSyndicateMedicalBundle
   abstract: true
   components:
+    - type: BXPrices
+      price: 15
     - type: Tag
       tags: [] # ignore "WhitelistChameleon" tag
 
@@ -221,6 +261,8 @@
   name: duffelbag of holding
   description: A duffelbag that opens into a localized pocket of bluespace.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Duffels/holding.rsi
     state: icon

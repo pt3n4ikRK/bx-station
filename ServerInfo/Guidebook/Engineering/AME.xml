@@ -6,9 +6,9 @@
 ## Будівництво
 <Box>Потрібні компоненти:</Box>
 <Box>
-<GuideEntityEmbed Entity="AMEController"/>
-<GuideEntityEmbed Entity="AMEPart"/>
-<GuideEntityEmbed Entity="AMEJar"/>
+<GuideEntityEmbed Entity="AmeController"/>
+<GuideEntityEmbed Entity="AmePart"/>
+<GuideEntityEmbed Entity="AmeJar"/>
 </Box>
 
 Почніть складання ДАМ з установки і закріплення контролера ДАМ на ВВ кабелі. На багатьох станціях у генераторних на підлозі є ґратчасті містки, які спростять розуміння де що і куди. Розкладіть частини ДАМ квадратом мінімум 3 на 3, намагайтеся максимізувати кількість "центральних" ядер ДАМ, такі ядра мають бути оточені іншими частинами з усіх 8-ми сторін.

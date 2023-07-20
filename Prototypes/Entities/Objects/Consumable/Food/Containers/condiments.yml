@@ -36,7 +36,7 @@
   # Since this one is closed, the only way to insert liquid is with a syringe.
   - type: InjectableSolution
     solution: food
-  # Note NOT refillable. 
+  # Note NOT refillable.
   # It be a shame if it turned out ALL drinks were ALWAYS refillable.... ffs.
   # Well its fixed now, but I want to share my pain.
   - type: SolutionContainerManager
@@ -59,6 +59,8 @@
   name: Astrotame
   description: The sweetness of a thousand sugars but none of the calories.
   components:
+  - type: BXPrices
+    price: 1
   - type: SolutionContainerManager
     solutions:
       food:
@@ -85,6 +87,8 @@
   name: BBQ sauce
   description: Hand wipes not included.
   components:
+  - type: BXPrices
+    price: 1
   - type: SolutionContainerManager
     solutions:
       food:
@@ -111,6 +115,8 @@
   name: corn oil
   description: Corn oil. A delicious oil used in cooking. Made from corn.
   components:
+  - type: BXPrices
+    price: 1
   - type: SolutionContainerManager
     solutions:
       food:
@@ -137,6 +143,8 @@
   name: coldsauce
   description: Coldsauce. Leaves the tongue numb in its passage.
   components:
+  - type: BXPrices
+    price: 1
   - type: SolutionContainerManager
     solutions:
       food:
@@ -163,6 +171,8 @@
   name: horseradish sauce
   description: A packet of smelly horseradish sauce.
   components:
+  - type: BXPrices
+    price: 1
   - type: SolutionContainerManager
     solutions:
       food:
@@ -189,6 +199,8 @@
   name: hotsauce
   description: You can almost TASTE the stomach ulcers now!
   components:
+  - type: BXPrices
+    price: 1
   - type: SolutionContainerManager
     solutions:
       food:
@@ -215,6 +227,8 @@
   name: ketchup
   description: You feel more American already.
   components:
+  - type: BXPrices
+    price: 1
   - type: SolutionContainerManager
     solutions:
       food:
@@ -240,6 +254,8 @@
   name: black pepper
   description: Often used to flavor food or make people sneeze.
   components:
+  - type: BXPrices
+    price: 1
   - type: SolutionContainerManager
     solutions:
       food:
@@ -265,6 +281,8 @@
   name: salt
   description: Salt. From space oceans, presumably.
   components:
+  - type: BXPrices
+    price: 1
   - type: SolutionContainerManager
     solutions:
       food:
@@ -292,6 +310,8 @@
   name: soy sauce
   description: A salty soy-based flavoring.
   components:
+  - type: BXPrices
+    price: 1
   - type: SolutionContainerManager
     solutions:
       food:
@@ -317,6 +337,8 @@
   name: sugar
   description: Tasty spacey sugar!
   components:
+  - type: BXPrices
+    price: 1
   - type: SolutionContainerManager
     solutions:
       food:
@@ -399,6 +421,8 @@
   name: universal enzyme
   description: Used in cooking various dishes.
   components:
+  - type: BXPrices
+    price: 20
   - type: SolutionContainerManager
     solutions:
       food:
@@ -421,6 +445,8 @@
   name: vinegar bottle
   description: Used in cooking to enhance flavor.
   components:
+  - type: BXPrices
+    price: 10
   - type: SolutionContainerManager
     solutions:
       food:
@@ -443,6 +469,8 @@
   name: hotsauce bottle
   description: You can almost TASTE the stomach ulcers now!
   components:
+  - type: BXPrices
+    price: 10
   - type: SolutionContainerManager
     solutions:
       food:
@@ -465,6 +493,8 @@
   name: ketchup bottle
   description: You feel more American already.
   components:
+  - type: BXPrices
+    price: 10
   - type: SolutionContainerManager
     solutions:
       food:
@@ -487,6 +517,8 @@
   name: BBQ sauce bottle
   description: Hand wipes not included.
   components:
+  - type: BXPrices
+    price: 10
   - type: SolutionContainerManager
     solutions:
       food:

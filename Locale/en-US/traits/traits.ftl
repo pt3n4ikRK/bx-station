@@ -1,4 +1,4 @@
-﻿trait-blindness-name = Сліпота
+trait-blindness-name = Сліпота
 trait-blindness-desc = У вас дефіцит зору
 
 trait-narcolepsy-name = Нарколепсія
@@ -22,3 +22,6 @@ trait-uncloneable-desc = Не може бути клоновано
 
 trait-pirate-accent-name = Піратський акцент
 trait-pirate-accent-desc = Ти не можеш перестати говорити як пірат!
+
+trait-archaic-accent-name = Арахнідський акцент
+trait-archaic-accent-desc = Ви говорите старомодно

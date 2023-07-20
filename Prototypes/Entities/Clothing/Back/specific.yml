@@ -5,6 +5,8 @@
   description: You wear this on your back and put items into it.
   suffix: Chameleon
   components:
+    - type: BXPrices
+      price: 15
     - type: Tag
       tags: [] # ignore "WhitelistChameleon" tag
     - type: Sprite
@@ -25,8 +27,10 @@
   name: backpack water tank
   description: Holds a large amount of fluids. Supplies to spray nozzles in your hands.
   components:
+  - type: BXPrices
+    price: 15
   - type: Tag
-    tags: 
+    tags:
     - NozzleBackTank
   - type: Sprite
     sprite: Clothing/Back/Backpacks/waterbackpack.rsi

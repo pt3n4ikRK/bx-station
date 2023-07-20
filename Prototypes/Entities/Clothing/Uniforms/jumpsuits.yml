@@ -4,6 +4,8 @@
   name: Death squad uniform
   description: Advanced armored jumpsuit used by special forces in special operations.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/deathsquad.rsi
   - type: Clothing
@@ -22,6 +24,8 @@
   name: ancient jumpsuit
   description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ancient.rsi
   - type: Clothing
@@ -33,6 +37,8 @@
   name: bartender's uniform
   description: A nice and tidy uniform. Shame about the bar though.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/bartender.rsi
   - type: Clothing
@@ -44,6 +50,8 @@
   name: bartender's jacket monkey
   description: A decent jacket, for a decent monkey.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/punpun.rsi
   - type: Clothing
@@ -55,6 +63,8 @@
   name: purple bartender's uniform
   description: A special purple outfit to serve drinks.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/bartender_purple.rsi
   - type: Clothing
@@ -66,6 +76,8 @@
   name: captain's jumpsuit
   description: It's a blue jumpsuit with some gold markings denoting the rank of "Captain".
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/captain.rsi
   - type: Clothing
@@ -77,6 +89,8 @@
   name: cargo tech jumpsuit
   description: A sturdy jumpsuit, issued to members of the Cargo department.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/cargotech.rsi
   - type: Clothing
@@ -88,6 +102,8 @@
   name: salvage specialist's jumpsuit
   description: It's a snappy jumpsuit with a sturdy set of overalls. It's very dirty.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/salvage.rsi
   - type: Clothing
@@ -99,6 +115,8 @@
   name: chief engineer's jumpsuit
   description: It's a high visibility jumpsuit given to those engineers insane enough to achieve the rank of Chief Engineer. It has minor radiation shielding.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ce.rsi
   - type: Clothing
@@ -110,6 +128,8 @@
   name: chaplain's jumpsuit
   description: It's a black jumpsuit, often worn by religious folk.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/chaplain.rsi
     - type: Clothing
@@ -121,6 +141,8 @@
   name: CentCom official's jumpsuit
   description: It's a jumpsuit worn by CentCom's officials.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/centcom_official.rsi
   - type: Clothing
@@ -132,6 +154,8 @@
   name: CentCom officer's jumpsuit
   description: It's a jumpsuit worn by CentCom Officers.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/centcom_officer.rsi
   - type: Clothing
@@ -143,6 +167,8 @@
   name: chef uniform
   description: Can't cook without this.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/chef.rsi
   - type: Clothing
@@ -154,6 +180,8 @@
   name: chemistry jumpsuit
   description: There's some odd stains on this jumpsuit. Hm.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/chemistry.rsi
   - type: Clothing
@@ -165,6 +193,8 @@
   name: virology jumpsuit
   description: It's made of a special fiber that gives special protection against biohazards. It has a virologist rank stripe on it.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/virology.rsi
   - type: Clothing
@@ -176,6 +206,8 @@
   name: genetics jumpsuit
   description: It's made of a special fiber that gives special protection against biohazards. It has a geneticist rank stripe on it.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/genetics.rsi
   - type: Clothing
@@ -187,6 +219,8 @@
   name: clown suit
   description: HONK!
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/clown.rsi
   - type: Clothing
@@ -199,6 +233,8 @@
   name: jester suit
   description: A jolly dress, well suited to entertain your master, nuncle.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/jester.rsi
   - type: Clothing
@@ -208,6 +244,8 @@
   parent: ClothingUniformJumpsuitJester
   id: ClothingUniformJumpsuitJesterAlt
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/jester2.rsi
   - type: Clothing
@@ -219,6 +257,8 @@
   name: chief medical officer's jumpsuit
   description: It's a jumpsuit worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/cmo.rsi
   - type: Clothing
@@ -230,6 +270,8 @@
   name: hard-worn suit
   description: Someone who wears this means business.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/detective.rsi
     - type: Clothing
@@ -241,6 +283,8 @@
   name: noir suit
   description: A hard-boiled private investigator's grey suit, complete with tie clip.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/detective_grey.rsi
     - type: Clothing
@@ -252,6 +296,8 @@
   name: engineering jumpsuit
   description: If this suit was non-conductive, maybe engineers would actually do their damn job.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/engineering.rsi
   - type: Clothing
@@ -263,6 +309,8 @@
   name: hazard jumpsuit
   description: Woven in a grungy, warm orange. Lets others around you know that you really mean business when it comes to work.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/engineering_hazard.rsi
   - type: Clothing
@@ -274,6 +322,8 @@
   name: head of personnel's jumpsuit
   description: Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hop.rsi
   - type: Clothing
@@ -285,6 +335,8 @@
   name: head of security's jumpsuit
   description: It's bright red and rather crisp, much like security's victims tend to be.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hos.rsi
   - type: Clothing
@@ -296,6 +348,8 @@
   name: head of security's turtleneck
   description: It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hos_alt.rsi
   - type: Clothing
@@ -307,6 +361,8 @@
   name: head of security's blue jumpsuit
   description: A blue jumpsuit of Head of Security.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hos_blue.rsi
   - type: Clothing
@@ -318,6 +374,8 @@
   name: head of security's grey jumpsuit
   description: A grey jumpsuit of Head of Security, which make him look somewhat like a passenger.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hos_grey.rsi
   - type: Clothing
@@ -329,6 +387,8 @@
   name: head of security's parade uniform
   description: A male head of security's luxury-wear, for special occasions.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hos_parade.rsi
   - type: Clothing
@@ -340,6 +400,8 @@
   name: hydroponics jumpsuit
   description: Has a strong earthy smell to it. Hopefully it's merely dirty as opposed to soiled.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hydro.rsi
   - type: Clothing
@@ -351,6 +413,8 @@
   name: janitor jumpsuit
   description: The jumpsuit for the poor sop with a mop.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/janitor.rsi
   - type: Clothing
@@ -358,10 +422,25 @@
 
 - type: entity
   parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitKimono
+  name: kimono
+  description: traditional chinese clothing
+  components:
+  - type: BXPrices
+    price: 15
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/kimono.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/kimono.rsi
+
+- type: entity
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMedicalDoctor
   name: medical doctor jumpsuit
   description: It's made of a special fiber that provides minor protection against biohazards. It has a cross on the chest denoting that the wearer is trained medical personnel.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/medical.rsi
   - type: Clothing
@@ -373,6 +452,8 @@
   name: mime suit
   description: ...
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/mime.rsi
   - type: Clothing
@@ -384,6 +465,8 @@
   name: paramedic jumpsuit
   description: It's got a plus on it, that's a good thing right?
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/paramedic.rsi
   - type: Clothing
@@ -395,6 +478,8 @@
   name: brigmedic jumpsuit
   description: This uniform is issued to qualified personnel who have been trained. No one cares that the training took half a day.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/brigmedic.rsi
   - type: Clothing
@@ -406,6 +491,8 @@
   name: prisoner jumpsuit
   description: Busted.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/prisoner.rsi
   - type: Clothing
@@ -425,6 +512,8 @@
   name: quartermaster's jumpsuit
   description: 'What can brown do for you?'
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/qm.rsi
   - type: Clothing
@@ -436,6 +525,8 @@
   name: research director's turtleneck
   description: It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/rnd.rsi
   - type: Clothing
@@ -447,6 +538,8 @@
   name: scientist jumpsuit
   description: It's made of a special fiber that provides minor protection against explosives. It has markings that denote the wearer as a scientist.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/scientist.rsi
   - type: Clothing
@@ -458,6 +551,8 @@
   name: scientist's formal jumpsuit
   description: A uniform for sophisticated scientists, best worn with its matching tie.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/scientist_formal.rsi
   - type: Clothing
@@ -469,6 +564,8 @@
   name: roboticist jumpsuit
   description: It's a slimming black with reinforced seams; great for industrial work.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/roboticist.rsi
   - type: Clothing
@@ -480,6 +577,8 @@
   name: security jumpsuit
   description: A jumpsuit made of strong material, providing robust protection.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/security.rsi
   - type: Clothing
@@ -491,6 +590,8 @@
   name: blue shirt and tie
   description: I'm a little busy right now, Calhoun.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/security_blue.rsi
   - type: Clothing
@@ -502,6 +603,8 @@
   name: grey security jumpsuit
   description: A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/security_grey.rsi
   - type: Clothing
@@ -513,6 +616,8 @@
   name: warden's uniform
   description: A formal security suit for officers complete with Nanotrasen belt buckle.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/warden.rsi
   - type: Clothing
@@ -526,6 +631,8 @@
   description: A tasteful grey jumpsuit that reminds you of the good old days.
   name: grey jumpsuit
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
   - type: Clothing
@@ -537,6 +644,8 @@
   name: black jumpsuit
   description: A generic black jumpsuit with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/Color/black.rsi
   - type: Clothing
@@ -548,6 +657,8 @@
   name: blue jumpsuit
   description: A generic blue jumpsuit with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/Color/blue.rsi
   - type: Clothing
@@ -559,6 +670,8 @@
   name: green jumpsuit
   description: A generic green jumpsuit with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/Color/green.rsi
   - type: Clothing
@@ -570,6 +683,8 @@
   name: orange jumpsuit
   description: "Don't wear this near paranoid security officers."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/Color/orange.rsi
   - type: Clothing
@@ -581,6 +696,8 @@
   name: pink jumpsuit
   description: "Just looking at this makes you feel fabulous."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/Color/pink.rsi
   - type: Clothing
@@ -592,6 +709,8 @@
   name: red jumpsuit
   description: A generic red jumpsuit with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/Color/red.rsi
   - type: Clothing
@@ -603,6 +722,8 @@
   name: white jumpsuit
   description: A generic white jumpsuit with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/Color/white.rsi
   - type: Clothing
@@ -614,6 +735,8 @@
   name: yellow jumpsuit
   description: A generic yellow jumpsuit with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/Color/yellow.rsi
   - type: Clothing
@@ -625,6 +748,8 @@
   name: dark blue jumpsuit
   description: A generic dark blue jumpsuit with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/Color/darkblue.rsi
   - type: Clothing
@@ -636,6 +761,8 @@
   name: teal jumpsuit
   description: A generic teal jumpsuit with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/Color/teal.rsi
   - type: Clothing
@@ -647,6 +774,8 @@
   name: purple jumpsuit
   description: A generic purple jumpsuit with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/Color/lightpurple.rsi
   - type: Clothing
@@ -658,6 +787,8 @@
   name: dark green jumpsuit
   description: A generic dark green jumpsuit with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/Color/darkgreen.rsi
   - type: Clothing
@@ -669,6 +800,8 @@
   name: light brown jumpsuit
   description: A generic light brown jumpsuit with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/Color/lightbrown.rsi
   - type: Clothing
@@ -680,6 +813,8 @@
   name: brown jumpsuit
   description: A generic brown jumpsuit with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/Color/brown.rsi
   - type: Clothing
@@ -691,6 +826,8 @@
   name: maroon jumpsuit
   description: A generic maroon jumpsuit with no rank markings.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/Color/maroon.rsi
   - type: Clothing
@@ -702,6 +839,8 @@
   name: rainbow jumpsuit
   description: A multi-colored jumpsuit!
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/rainbow.rsi
   - type: Clothing
@@ -713,6 +852,8 @@
   name: overalls
   description: Great for working outdoors.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/overalls.rsi
   - type: Clothing
@@ -724,6 +865,8 @@
   name: librarian jumpsuit
   description: A cosy green jumper fit for a curator of books.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/librarian.rsi
   - type: Clothing
@@ -735,6 +878,8 @@
   name: red lawyer suit
   description: A flashy red suit worn by lawyers and show-offs.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/lawyerred.rsi
   - type: Clothing
@@ -746,6 +891,8 @@
   name: blue lawyer suit
   description: A flashy blue suit worn by lawyers and show-offs.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/lawyerblue.rsi
   - type: Clothing
@@ -757,6 +904,8 @@
   name: black lawyer suit
   description: A subtle black suit worn by lawyers and gangsters.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/lawyerblack.rsi
   - type: Clothing
@@ -768,6 +917,8 @@
   name: purple lawyer suit
   description: A stylish purple piece worn by lawyers and show people.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/lawyerpurple.rsi
   - type: Clothing
@@ -779,6 +930,8 @@
   name: good lawyer's suit
   description: A tacky suit perfect for a CRIMINAL lawyer!
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/lawyergood.rsi
     - type: Clothing
@@ -790,6 +943,8 @@
   name: black syndicate pyjamas
   description: For those long nights in perma.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicateblack.rsi
   - type: Clothing
@@ -801,6 +956,8 @@
   name: pink syndicate pyjamas
   description: For those long nights in perma.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicatepink.rsi
   - type: Clothing
@@ -812,6 +969,8 @@
   name: red syndicate pyjamas
   description: For those long nights in perma.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicatered.rsi
   - type: Clothing
@@ -823,6 +982,8 @@
   name: nanotrasen jumpsuit
   description: A stately blue jumpsuit to represent NanoTrasen.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/nanotrasen.rsi
   - type: Clothing
@@ -834,6 +995,8 @@
   name: captain's formal suit
   description: A suit for special occasions.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/capformal.rsi
   - type: Clothing
@@ -845,6 +1008,8 @@
   name: central command formal suit
   description: A suit for special occasions.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/centcomformal.rsi
   - type: Clothing
@@ -856,6 +1021,8 @@
   name: hos's formal suit
   description: A suit for special occasions.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hosformal.rsi
   - type: Clothing
@@ -867,6 +1034,8 @@
   name: operative jumpsuit
   description: Uniform for elite syndicate operatives performing tactical operations in deep space.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/operative.rsi
   - type: Clothing
@@ -878,6 +1047,8 @@
   name: tacticool jumpsuit
   description: Uniform for subpar operative LARPers performing tactical insulated glove theft in deep space.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/tacticool.rsi
     - type: Clothing
@@ -893,6 +1064,8 @@
   name: mercenary jumpsuit
   description: Clothing for real mercenaries who have gone through fire, water and the jungle of planets flooded with dangerous monsters or targets for which a reward has been assigned.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/mercenary.rsi
   - type: Clothing
@@ -904,6 +1077,8 @@
   name: atmospheric technician jumpsuit
   description: I am at work. I can't leave work. Work is breathing. I am testing air quality.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/atmos.rsi
   - type: Clothing
@@ -915,6 +1090,8 @@
   name: atmospheric technician's casual jumpsuit
   description: Might as well relax with a job as easy as yours.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/atmos_casual.rsi
   - type: Clothing
@@ -926,6 +1103,8 @@
   name: psychologist suit
   description: I don't lose things. I place things in locations which later elude me.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/psychologist.rsi
   - type: Clothing
@@ -937,6 +1116,8 @@
   name: reporter suit
   description: A good reporter remains a skeptic all their life.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/reporter.rsi
   - type: Clothing
@@ -948,6 +1129,8 @@
   name: safari suit
   description: Perfect for a jungle excursion.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/safari.rsi
   - type: Clothing
@@ -959,6 +1142,8 @@
   name: journalist suit
   description: If journalism is good, it is controversial, by nature.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/journalist.rsi
   - type: Clothing
@@ -970,6 +1155,8 @@
   name: dark monastic robe
   description: It's a dark robe, often worn by religious folk.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/monastic_robe_dark.rsi
     - type: Clothing
@@ -981,6 +1168,8 @@
   name: light monastic robe
   description: It's a light robe, often worn by religious folk.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/monastic_robe_light.rsi
     - type: Clothing
@@ -992,6 +1181,8 @@
   name: musician's tuxedo
   description: A fancy tuxedo for the musically inclined.  Perfect for any lounge act!
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/musician.rsi
   - type: Clothing
@@ -1003,6 +1194,8 @@
   name: ERT engineering uniform
   description: A special suit made for the elite engineers under CentCom.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_engineer.rsi
   - type: Clothing
@@ -1018,6 +1211,8 @@
   name: ERT janitorial uniform
   description: A special suit made for the elite janitors under CentCom.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_janitor.rsi
   - type: Clothing
@@ -1029,6 +1224,8 @@
   name: ERT leader uniform
   description: A special suit made for the best of the elites under CentCom.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_leader.rsi
   - type: Clothing
@@ -1046,6 +1243,8 @@
   name: ERT medical uniform
   description: A special suit made for the elite medics under CentCom.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_medic.rsi
   - type: Clothing
@@ -1057,6 +1256,8 @@
   name: ERT security uniform
   description: A special suit made for the elite security under CentCom.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_security.rsi
   - type: Clothing
@@ -1075,6 +1276,8 @@
   suffix: Unremoveable
   description: Cursed cluwne suit.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/cluwne.rsi
   - type: Clothing
@@ -1087,6 +1290,8 @@
   name: yakuza outfit
   description: Baka mitai...
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/damedaneoutfit.rsi
   - type: Clothing
@@ -1098,6 +1303,8 @@
   name: pirate slops
   description: A pirate variation of a space sailor's jumpsuit.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/pirate.rsi
   - type: Clothing
@@ -1111,6 +1318,8 @@
   name: Cossack suit
   description: the good old pants and brigantine.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/cossack.rsi
   - type: Clothing
@@ -1122,6 +1331,8 @@
   name: black hawaiian shirt
   description: Black as a starry night.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hawaiblack.rsi
   - type: Clothing
@@ -1133,6 +1344,8 @@
   name: blue hawaiian shirt
   description: Blue as a huge ocean.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hawaiblue.rsi
   - type: Clothing
@@ -1144,6 +1357,8 @@
   name: red hawaiian shirt
   description: Red as a juicy watermelons.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hawaired.rsi
   - type: Clothing
@@ -1155,6 +1370,8 @@
   name: yellow hawaiian shirt
   description: Yellow as a bright sun.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hawaiyellow.rsi
   - type: Clothing
@@ -1162,10 +1379,25 @@
 
 - type: entity
   parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSyndieFormal
+  name: syndicate formal suit
+  description: "The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this."
+  components:
+  - type: BXPrices
+    price: 15
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/syndieformal.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/syndieformal.rsi
+
+- type: entity
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitFlannel
   name: flannel jumpsuit
   description: Smells like someones been grillin'.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/flannel.rsi
     - type: Clothing

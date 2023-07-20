@@ -5,6 +5,8 @@
   description: A shield!
   abstract: true
   components:
+    - type: BXPrices
+      price: 100
     - type: Sprite
       sprite: Objects/Weapons/Melee/shields.rsi
       state: riot-icon
@@ -73,6 +75,8 @@
   id: RiotShield
   description: A large tower shield. Good for controlling crowds.
   components:
+    - type: BXPrices
+      price: 100
     - type: StaticPrice
       price: 100
 
@@ -82,6 +86,8 @@
   id: RiotLaserShield
   description: A riot shield built for withstanding lasers, but not much else.
   components:
+    - type: BXPrices
+      price: 50
     - type: Sprite
       state: riot_laser-icon
     - type: Item
@@ -102,6 +108,8 @@
   id: RiotBulletShield
   description: A ballistic riot shield built for withstanding bullets, but not much else.
   components:
+    - type: BXPrices
+      price: 50
     - type: Sprite
       state: riot_bullet-icon
     - type: Item
@@ -127,6 +135,8 @@
   id: WoodenBuckler
   description: A small round wooden makeshift shield.
   components:
+    - type: BXPrices
+      price: 100
     - type: Sprite
       state: buckler-icon
     - type: Item
@@ -181,6 +191,8 @@
   id: MakeshiftShield
   description: A rundown looking shield, not good for much.
   components:
+    - type: BXPrices
+      price: 100
     - type: Sprite
       state: makeshift-icon
     - type: Item
@@ -236,6 +248,8 @@
   id: ClockworkShield
   description: Ratvar oyrffrf lbh jvgu uvf cebgrpgvba.
   components:
+    - type: BXPrices
+      price: 100
     - type: Sprite
       state: ratvarian-icon
     - type: Item
@@ -265,6 +279,8 @@
   id: MirrorShield
   description: Eerily glows red... you hear the geometer whispering
   components:
+    - type: BXPrices
+      price: 100
     - type: Sprite
       state: mirror-icon
     - type: Item
@@ -308,6 +324,8 @@
   id: EnergyShield
   description: Exotic energy shield, when folded, can even fit in your pocket.
   components:
+    - type: BXPrices
+      price: 100
     - type: ItemToggle
       activatedDisarmMalus: 0.6
       activateSound:
@@ -399,6 +417,8 @@
   id: BrokenEnergyShield
   description: Something inside is burned out, it is no longer functional.
   components:
+    - type: BXPrices
+      price: 100
     - type: Sprite
       sprite: Objects/Weapons/Melee/e_shield.rsi
       state: eshield-icon

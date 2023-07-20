@@ -55,6 +55,8 @@
   name: bar flask
   description: A metal flask often given out by the bartender on loan. Don't forget to return it!
   components:
+    - type: BXPrices
+      price: 15
     - type: Drink
     - type: Sprite
       sprite: Objects/Consumable/Drinks/barflask.rsi
@@ -85,6 +87,8 @@
   name: vacuum flask
   description: Keeping your drinks at the perfect temperature since 1892.
   components:
+  - type: BXPrices
+    price: 20
   - type: Drink
   - type: Sprite
     sprite: Objects/Consumable/Drinks/vacuumflask.rsi

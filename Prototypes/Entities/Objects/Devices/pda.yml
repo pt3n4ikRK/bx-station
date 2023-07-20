@@ -72,6 +72,7 @@
   - type: CartridgeLoader
     uiKey: enum.PdaUiKey.Key
     preinstalled:
+      - BankingCartridge
       - NotekeeperCartridge
     cartridgeSlot:
       priority: -1
@@ -641,7 +642,7 @@
   description: Забарвлено тупістю та сірістю бюрократії.
   components:
   - type: Pda
-    id: CentcomIDCardSyndie
+    id: CentcomIDCard
     state: pda-centcom
     penSlot:
       startingItem: PenCentcom
@@ -652,6 +653,22 @@
     borderColor: "#00842e"
   - type: Icon
     state: pda-centcom
+
+- type: entity
+  parent: CentcomPDA
+  id: CentcomPDAFake
+  suffix: Fake
+  components:
+  - type: Pda
+    id: CentcomIDCardSyndie
+
+- type: entity
+  parent: CentcomPDA
+  id: DeathsquadPDA
+  suffix: Deathsquad
+  components:
+  - type: Pda
+    id: CentcomIDCardDeathsquad
 
 - type: entity
   parent: BasePDA

@@ -39,6 +39,8 @@
   name: plastic fork
   description: An eating utensil, perfect for stabbing.
   components:
+  - type: BXPrices
+    price: 3
   - type: Sprite
     state: plastic_fork
   - type: Item
@@ -81,6 +83,8 @@
   name: plastic spoon
   description: There is no spoon.
   components:
+  - type: BXPrices
+    price: 3
   - type: Tag
     tags:
     - Plastic

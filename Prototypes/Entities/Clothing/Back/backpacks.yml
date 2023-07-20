@@ -4,6 +4,8 @@
   name: backpack
   description: You wear this on your back and put items into it.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/backpack.rsi
     state: icon
@@ -33,6 +35,8 @@
   name: giggles von honkerton
   description: It's a backpack made by Honk! Co.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/clown.rsi
   - type: Storage
@@ -45,6 +49,8 @@
   name: Ian's backpack
   description: Sometimes he wears it.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ian.rsi
   - type: Storage
@@ -57,6 +63,8 @@
   name: security backpack
   description: It's a very robust backpack.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/security.rsi
 
@@ -66,6 +74,8 @@
   name: brigmedic backpack
   description: It's a very sterile backpack.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/brigmedic.rsi
 
@@ -75,6 +85,8 @@
   name: engineering backpack
   description: It's a tough backpack for the daily grind of station life.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/engineering.rsi
 
@@ -84,6 +96,8 @@
   name: medical backpack
   description: It's a backpack especially designed for use in a sterile environment.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/medical.rsi
 
@@ -93,6 +107,8 @@
   name: captain's backpack
   description: It's a special backpack made exclusively for Nanotrasen officers.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/captain.rsi
 
@@ -102,6 +118,8 @@
   name: mime backpack
   description: A silent backpack made for those silent workers. Silence Co.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/mime.rsi
 
@@ -111,6 +129,8 @@
   name: chemistry backpack
   description: A backpack specially designed to repel stains and hazardous liquids.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/chemistry.rsi
 
@@ -120,6 +140,8 @@
   name: hydroponics backpack
   description: It's a backpack made of all-natural fibers.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/hydroponics.rsi
 
@@ -129,6 +151,8 @@
   name: science backpack
   description: A backpack specially designed to repel stains and hazardous liquids.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/science.rsi
 
@@ -138,6 +162,8 @@
   name: virology backpack
   description: A backpack made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/virology.rsi
 
@@ -147,6 +173,8 @@
   name: genetics backpack
   description: A backpack designed to be super tough, just in case someone hulks out on you.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/genetics.rsi
 
@@ -156,6 +184,8 @@
   name: salvage bag
   description: A robust backpack for stashing your loot.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Back/Backpacks/salvage.rsi
 
@@ -165,6 +195,8 @@
   name: merc bag
   description: A backpack that has been in many dangerous places, a reliable combat backpack.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Back/Backpacks/merc.rsi
 
@@ -175,6 +207,8 @@
   name: ERT leader backpack
   description: A spacious backpack with lots of pockets, worn by the Commander of an Emergency Response Team.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ertleader.rsi
   - type: Storage
@@ -186,6 +220,8 @@
   name: ERT security backpack
   description: A spacious backpack with lots of pockets, worn by Security Officers of an Emergency Response Team.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ertsec.rsi
 
@@ -195,6 +231,8 @@
   name: ERT medical backpack
   description: A spacious backpack with lots of pockets, worn by Medical Officers of an Emergency Response Team.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ertmed.rsi
 
@@ -204,6 +242,8 @@
   name: ERT engineer backpack
   description: A spacious backpack with lots of pockets, worn by Engineers of an Emergency Response Team.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/erteng.rsi
 
@@ -213,6 +253,8 @@
   name: ERT janitor backpack
   description: A spacious backpack with lots of pockets, worn by Janitors of an Emergency Response Team.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ertjanitor.rsi
 
@@ -222,6 +264,8 @@
   name: ERT clown backpack
   description: A spacious backpack with lots of pockets, worn by Clowns of an Emergency Response Team.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ertclown.rsi
 
@@ -232,6 +276,8 @@
   name: bag of holding
   description: A backpack that opens into a localized pocket of bluespace.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/holding.rsi
     state: holding
@@ -251,6 +297,8 @@
   suffix: Unremoveable
   description: It's a backpack made by Jonk! Co.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Back/Backpacks/cluwne.rsi
   - type: Unremoveable

@@ -4,6 +4,8 @@
   name: beaver hat
   description: 'Gentlemen?'
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/beaver_hat.rsi
   - type: Clothing
@@ -15,10 +17,29 @@
   name: beret
   description: A beret, an artists favorite headwear.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/beret.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/beret.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCasa
+  name: casa
+  description: Cone-shaped hat
+  components:
+    - type: BXPrices
+      price: 15
+    - type: Sprite
+      sprite: Clothing/Head/Hats/casa.rsi
+    - type: Clothing
+      sprite: Clothing/Head/Hats/casa.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -26,10 +47,16 @@
   name: scientific beret
   description: A beret for real scientists.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_rnd.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/beret_rnd.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBase
@@ -37,10 +64,16 @@
   name: engineering beret
   description: A beret with the engineering insignia emblazoned on it. For engineers that are more inclined towards style than safety.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_engineering.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/beret_engineering.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBase
@@ -48,10 +81,16 @@
   name: head of security's beret
   description: A black beret with a commander's rank emblem. For officers that are more inclined towards style than safety.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_hos.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/beret_hos.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBase
@@ -59,6 +98,8 @@
   name: warden's beret
   description: A corporate blue beret with a warden's rank emblem. For officers that are more inclined towards style than safety.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_warden.rsi
   - type: Clothing
@@ -70,6 +111,8 @@
   name: medical beret
   description: White beret, looks like a cream pie on the head.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_brigmedic.rsi
   - type: Clothing
@@ -81,6 +124,8 @@
   name: mercenary beret
   description: Olive beret, the badge depicts a jackal on a rock.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_merc.rsi
   - type: Clothing
@@ -92,6 +137,8 @@
   name: bowler hat
   description: Stylish bowler hat.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/bowler_hat.rsi
   - type: Clothing
@@ -103,10 +150,16 @@
   name: captain's hardhat
   description: It's good being the king.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/captain.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/captain.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBase
@@ -114,6 +167,8 @@
   name: cardborg helmet
   description: A hat made out of a box.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/cardborg_h.rsi
   - type: Clothing
@@ -129,6 +184,8 @@
   name: CentCom brand hat
   description: "It's good to be the emperor."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/centcom.rsi
   - type: Clothing
@@ -140,6 +197,8 @@
   name: chefs hat
   description: "It's a hat used by chefs to keep hair out of your food. Judging by the food in the mess, they don't work."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/chefhat.rsi
   - type: Clothing
@@ -153,6 +212,10 @@
   - type: ContainerContainer
     containers:
       storagebase: !type:Container
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBase
@@ -160,10 +223,16 @@
   name: brown fedora
   description: It's a brown fedora.
   components:
+  - type: BXPrices
+    price: 260
   - type: Sprite
     sprite: Clothing/Head/Hats/brownfedora.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/brownfedora.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBase
@@ -171,6 +240,8 @@
   name: grey fedora
   description: It's a grey fedora.
   components:
+  - type: BXPrices
+    price: 260
   - type: Sprite
     sprite: Clothing/Head/Hats/greyfedora.rsi
   - type: Clothing
@@ -182,6 +253,8 @@
   name: fez
   description: A red fez.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/fez.rsi
   - type: Clothing
@@ -193,10 +266,16 @@
   name: head of personnel's cap
   description: A grand, stylish captain cap.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/hopcap.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/hopcap.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBase
@@ -204,10 +283,16 @@
   name: head of security's hat
   description: "There's a new sheriff in station."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/hoshat.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/hoshat.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBase
@@ -215,6 +300,8 @@
   name: outlaw's hat
   description: A hat that makes you look like you carry a notched pistol, numbered one and nineteen more.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/outlawhat.rsi
   - type: Clothing
@@ -226,6 +313,8 @@
   name: witch hat
   description: A witch hat.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/witchhat.rsi
   - type: Clothing
@@ -237,6 +326,8 @@
   name: paper hat
   description: A hat made of paper.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/paper.rsi
   - type: Clothing
@@ -248,6 +339,8 @@
   name: pirate hat
   description: 'Yo ho ho and a bottle of rum!'
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/pirate.rsi
   - type: Clothing
@@ -259,6 +352,8 @@
   name: plague doctor hat
   description: These were once used by plague doctors.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/plaguedoctor.rsi
   - type: Clothing
@@ -270,6 +365,8 @@
   name: red wizard hat
   description: Strange-looking red hat-wear that most certainly belongs to a real magic user.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/redwizard.rsi
   - type: Clothing
@@ -281,6 +378,8 @@
   name: santa hat
   description: "A festive hat worn by Santa Claus"
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/santahat.rsi
   - type: Clothing
@@ -292,6 +391,8 @@
   name: sombrero
   description: "Perfectly for Space Mexico, si?"
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/sombrero.rsi
   - type: Clothing
@@ -303,10 +404,16 @@
   name: surgical cap
   description: A blue cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/surgcap_blue.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/surgcap_blue.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBase
@@ -314,6 +421,8 @@
   name: surgical cap
   description: A green cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/surgcap_green.rsi
   - type: Clothing
@@ -325,6 +434,8 @@
   name: surgical cap
   description: A purple cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/surgcap_purple.rsi
   - type: Clothing
@@ -336,10 +447,16 @@
   name: tophat
   description: A stylish black tophat.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/tophat.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/tophat.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBase
@@ -347,6 +464,8 @@
   name: ushanka
   description: "Чим тобі не сподобалась ушанка, а?"
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/ushanka.rsi
   - type: Clothing
@@ -360,6 +479,8 @@
   name: violet wizard hat
   description: "Strange-looking violet hat-wear that most certainly belongs to a real magic user."
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/violetwizard.rsi
   - type: Clothing
@@ -371,6 +492,8 @@
   name: warden's cap
   description: A police officer's Hat. This hat emphasizes that you are THE LAW
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/warden.rsi
   - type: Clothing
@@ -382,6 +505,8 @@
   name: witch hat
   description: A witch hat.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/witch.rsi
   - type: Clothing
@@ -393,6 +518,8 @@
   name: fake wizard hat
   description: It has WIZZARD written across it in sequins. Comes with a cool beard.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/wizard_fake.rsi
   - type: Clothing
@@ -404,10 +531,16 @@
   name: wizard hat
   description: Strange-looking blue hat-wear that most certainly belongs to a powerful magic user.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/wizardhat.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/wizardhat.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBase
@@ -415,6 +548,8 @@
   name: xmas crown
   description: 'Happy Christmas!'
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/xmascrown.rsi
   - type: Clothing
@@ -426,6 +561,8 @@
   name: truckers hat
   description: Formerly Chucks, this hat is yours now.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/truckershat.rsi
   - type: Clothing
@@ -437,6 +574,8 @@
   name: syndicate black pyjama hat
   description: For keeping that traitor head of yours warm.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/pyjamasyndicateblack.rsi
   - type: Clothing
@@ -448,6 +587,8 @@
   name: syndicate pink pyjama hat
   description: For keeping that traitor head of yours warm.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/pyjamasyndicatepink.rsi
   - type: Clothing
@@ -459,6 +600,8 @@
   name: syndicate red pyjama hat
   description: For keeping that traitor head of yours warm.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/pyjamasyndicatered.rsi
   - type: Clothing
@@ -470,10 +613,13 @@
   name: papersack hat
   description: A paper sack with crude holes cut out for eyes. Useful for hiding one's identity or ugliness.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/papersack.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/papersack.rsi
+  - type: IdentityBlocker
 
 - type: entity
   parent: ClothingHeadBase
@@ -481,10 +627,13 @@
   name: smiling papersack hat
   description: A paper sack with crude holes cut out for eyes and a sketchy smile drawn on the front. Not creepy at all.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/papersacksmile.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/papersacksmile.rsi
+  - type: IdentityBlocker
 
 - type: entity
   parent: ClothingHeadBase
@@ -492,6 +641,8 @@
   name: fishing cap
   description: Women fear me. Fish fear me. Men turn their eyes away from me. As I walk no beast dares make a sound in my presence. I am alone on this barren Earth.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/fishcap.rsi
   - type: Clothing
@@ -503,10 +654,16 @@
   name: nurse hat
   description: Somehow I feel I'm not supposed to leave this place.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/nursehat.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/nursehat.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBase
@@ -514,6 +671,8 @@
   name: rasta hat
   description: Right near da beach, boyee.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/rasta.rsi
   - type: Clothing
@@ -525,6 +684,8 @@
   name: safari hat
   description: Keeps the sun out of your eyes. Makes you a target for the locals.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/safarihat.rsi
   - type: Clothing
@@ -536,6 +697,8 @@
   name: jester hat
   description: A hat with bells, to add some merriness to the suit.
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Head/Hats/jester.rsi
     - type: Clothing
@@ -545,6 +708,8 @@
   parent: ClothingHeadHatJester
   id: ClothingHeadHatJesterAlt
   components:
+    - type: BXPrices
+      price: 15
     - type: Sprite
       sprite: Clothing/Head/Hats/jester2.rsi
     - type: Clothing
@@ -556,10 +721,16 @@
   name: chief medical officer's beret
   description: Turquoise beret with a cross on the front. The sight of it calms you down and makes it clear that you will be cured.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_cmo.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/beret_cmo.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBase
@@ -567,6 +738,8 @@
   name: pirate hat
   description: 'Yo ho ho and a bottle of rum!'
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/piratetricord.rsi
   - type: Clothing
@@ -578,6 +751,8 @@
   name: watermelon helmet
   description: A carelessly cut half of a watermelon, gutted from the inside, to be worn as a helmet. It can soften the blow to the head.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/melon.rsi
   - type: Clothing
@@ -589,10 +764,51 @@
 
 - type: entity
   parent: ClothingHeadBase
+  id: ClothingHeadHatSyndie
+  name: syndicate hat
+  description: A souvenir hat from "Syndieland", their production has already been closed.
+  components:
+  - type: BXPrices
+    price: 15
+  - type: Sprite
+    sprite: Clothing/Head/Hats/syndiecap.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/syndiecap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSyndieMAA
+  name: master at arms hat
+  description: Master at arms hat, looks intimidating, I doubt that you will like to communicate with its owner...
+  components:
+  - type: BXPrices
+    price: 15
+  - type: Sprite
+    sprite: Clothing/Head/Hats/syndiecap_maa.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/syndiecap_maa.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatTacticalMaidHeadband
+  name: tactical maid headband
+  description: "A red headband - don't imagine yourself a Rambo and don't pick up a few machine guns."
+  components:
+  - type: BXPrices
+    price: 15
+  - type: Sprite
+    sprite: Clothing/Head/Hats/tacticalmaidheadband.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/tacticalmaidheadband.rsi
+
+- type: entity
+  parent: ClothingHeadBase
   id: ClothingHeadHatHetmanHat
   name: Hetman hat
   description: From the Zaporozhian Sich with love.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Hats/hetman_hat.rsi
   - type: Clothing
@@ -604,6 +820,8 @@
   name: magician's top hat.
   description: "A magician's top hat."
   components:
+  - type: BXPrices
+    price: 15
   - type: Icon
     sprite: Clothing/Head/Hats/magician.rsi
     state: "icon"

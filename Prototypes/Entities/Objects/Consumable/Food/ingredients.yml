@@ -45,6 +45,8 @@
   name: flour bag
   description: A big bag of flour. Good for baking!
   components:
+  - type: BXPrices
+    price: 20
   - type: Sprite
     state: flour-big
   - type: SolutionContainerManager
@@ -131,6 +133,8 @@
   name: cornmeal bag
   description: A big bag of cornmeal. Good for cooking!
   components:
+  - type: BXPrices
+    price: 30
   - type: Sprite
     state: cornmeal-big
   - type: SolutionContainerManager
@@ -162,6 +166,8 @@
   name: rice bag
   description: A big bag of rice. Good for cooking!
   components:
+  - type: BXPrices
+    price: 30
   - type: Sprite
     state: rice-big
   - type: SolutionContainerManager
@@ -193,6 +199,8 @@
   name: sugar bag
   description: A big bag of tasty spacey sugar.
   components:
+  - type: BXPrices
+    price: 20
   - type: Sprite
     state: sugar-big
   - type: SolutionContainerManager
@@ -276,6 +284,8 @@
   name: olive oil
   description: Olive oil. From space olives presumably.
   components:
+  - type: BXPrices
+    price: 10
   - type: Sprite
     state: oliveoil
   - type: SolutionContainerManager
@@ -468,6 +478,8 @@
   id: FoodButter
   description: A stick of delicious, golden, fatty goodness.
   components:
+  - type: BXPrices
+    price: 10
   - type: Sprite
     state: butter
 
@@ -477,6 +489,8 @@
   id: FoodCheese
   description: A big wheel of delicious Cheddar.
   components:
+  - type: BXPrices
+    price: 40
   - type: FlavorProfile
     flavors:
       - cheesy
@@ -504,6 +518,53 @@
         reagents:
         - ReagentId: Nutriment
           Quantity: 5
+
+- type: entity
+  name: chèvre log
+  parent: FoodBakingBase
+  id: FoodChevre
+  description: A soft log of creamy Chèvre.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - nutty
+      - creamy
+  - type: Sprite
+    state: chevrelog
+  - type: SliceableFood
+    count: 3
+    slice: FoodChevreSlice
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 6
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 3
+        - ReagentId: Vitamin
+          Quantity: 0.6
+
+- type: entity
+  name: chèvre disk
+  parent: FoodBakingBase
+  id: FoodChevreSlice
+  description: A small disk of creamy Chèvre. An ideal adornment for French side dishes.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - nutty
+      - creamy
+  - type: Sprite
+    state: chevredisk
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 2
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 1
+        - ReagentId: Vitamin
+          Quantity: 0.2
 
 - type: entity
   name: tofu

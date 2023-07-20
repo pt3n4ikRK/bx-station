@@ -4,6 +4,8 @@
   name: flippers
   description: A pair of rubber flippers that improves swimming ability when worn.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Misc/flippers.rsi
   - type: Clothing
@@ -15,6 +17,8 @@
   name: leather shoes
   description: Very stylish pair of boots, made from fine leather.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Misc/leather.rsi
   - type: Clothing
@@ -26,6 +30,8 @@
   name: slippers
   description: Fluffy!
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Misc/slippers.rsi
   - type: Clothing
@@ -38,6 +44,8 @@
   # description: You wish these made quacking sounds as you walked.
   description: Comfy, yet haunted by the ghosts of ducks you fed bread to as a child.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Misc/duck-slippers.rsi
   - type: Clothing
@@ -54,6 +62,8 @@
   name: tourist shoes
   description: These cheap sandals don't look very comfortable.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Misc/tourist.rsi
   - type: Clothing
@@ -65,6 +75,8 @@
   name: yakuza shoes
   description: At last...
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Shoes/Misc/damedaneshoes.rsi
   - type: Clothing

@@ -4,6 +4,8 @@
   name: black bandana
   description: A black bandana to make you look cool.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Bandanas/black.rsi
   - type: Clothing
@@ -15,6 +17,8 @@
   name: blue bandana
   description: A blue bandana to make you look cool.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Bandanas/blue.rsi
   - type: Clothing
@@ -26,10 +30,16 @@
   name: botany bandana
   description: A botany bandana to make you look cool, made from natural fibers.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Bandanas/botany.rsi
   - type: Clothing
     sprite: Clothing/Head/Bandanas/botany.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBaseButcherable
@@ -37,6 +47,8 @@
   name: gold bandana
   description: A gold bandana to make you look cool.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Bandanas/gold.rsi
   - type: Clothing
@@ -48,6 +60,8 @@
   name: green bandana
   description: A green bandana to make you look cool.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Bandanas/green.rsi
   - type: Clothing
@@ -59,6 +73,8 @@
   name: grey bandana
   description: A grey bandana to make you look cool.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Bandanas/grey.rsi
   - type: Clothing
@@ -70,6 +86,8 @@
   name: red bandana
   description: A red bandana to make you look cool.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Bandanas/red.rsi
   - type: Clothing
@@ -81,6 +99,8 @@
   name: skull bandana
   description: A bandana with a skull to make you look even cooler.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Bandanas/skull.rsi
   - type: Clothing
@@ -92,6 +112,8 @@
   name: mercenary bandana
   description: To protect the head from the sun, insects and other dangers of the higher path.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Bandanas/merc.rsi
   - type: Clothing
@@ -103,6 +125,8 @@
   name: brown bandana
   description: A brown bandana to make you look cool.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Head/Bandanas/brown.rsi
   - type: Clothing

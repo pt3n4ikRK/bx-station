@@ -17,6 +17,8 @@
   name: blindfold
   description: The bind leading the blind.
   components:
+  - type: BXPrices
+    price: 15
   - type: Sprite
     sprite: Clothing/Eyes/Misc/blindfold.rsi
   - type: Clothing

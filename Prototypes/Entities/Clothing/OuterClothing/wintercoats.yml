@@ -4,6 +4,8 @@
   name: winter coat
   description: A heavy jacket made from 'synthetic' animal furs.
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
   - type: Clothing
@@ -16,13 +18,15 @@
     modifiers:
       coefficients:
         Slash: 0.95
-        Heat: 0.75
+        Heat: 0.90
 
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterWinterAtmos
   name: atmospherics winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatatmos.rsi
   - type: Clothing
@@ -33,6 +37,8 @@
   id: ClothingOuterWinterBar
   name: bartender winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatbar.rsi
   - type: Clothing
@@ -43,6 +49,8 @@
   id: ClothingOuterWinterCap
   name: captain's winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatcap.rsi
   - type: Clothing
@@ -53,6 +61,8 @@
   id: ClothingOuterWinterCargo
   name: cargo winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatcargo.rsi
   - type: Clothing
@@ -63,6 +73,8 @@
   id: ClothingOuterWinterCE
   name: chief engineer's winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatce.rsi
   - type: Clothing
@@ -73,17 +85,21 @@
   id: ClothingOuterWinterCentcom
   name: CentCom winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatcentcom.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/WinterCoats/coatcentcom.rsi
-    
+
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterWinterChef
   name: chef's freezer coat
   description: A coat specifically designed for work inside cold storage, sorely needed by cold-blooded lizard chefs.
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatchef.rsi
   - type: Clothing
@@ -94,6 +110,8 @@
   id: ClothingOuterWinterChem
   name: chemistry winter coat
   components:
+  - type: BXPrices
+    price: 240
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatchem.rsi
   - type: Clothing
@@ -102,7 +120,7 @@
     modifiers:
       coefficients:
         Slash: 0.95
-        Heat: 0.75
+        Heat: 0.90
         Caustic: 0.75
 
 - type: entity
@@ -110,6 +128,8 @@
   id: ClothingOuterWinterCMO
   name: chief medical officer's winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatcmo.rsi
   - type: Clothing
@@ -118,7 +138,7 @@
     modifiers:
       coefficients:
         Slash: 0.95
-        Heat: 0.75
+        Heat: 0.90
         Caustic: 0.75
 
 - type: entity
@@ -126,6 +146,8 @@
   id: ClothingOuterWinterClown
   name: clown winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatclown.rsi
   - type: Clothing
@@ -136,6 +158,8 @@
   id: ClothingOuterWinterEngi
   name: engineering winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatengi.rsi
   - type: Clothing
@@ -146,6 +170,8 @@
   id: ClothingOuterWinterGen
   name: genetics winter coat
   components:
+  - type: BXPrices
+    price: 165
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatgen.rsi
   - type: Clothing
@@ -154,7 +180,7 @@
     modifiers:
       coefficients:
         Slash: 0.95
-        Heat: 0.75
+        Heat: 0.90
         Caustic: 0.9
 
 - type: entity
@@ -162,6 +188,8 @@
   id: ClothingOuterWinterHoP
   name: head of personnel's winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coathop.rsi
   - type: Clothing
@@ -172,6 +200,8 @@
   id: ClothingOuterWinterHoS
   name: head of security's winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coathos.rsi
   - type: Clothing
@@ -182,6 +212,8 @@
   id: ClothingOuterWinterHydro
   name: hydroponics winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coathydro.rsi
   - type: Clothing
@@ -192,6 +224,8 @@
   id: ClothingOuterWinterJani
   name: janitorial winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatjani.rsi
   - type: Clothing
@@ -200,7 +234,7 @@
     modifiers:
       coefficients:
         Slash: 0.95
-        Heat: 0.75
+        Heat: 0.9
         Caustic: 0.9
 
 - type: entity
@@ -208,6 +242,8 @@
   id: ClothingOuterWinterMed
   name: medical winter coat
   components:
+  - type: BXPrices
+    price: 165
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatmed.rsi
   - type: Clothing
@@ -216,7 +252,7 @@
     modifiers:
       coefficients:
         Slash: 0.95
-        Heat: 0.75
+        Heat: 0.90
         Caustic: 0.9
 
 - type: entity
@@ -224,6 +260,8 @@
   id: ClothingOuterWinterMime
   name: mime winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatmime.rsi
   - type: Clothing
@@ -234,6 +272,8 @@
   id: ClothingOuterWinterMiner
   name: mining winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatminer.rsi
   - type: Clothing
@@ -244,6 +284,8 @@
   id: ClothingOuterWinterPara
   name: paramedic winter coat
   components:
+  - type: BXPrices
+    price: 202
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatparamed.rsi
   - type: Clothing
@@ -260,6 +302,8 @@
   id: ClothingOuterWinterQM
   name: quartermaster's winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatqm.rsi
   - type: Clothing
@@ -270,6 +314,8 @@
   id: ClothingOuterWinterRD
   name: research director's winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatrd.rsi
   - type: Clothing
@@ -278,7 +324,7 @@
     modifiers:
       coefficients:
         Slash: 0.95
-        Heat: 0.75
+        Heat: 0.90
         Caustic: 0.9
 
 - type: entity
@@ -286,6 +332,8 @@
   id: ClothingOuterWinterRobo
   name: robotics winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatrobo.rsi
   - type: Clothing
@@ -296,6 +344,8 @@
   id: ClothingOuterWinterSci
   name: science winter coat
   components:
+  - type: BXPrices
+    price: 165
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatsci.rsi
   - type: Clothing
@@ -304,7 +354,7 @@
     modifiers:
       coefficients:
         Slash: 0.95
-        Heat: 0.75
+        Heat: 0.90
         Caustic: 0.9
 
 - type: entity
@@ -312,6 +362,8 @@
   id: ClothingOuterWinterSec
   name: security winter coat
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatsec.rsi
   - type: Clothing
@@ -322,6 +374,8 @@
   id: ClothingOuterWinterViro
   name: virology winter coat
   components:
+  - type: BXPrices
+    price: 165
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatviro.rsi
   - type: Clothing
@@ -330,7 +384,7 @@
     modifiers:
       coefficients:
         Slash: 0.95
-        Heat: 0.75
+        Heat: 0.90
         Caustic: 0.9
 
 - type: entity
@@ -339,6 +393,8 @@
   name: warden's armored winter coat
   description: A sturdy, utilitarian winter coat designed to protect a warden from any brig-bound threats and hypothermic events.
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatwarden.rsi
   - type: Clothing
@@ -346,10 +402,49 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.8
-        Slash: 0.8
-        Piercing: 0.6 #slightly less bulletproof than wardens normal coat
-        Heat: 0.75
+        Blunt: 0.70
+        Slash: 0.70
+        Piercing: 0.8 #slightly less bulletproof then warden's normal coat
+        Heat: 0.70
+
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: ClothingOuterWinterSyndieCap
+  name: syndicate's winter coat
+  description: "The syndicate's winter coat is made of durable fabric, with gilded patterns, and coarse wool."
+  components:
+  - type: BXPrices
+    price: 115
+  - type: Sprite
+    sprite: Clothing/OuterClothing/WinterCoats/syndicate/coatsyndiecap.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/WinterCoats/syndicate/coatsyndiecap.rsi
+
+- type: entity
+  parent: ClothingOuterWinterWarden
+  id: ClothingOuterWinterSyndieCapArmored
+  name: syndicate's armored winter coat
+  description: "The syndicate's armored winter coat is made of durable fabric, with gilded patterns, and coarse wool."
+  components:
+  - type: BXPrices
+    price: 115
+  - type: Sprite
+    sprite: Clothing/OuterClothing/WinterCoats/syndicate/coatsyndiecaparmored.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/WinterCoats/syndicate/coatsyndiecaparmored.rsi
+
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: ClothingOuterWinterSyndie
+  name: syndicate's winter coat
+  description: Insulated winter coat, looks like a merch from "Syndieland"
+  components:
+  - type: BXPrices
+    price: 115
+  - type: Sprite
+    sprite: Clothing/OuterClothing/WinterCoats/syndicate/wintercoatsyndie.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/WinterCoats/syndicate/wintercoatsyndie.rsi
 
 - type: entity
   parent: ClothingOuterWinterCoat
@@ -357,6 +452,8 @@
   name: musician's winter coat
   description: An oversized, plasticine space tuxedo that'll have people asking "do you know me?"
   components:
+  - type: BXPrices
+    price: 115
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatnomi.rsi
   - type: Clothing

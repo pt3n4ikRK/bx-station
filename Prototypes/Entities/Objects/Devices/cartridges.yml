@@ -40,4 +40,23 @@
         state: server
     - type: NetProbeCartridge
 
-
+- type: entity
+  parent: BaseItem
+  id: BankingCartridge
+  name: Банкінг картидж
+  description: Програма для контролю банківських рахунків
+  components:
+    - type: Sprite
+      sprite: Objects/Devices/cartridge.rsi
+      state: cart-y
+    - type: Icon
+      sprite: Objects/Devices/cartridge.rsi
+      state: cart-y
+    - type: UIFragment
+      ui: !type:BankingUi
+    - type: Cartridge
+      programName: banking-program-name
+      icon:
+        sprite: Objects/Economy/cash.rsi
+        state: cash
+    - type: BankingCartridge
