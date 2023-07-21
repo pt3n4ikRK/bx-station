@@ -2,7 +2,7 @@ handcuff-component-target-self = Ви починаєте надягати на �
 handcuff-component-cuffs-broken-error = Кайдани зламані!
 handcuff-component-target-has-no-hands-error = {$targetName} не має рук!
 handcuff-component-target-has-no-free-hands-error = У {$targetName} зайняті руки.
-handcuff-component-too-far-away-error = Ви занадто далеко, щоб використовувати кайдани.
+handcuff-component-too-far-away-error = Ви занадто далеко, щоб використовувати кайдани!
 handcuff-component-start-cuffing-observer = {$user} {$gender -> 
 	[male] почав
 	[female] почала
