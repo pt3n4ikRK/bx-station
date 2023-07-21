@@ -15,4 +15,4 @@ research-console-unlocks-list-start = Розблоковує:
 research-console-unlocks-list-entry = - [color=yellow]{$name}[/color]
 research-console-unlocks-list-entry-generic = - [color=green]{$text}[/color]
 
-research-console-no-access-popup = No access!
+research-console-no-access-popup = Немає доступу!
