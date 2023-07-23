@@ -1,17 +1,17 @@
-pai-system-pai-installed = A pAI is installed.
-pai-system-off = No pAI is installed.
-pai-system-still-searching = Still searching for a pAI.
-pai-system-searching = Now searching for a pAI...
+pai-system-pai-installed = ПШІ встановлений.
+pai-system-off = ПШІ не встановлений.
+pai-system-still-searching = Все ще в пошуках ПШІ.
+pai-system-searching = Зараз шукаю ПШІ...
 
-pai-system-role-name = personal ai
-pai-system-role-description = Be someone's electronic pal!
-                              (Memories *not* included.)
+pai-system-role-name = Персональний ШІ
+pai-system-role-description = Станьте чиїмось електронним ПШІ!
+                              (Спогади *не* включені.)
 
-pai-system-wipe-device-verb-text = Remove pAI
-pai-system-wiped-device = The pAI was wiped from the device.
+pai-system-wipe-device-verb-text = Видалити ПШІ
+pai-system-wiped-device = ПШІ був видалений з пристрою.
 
-pai-system-stop-searching-verb-text = Stop searching
-pai-system-stopped-searching = The device stopped searching for a pAI.
+pai-system-stop-searching-verb-text = Припинити пошук
+pai-system-stopped-searching = Пристрій припинив пошук ПШІ.
 
-pai-system-pai-name = { CAPITALIZE(THE($owner)) }'s pAI
+pai-system-pai-name = Власник ПШІ: { CAPITALIZE(THE($owner)) }
 
