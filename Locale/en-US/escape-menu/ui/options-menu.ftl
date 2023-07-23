@@ -14,7 +14,7 @@ ui-options-default = За замовчуванням
 
 ui-options-master-volume = Основна гучність:
 ui-options-midi-volume = MIDI (Інструменти) Гучність:
-ui-options-ambient-music-volume = Гучність фонової музики:
+ui-options-ambient-music-volume = Гучність ембієнту:
 ui-options-ambience-volume = Гучність оточення:
 ui-options-lobby-volume = Гучність лобі та закінчення раунду:
 ui-options-ambience-max-sounds = К-сть одночасних звуків оточення:
@@ -23,6 +23,7 @@ ui-options-restart-sounds = Звуки перезапуску раунду
 ui-options-event-music = Музика івентів
 ui-options-admin-sounds = Звуки адміністраторів
 ui-options-volume-label = Гучність
+
 ui-options-volume-percent = { TOSTRING($volume, "P0") }
 
 ## Graphics menu

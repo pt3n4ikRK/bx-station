@@ -25,5 +25,5 @@ tool-quality-sawing-tool-name = Пилка
 tool-quality-honking-name = Хонкінг
 tool-quality-honking-tool-name = Велосипедний гудок
 
-tool-quality-woodcutting-name = Woodcutting
-tool-quality-woodcutting-tool-name = Hatchet
+tool-quality-woodcutting-name = Дереворубка
+tool-quality-woodcutting-tool-name = Сокира
