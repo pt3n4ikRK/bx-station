@@ -356,3 +356,16 @@
         Piercing: 0.65
         Heat: 0.85
         Caustic: 0.75
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatMafiaMikola
+  name: Темне пальто
+  description: Таємниче пальто - стильно та загадково.
+  components:
+    - type: BXPrices
+      price: 80
+    - type: Sprite
+      sprite: Clothing/OuterClothing/Coats/mafia.rsi
+    - type: Clothing
+      sprite: Clothing/OuterClothing/Coats/mafia.rsi
