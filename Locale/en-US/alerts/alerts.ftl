@@ -83,3 +83,6 @@ alerts-pulled-desc = Вас хтось тягне. Рухайтесь, щоб з
 
 alerts-pulling-name = Ви тягнете
 alerts-pulling-desc = Ви щось тягнете. Клацніть сповіщення, щоб перестати.
+
+alerts-bleed-name = [color=red]Кровотеча[/color]
+alerts-bleed-desc = У тебе [color=red]кровотеча[/color].

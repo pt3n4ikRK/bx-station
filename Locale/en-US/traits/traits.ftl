@@ -25,3 +25,6 @@ trait-pirate-accent-desc = Ти не можеш перестати говори�
 
 trait-archaic-accent-name = Арахнідський акцент
 trait-archaic-accent-desc = Ви говорите старомодно
+
+trait-accentless-name = Accentless
+trait-accentless-desc = You don't have the accent that your species would usually have

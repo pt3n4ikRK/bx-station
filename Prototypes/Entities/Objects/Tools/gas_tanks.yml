@@ -50,7 +50,7 @@
   - type: Sprite
     sprite: Objects/Tanks/oxygen.rsi
   - type: GasTank
-    outputPressure: 21.27825
+    outputPressure: 21.3
     air:
       volume: 15
       temperature: 293.15
@@ -98,9 +98,9 @@
   - type: Sprite
     sprite: Objects/Tanks/emergency.rsi
   - type: GasTank
-    outputPressure: 21.27825
+    outputPressure: 21.3
     air:
-      volume: 3
+      volume: 2
       temperature: 293.15
   - type: Item
     size: 10
@@ -127,7 +127,7 @@
   - type: Sprite
     sprite: Objects/Tanks/emergency_yellow.rsi
   - type: GasTank
-    outputPressure: 21.27825
+    outputPressure: 21.3
     air:
       volume: 6
       temperature: 293.15
@@ -144,13 +144,14 @@
   parent: ExtendedEmergencyOxygenTank
   id: DoubleEmergencyOxygenTank
   name: подвійний аварійний кисневий баллон
+  description: A high-grade dual-tank emergency life support container. It holds a decent amount of oxygen for it's small size.
   components:
   - type: Sprite
     sprite: Objects/Tanks/emergency_double.rsi
   - type: GasTank
-    outputPressure: 21.27825
+    outputPressure: 21.3
     air:
-      volume: 12
+      volume: 10
       temperature: 293.15
   - type: Item
     size: 10
@@ -175,7 +176,7 @@
     - type: Sprite
       sprite: Objects/Tanks/generic.rsi
     - type: GasTank
-      outputPressure: 101.325
+      outputPressure: 101.3
       air:
         volume: 15
         temperature: 293.15
@@ -194,7 +195,7 @@
     - type: Sprite
       sprite: Objects/Tanks/anesthetic.rsi
     - type: GasTank
-      outputPressure: 30.3975
+      outputPressure: 30.4
       air:
         volume: 15
         temperature: 293.15
@@ -213,12 +214,12 @@
     - type: Sprite
       sprite: Objects/Tanks/plasma.rsi
     - type: GasTank
-      outputPressure: 101.325
+      outputPressure: 101.3
       air:
         volume: 15
         temperature: 293.15
     - type: Item
-      size: 10
+      size: 15
     - type: Clothing
       sprite: Objects/Tanks/plasma.rsi
       slots:

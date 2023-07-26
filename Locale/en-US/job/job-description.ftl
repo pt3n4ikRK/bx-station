@@ -43,3 +43,7 @@ job-description-security = Ловіть злочинців і ворогів с�
 job-description-serviceworker = Вивчіть основи барменського мистецтва, кулінарії та вирощування рослин.
 job-description-warden = Патрулюйте відділ безпеки, стежте за тим, щоб ніхто не крав зі збройової, і щоб усі ув'язнені були оформлені та випущені після закінчення терміну.
 job-description-zookeeper = Влаштуйте веселе шоу з милими тваринами та космічними коропами, щоб усі члени екіпажу могли ними помилуватися. Доступно не на всіх картах!
+job-description-senior-engineer = Teach new engineers the basics of the station's engine, repairing, atmospherics and power.
+job-description-senior-researcher = Teach new scientists the basics of item printing, artifact research and anomalous objects.
+job-description-senior-physician = Teach new medics the basics of tending to the wounded, chemistry, diagnosing the diseased and disposing of the dead.
+job-description-senior-officer = Teach new officers the basics of searches, preforming arrests, prison times and how to properly shoot a firearm.
