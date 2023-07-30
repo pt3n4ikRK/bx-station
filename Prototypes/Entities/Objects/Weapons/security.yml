@@ -1,8 +1,8 @@
 - type: entity
-  name: stun baton
+  name: електрошокова палиця
   parent: BaseItem
   id: Stunbaton
-  description: A stun baton for incapacitating people with. Actively harming with this is considered bad tone.
+  description: Електрошокова палиця для виведення людей з ладу. Активна бійка нею вважається поганим тоном.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/stunbaton.rsi
