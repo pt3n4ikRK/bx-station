@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltUtility
-  name: utility belt
-  description: Can hold various things.
+  name: допоміжний пояс
+  description: Може містити різні речі.
   components:
   - type: BXPrices
     price: 25
@@ -77,8 +77,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltChiefEngineer
-  name: chief engineer's toolbelt
-  description: Holds tools, looks snazzy.
+  name: пояс головного інженера
+  description: Містить інструменти, виглядає шикарно.
   components:
   - type: BXPrices
     price: 25
@@ -158,8 +158,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltAssault
-  name: assault belt
-  description: A tactical assault belt.
+  name: штурмовий пояс
+  description: Тактичний штурмовий пояс.
   components:
   - type: BXPrices
     price: 25
@@ -195,8 +195,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltJanitor
-  name: janibelt
-  description: A belt used to hold most janitorial supplies.
+  name: пояс прибиральника
+  description: Пояс, на якому тримається більшість прибиральницького приладдя.
   components:
   - type: BXPrices
     price: 25
@@ -238,8 +238,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltMedical
-  name: medical belt
-  description: Can hold various medical equipment.
+  name: медичний пояс
+  description: Може містити різноманітне медичне обладнання.
   components:
   - type: BXPrices
     price: 25
@@ -304,8 +304,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltPlant
-  name: botanical belt
-  description: A belt used to hold most hydroponics supplies. Suprisingly, not green.
+  name: пояс ботаніка
+  description: Пояс для зберігання більшості матеріалів гідропоніки. На диво, не зелений.
   components:
   - type: BXPrices
     price: 25
@@ -361,8 +361,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltSecurity
-  name: security belt
-  description: Can hold security gear like handcuffs and flashes.
+  name: пояс служби безпеки
+  description: Може мати таке спорядження, як кайданки та світлошумові прилади.
   components:
   - type: BXPrices
     price: 25
