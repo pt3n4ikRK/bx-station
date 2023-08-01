@@ -1,9 +1,12 @@
 ## Entity
 
-plant-holder-component-plant-success-message = You plant the {$seedName} {$seedNoun}.
+plant-holder-component-plant-success-message = Ви садите {$seedName} {$seedNoun}.
 plant-holder-component-already-seeded-message = {$name} уже має зернята.
 plant-holder-component-remove-weeds-message = Ви очистили від бур'яну{$name}.
-plant-holder-component-remove-weeds-others-message = {$otherName} почав викорінювати бур'яни.
+plant-holder-component-remove-weeds-others-message = {$otherName} {$gender ->
+[male] почав
+[female] почала
+*[other] почало} викорінювати бур'яни.
 plant-holder-component-no-weeds-message = Ця ділянка позбавлена від бур'янів!  Не потребує викорчовування.
 plant-holder-component-remove-plant-message = Ви викорчували рослину з {$name}.
 plant-holder-component-remove-plant-others-message = {$name} викорчував рослину.
