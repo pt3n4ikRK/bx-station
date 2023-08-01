@@ -8,3 +8,12 @@
           amount: 2
         - id: CrewMonitoringServerMachineCircuitboard
           amount: 2
+
+- type: entity
+  id: CrateCargoRequestBoards
+  parent: CrateEngineering
+  components:
+    - type: StorageFill
+      contents:
+        - id: ComputerPalletConsole
+          amount: 1

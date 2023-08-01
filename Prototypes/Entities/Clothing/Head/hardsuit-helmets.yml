@@ -220,6 +220,15 @@
   - type: PressureProtection
     highPressureMultiplier: 0.3
     lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+       coefficients:
+         Blunt: 0.9
+         Slash: 0.9
+         Piercing: 0.95
+         Heat: 0.9
+
+
 
 #Chief Engineer's Hardsuit
 - type: entity
@@ -271,9 +280,20 @@
     sprite: Clothing/Head/Hardsuits/rd.rsi
   - type: PointLight
     color: "#d6adff"
+    radius: 7
+    energy: 3
   - type: PressureProtection
     highPressureMultiplier: 0.60
     lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+       coefficients:
+         Blunt: 0.9
+         Slash: 0.9
+         Piercing: 0.9
+         Heat: 0.8
+         Radiation: 0.25
+         Caustic: 0.5
 
 #Head of Security's hardsuit
 - type: entity

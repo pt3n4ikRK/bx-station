@@ -50,6 +50,32 @@
     delay: 0.5
 
 - type: entity
+  name: Гіпоспрей лікаря
+  parent: BaseItem
+  description: Стерильний ін'єктор для швидкого введення ліків пацієнтам.
+  id: DocHypospray
+  components:
+    - type: BXPrices
+      price: 750
+    - type: BXPulseBlock
+    - type: Sprite
+      sprite: Objects/Specific/Medical/hypospray.rsi
+      state: doc_hypo
+    - type: Item
+      sprite: Objects/Specific/Medical/hypospray.rsi
+    - type: SolutionContainerManager
+      solutions:
+        hypospray:
+          maxVol: 15
+    - type: RefillableSolution
+      solution: hypospray
+    - type: ExaminableSolution
+      solution: hypospray
+    - type: Hypospray
+    - type: UseDelay
+      delay: 0.5
+
+- type: entity
   name: chemical medipen
   parent: BaseItem
   description: A sterile injector for rapid administration of drugs to patients. This one can't be refilled.
@@ -93,7 +119,7 @@
   name: emergency medipen
   parent: ChemicalMedipen
   id: EmergencyMedipen
-  description: A rapid and safe way to stabilize patients in critical condition for personnel without advanced medical knowledge. Beware, as it's easy to overdose on epinephrine and tranexmic acid.
+  description: A rapid and safe way to stabilize patients in critical condition for personnel without advanced medical knowledge. Beware, as it's easy to overdose on epinephrine and tranexamic acid.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -258,7 +284,7 @@
   - type: SolutionContainerManager
     solutions:
       hypospray:
-        maxVol: 10
+        maxVol: 15
   - type: RefillableSolution
     solution: hypospray
   - type: ExaminableSolution

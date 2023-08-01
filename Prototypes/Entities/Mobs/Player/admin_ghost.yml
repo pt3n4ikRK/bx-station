@@ -5,6 +5,7 @@
   name: admin observer
   noSpawn: true
   components:
+  - type: CargoSellBlacklist
   - type: ContentEye
     maxZoom: 8.916104, 8.916104
   - type: Tag

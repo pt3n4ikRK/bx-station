@@ -27,3 +27,13 @@
   cost: 800
   category: Science
   group: market
+
+- type: cargoProduct
+  id: SciencePointSource
+  icon:
+    sprite: Structures/Machines/rndpointsource.rsi
+    state: rndpointsource-icon
+  product: CrateSciencePointSource
+  cost: 5000
+  category: Science
+  group: market

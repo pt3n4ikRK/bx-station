@@ -846,7 +846,7 @@
   - type: ContainerContainer
     containers:
       storagebase: !type:Container
-      
+
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCapcap
@@ -860,3 +860,17 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+    - HamsterWearable
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatShogunMikolaHat
+  name: Шолом Шогуна
+  description: Шолом Шогуна - відмінний вибір для справжнього воїна.
+  components:
+    - type: BXPrices
+      price: 30
+    - type: Sprite
+      sprite: Clothing/Head/Hats/shogun_hat.rsi
+    - type: Clothing
+      sprite: Clothing/Head/Hats/shogun_hat.rsi

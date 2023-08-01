@@ -7,3 +7,13 @@
   cost: 250
   category: Cargo
   group: market
+
+- type: cargoProduct
+  id: CargoRequestBoards
+  icon:
+    sprite: Objects/Misc/module.rsi
+    state: cpu_supply
+  product: CrateCargoRequestBoards
+  cost: 3000
+  category: Cargo
+  group: market

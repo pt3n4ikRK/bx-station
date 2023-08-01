@@ -10,3 +10,12 @@
         amount: 2
       - id: ClothingMaskSterile
         amount: 2
+
+- type: entity
+  id: CrateSciencePointSource
+  parent: CrateScienceSecure
+  components:
+    - type: StorageFill
+      contents:
+        - id: BaseResearchAndDevelopmentPointSource
+          amount: 1

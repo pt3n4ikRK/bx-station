@@ -166,6 +166,7 @@ flavor-complex-rum = як зброджений цукор
 flavor-complex-coffee-liquor = як міцна, гірка кава
 flavor-complex-whiskey = як патока
 flavor-complex-shitty-wine = як виноградна шкірка
+flavor-complex-champagne = як свіжо випечений хліб
 flavor-complex-iced-tea = як холодний чай
 flavor-complex-coffee = як кава
 flavor-complex-milk = як молоко

@@ -562,3 +562,16 @@
   - type: AddAccentClothing
     accent: ReplacementAccent
     replacement: italian
+
+- type: entity
+  parent: ClothingMaskGas
+  id: ClothingMaskShogunMikola
+  name: Маска Шогуна
+  description: Виглядає страшно, але не дуже.
+  components:
+    - type: BXPrices
+      price: 20
+    - type: Sprite
+      sprite: Clothing/Mask/shogun.rsi
+    - type: Clothing
+      sprite: Clothing/Mask/shogun.rsi
