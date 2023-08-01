@@ -1,2 +1,2 @@
-botany-swab-from = You carefully collect pollen from the plant.
-botany-swab-to = You carefully dust pollen on the plant.
+botany-swab-from = Ви ретельно збираєте пилок з рослини.
+botany-swab-to = Ви ретельно обсипаєте рослину пилком.
