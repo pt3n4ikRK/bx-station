@@ -63,10 +63,10 @@
     needsHands: true
 
 - type: entity
-  name: bee
+  name: бджола
   parent: SimpleMobBase
   id: MobBee
-  description: Nice to have, but you can't build a civilization on a foundation of honey alone.
+  description: Приємно мати бджіл, але ви не зможете побудувати цивілізацію лише на основі меду.
   components:
   - type: CombatMode
   - type: MovementSpeedModifier
@@ -115,11 +115,11 @@
     needsHands: true
 
 - type: entity
-  name: bee
+  name: бджола
   suffix: Angry
   parent: MobBee
   id: MobAngryBee
-  description: How nice a bee. Oh no, it looks angry and wants my pizza.
+  description: Яка гарна бджілка! О ні, вона виглядає розлюченою і хоче мою піцу.
   components:
   - type: CombatMode
   - type: MeleeWeapon
@@ -143,10 +143,10 @@
 
 
 - type: entity
-  name: chicken
+  name: курка
   parent: SimpleMobBase
   id: MobChicken
-  description: Comes before an egg, and IS a dinosaur!
+  description: З'явилася раніше яйця і Є динозавром!
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -296,10 +296,10 @@
     - Passive
 
 - type: entity
-  name: white duck #Quack
+  name: біла качка #Quack
   parent: MobDuckMallard
   id: MobDuckWhite
-  description: An adorable white duck, it's fluffy and soft!
+  description: Чарівна біла качка, пухнаста та м'яка!
   components:
   - type: Sprite
     layers:
@@ -313,10 +313,10 @@
         Base: dead-1
 
 - type: entity
-  name: brown duck #Quack
+  name: коричнева качка #Quack
   parent: MobDuckMallard
   id: MobDuckBrown
-  description: An adorable brown duck, it's fluffy and soft!
+  description: Чарівна коричнева качка, пухнаста та м'яка!
   components:
   - type: Sprite
     layers:
@@ -347,10 +347,10 @@
       lifetime: 21
 
 - type: entity
-  name: butterfly
+  name: метелик
   parent: SimpleMobBase
   id: MobButterfly
-  description: Despite popular misconceptions, it's not actually made of butter.
+  description: Попри поширену помилкову думку, він насправді не зроблений з масла.
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 6
@@ -397,10 +397,10 @@
     needsHands: true
 
 - type: entity
-  name: cow
+  name: корова
   parent: SimpleMobBase
   id: MobCow
-  description: Moo.
+  description: Му-у.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -595,10 +595,10 @@
 
 # Note that we gotta make this bitch vomit someday when you feed it anthrax or sumthin. Needs to be a small item thief too and aggressive if attacked.
 - type: entity
-  name: goose
+  name: гусак
   parent: SimpleMobBase
   id: MobGoose
-  description: Its stomach and mind are an enigma beyond human comprehension.
+  description: Його шлунок і розум - загадка, яка не піддається людському розумінню.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -773,10 +773,10 @@
     - SimpleHostile
 
 - type: entity
-  name: monkey
+  name: мавпа
   id: MobMonkey
   parent: SimpleMobBase
-  description: New church of neo-darwinists actually believe that EVERY animal evolved from a monkey. Tastes like pork, and killing them is both fun and relaxing.
+  description: Нова церква неодарвіністів насправді вірить, що КОЖНА тварина походить від мавпи. На смак вони нагадують свинину, а вбивати їх весело та розслабляюче.
   components:
   - type: CombatMode
   - type: NameIdentifier
@@ -878,10 +878,10 @@
     - type: GuidebookControlsTest
 
 - type: entity
-  name: mouse
+  name: миша
   parent: SimpleMobBase
   id: MobMouse
-  description: Squeak!
+  description: Пік!
   components:
   - type: GhostRole
     makeSentient: true
