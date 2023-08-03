@@ -42,6 +42,7 @@ flavor-base-cheap = дешево
 flavor-base-piquant = пікантно
 flavor-base-sharp = колюче
 flavor-base-syrupy = сиропно
+flavor-base-spaceshroom = містично
 
 # lmao
 flavor-base-terrible = жахливо
@@ -145,6 +146,7 @@ flavor-complex-electrons = як електрони
 flavor-complex-parents = як чиїсь батьки
 flavor-complex-plastic = як пластик
 flavor-complex-glue = як клей
+flavor-complex-spaceshroom-cooked = like space umami
 
 # Drink-specific flavors.
 

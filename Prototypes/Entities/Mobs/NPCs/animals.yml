@@ -63,10 +63,10 @@
     needsHands: true
 
 - type: entity
-  name: бджола
+  name: bee
   parent: SimpleMobBase
   id: MobBee
-  description: Приємно мати бджіл, але ви не зможете побудувати цивілізацію лише на основі меду.
+  description: Nice to have, but you can't build a civilization on a foundation of honey alone.
   components:
   - type: CombatMode
   - type: MovementSpeedModifier
@@ -115,11 +115,11 @@
     needsHands: true
 
 - type: entity
-  name: бджола
+  name: bee
   suffix: Angry
   parent: MobBee
   id: MobAngryBee
-  description: Яка гарна бджілка! О ні, вона виглядає розлюченою і хоче мою піцу.
+  description: How nice a bee. Oh no, it looks angry and wants my pizza.
   components:
   - type: CombatMode
   - type: MeleeWeapon
@@ -133,7 +133,8 @@
   - type: InputMover
   - type: MobMover
   - type: HTN
-    rootTask: SimpleHostileCompound
+    rootTask:
+      task: SimpleHostileCompound
   - type: NpcFactionMember
     factions:
     - SimpleHostile
@@ -142,10 +143,10 @@
 
 
 - type: entity
-  name: курка
+  name: chicken
   parent: SimpleMobBase
   id: MobChicken
-  description: З'явилася раніше яйця і Є динозавром!
+  description: Comes before an egg, and IS a dinosaur!
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -295,10 +296,10 @@
     - Passive
 
 - type: entity
-  name: біла качка #Quack
+  name: white duck #Quack
   parent: MobDuckMallard
   id: MobDuckWhite
-  description: Чарівна біла качка, пухнаста та м'яка!
+  description: An adorable white duck, it's fluffy and soft!
   components:
   - type: Sprite
     layers:
@@ -312,10 +313,10 @@
         Base: dead-1
 
 - type: entity
-  name: коричнева качка #Quack
+  name: brown duck #Quack
   parent: MobDuckMallard
   id: MobDuckBrown
-  description: Чарівна коричнева качка, пухнаста та м'яка!
+  description: An adorable brown duck, it's fluffy and soft!
   components:
   - type: Sprite
     layers:
@@ -346,10 +347,10 @@
       lifetime: 21
 
 - type: entity
-  name: метелик
+  name: butterfly
   parent: SimpleMobBase
   id: MobButterfly
-  description: Попри поширену помилкову думку, він насправді не зроблений з масла.
+  description: Despite popular misconceptions, it's not actually made of butter.
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 6
@@ -396,10 +397,10 @@
     needsHands: true
 
 - type: entity
-  name: корова
+  name: cow
   parent: SimpleMobBase
   id: MobCow
-  description: Му-у.
+  description: Moo.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -470,7 +471,8 @@
   - type: Body
     prototype: AnimalRuminant
   - type: HTN
-    rootTask: RuminantCompound
+    rootTask:
+      task: RuminantCompound
   - type: GuideHelp
     guides:
     - Chef
@@ -588,14 +590,15 @@
   - type: Body
     prototype: AnimalRuminant
   - type: HTN
-    rootTask: RuminantCompound
+    rootTask:
+      task: RuminantCompound
 
 # Note that we gotta make this bitch vomit someday when you feed it anthrax or sumthin. Needs to be a small item thief too and aggressive if attacked.
 - type: entity
-  name: гусак
+  name: goose
   parent: SimpleMobBase
   id: MobGoose
-  description: Його шлунок і розум - загадка, яка не піддається людському розумінню.
+  description: Its stomach and mind are an enigma beyond human comprehension.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -763,16 +766,17 @@
   - type: Loadout
     prototypes: [ BoxingKangarooGear ]
   - type: HTN
-    rootTask: SimpleHostileCompound
+    rootTask:
+      task: SimpleHostileCompound
   - type: NpcFactionMember
     factions:
     - SimpleHostile
 
 - type: entity
-  name: мавпа
+  name: monkey
   id: MobMonkey
   parent: SimpleMobBase
-  description: Нова церква неодарвіністів насправді вірить, що КОЖНА тварина походить від мавпи. На смак вони нагадують свинину, а вбивати їх весело та розслабляюче.
+  description: New church of neo-darwinists actually believe that EVERY animal evolved from a monkey. Tastes like pork, and killing them is both fun and relaxing.
   components:
   - type: CombatMode
   - type: NameIdentifier
@@ -874,10 +878,10 @@
     - type: GuidebookControlsTest
 
 - type: entity
-  name: миша
+  name: mouse
   parent: SimpleMobBase
   id: MobMouse
-  description: Пік!
+  description: Squeak!
   components:
   - type: GhostRole
     makeSentient: true
@@ -906,7 +910,8 @@
     factions:
       - Mouse
   - type: HTN
-    rootTask: MouseCompound
+    rootTask:
+      task: MouseCompound
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -1286,7 +1291,8 @@
   - type: InputMover
   - type: MobMover
   - type: HTN
-    rootTask: SimpleHostileCompound
+    rootTask:
+      task: SimpleHostileCompound
   - type: NpcFactionMember
     factions:
     - Syndicate
@@ -1562,7 +1568,8 @@
     - type: InputMover
     - type: MobMover
     - type: HTN
-      rootTask: SimpleHostileCompound
+      rootTask:
+        task: SimpleHostileCompound
     - type: GhostRole
       makeSentient: true
       name: ghost-role-information-giant-spider-name
@@ -1866,7 +1873,8 @@
   - type: InputMover
   - type: MobMover
   - type: HTN
-    rootTask: SimpleHostileCompound
+    rootTask:
+      task: SimpleHostileCompound
   - type: NpcFactionMember
     factions:
     - SimpleHostile
