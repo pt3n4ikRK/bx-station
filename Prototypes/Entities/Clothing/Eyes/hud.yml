@@ -26,6 +26,8 @@
   name: security hud
   description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records.
   components:
+  - type: BXPrices
+    price: 20
   - type: Sprite
     sprite: Clothing/Eyes/Hud/sec.rsi
   - type: Clothing

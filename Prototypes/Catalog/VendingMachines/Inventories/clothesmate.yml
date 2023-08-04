@@ -62,6 +62,9 @@
     ClothingHeadFishCap: 2
     ClothingHeadRastaHat: 2
     ClothingBeltStorageWaistbag: 3
+    ClothingEyesGlassesSunglasses: 3
+    ClothingOuterCoatGentle: 2
+    ClothingHeadHatCatEars: 6
   contrabandInventory:
     ClothingUniformJumpsuitTacticool: 1
     ClothingUniformJumpskirtTacticool: 1

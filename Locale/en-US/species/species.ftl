@@ -6,3 +6,4 @@ species-name-reptilian = Рептилія
 species-name-slime = Слайм-персона
 species-name-diona = Діона
 species-name-arachnid = Арахнід
+species-name-moth = Moth Person

@@ -187,7 +187,8 @@
   suffix: DO NOT MAP
   components:
   - type: BXPrices
-    price: 15
+    price: 200
+  - type: BXPulseBlock
   - type: Tag
     tags: # ignore "WhitelistChameleon" tag
       - DroneUsable

@@ -5,6 +5,7 @@
 food-you-need-to-hold-utensil = Ви повині тримати в руках {$utensil}, щоб з'їсти це!
 food-nom = Ням! {$flavors}
 food-swallow = Ви їсте {$food} зі смаком {$flavors}
+food-repulsing = Виглядає відразливо.
 
 food-system-remove-mask = Щоб з'їсти спочатку зніміть {$entity}.
 

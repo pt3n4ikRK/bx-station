@@ -330,6 +330,9 @@
   id: RCD
   description: Удосконалений будівельний пристрій, що може швидко встановити/зняти стіни, підлогу та повітряні шлюзи.
   components:
+  - type: BXPrices
+    price: 200
+  - type: BXPulseBlock
   - type: RCD
   - type: LimitedCharges
     maxCharges: 5
@@ -378,6 +381,9 @@
   id: RCDAmmo
   description: Патрон для RCD.
   components:
+  - type: BXPrices
+    price: 50
+  - type: BXPulseBlock
   - type: RCDAmmo
   - type: Sprite
     sprite: Objects/Tools/rcd.rsi

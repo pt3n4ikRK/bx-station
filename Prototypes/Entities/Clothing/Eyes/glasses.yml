@@ -112,7 +112,7 @@
   description: Useful both for security and cargonia.
   components:
   - type: BXPrices
-    price: 25
+    price: 100
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/sunglasses.rsi
   - type: Clothing
