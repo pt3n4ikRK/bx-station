@@ -9,7 +9,7 @@ health-examinable-carbon-Slash-25 = [color=red]{$target} має рвані ра�
 health-examinable-carbon-Slash-50 = [color=crimson]{$target} має великі порізи по всьому тілу![/color]
 health-examinable-carbon-Slash-75 = [color=crimson]Тіло повністю пошматоване![/color]
 
-health-examinable-carbon-Piercing-50 = [color=crimson]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } deep wounds all over { POSS-ADJ($target) } body![/color]
+health-examinable-carbon-Piercing-50 = [color=crimson]{$target} має глибокі рани по всьому тілу![/color]
 
 health-examinable-carbon-Heat-25 = [color=orange]{$target} має незначні опіки по всьому тілу.[/color]
 health-examinable-carbon-Heat-50 = [color=orange]{$target} має значні опіки по всьому тілу.[/color]
