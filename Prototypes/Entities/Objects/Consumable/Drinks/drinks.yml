@@ -1280,7 +1280,7 @@
   parent: DrinkGlassBase
   id: DrinkMojito
   name: мохіто
-  description: Прямо зі Спескуби.
+  description: Свіжий, прямо зі Спескуби.
   components:
   - type: SolutionContainerManager
     solutions:
