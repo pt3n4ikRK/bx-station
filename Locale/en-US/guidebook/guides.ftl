@@ -45,3 +45,6 @@ guide-entry-dna = ДНК
 
 guide-entry-antagonists = Антагоніст
 guide-entry-nuclear-operatives = Ядерні Оперативники
+guide-entry-traitors = Traitors
+guide-entry-zombies = Zombies
+guide-entry-minor-antagonists = Minor Antagonists

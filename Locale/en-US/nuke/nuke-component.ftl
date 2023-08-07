@@ -1,4 +1,4 @@
-nuke-component-cant-anchor = Схоже, болти заблоковані без диска!
+nuke-component-cant-anchor-floor = Схоже, болти заблоковані без диска!
 nuke-component-announcement-sender = Вибухівка Ядерного Розщеплення
 nuke-component-announcement-armed = Увага! У глобальних координатах {$position} спрацював механізм самознищення станції. {$time} секунд до детонації. Якщо це було зроблено помилково, то механізм все ще можна знешкодити.
 nuke-component-announcement-unarmed = Самознищення станції було вимкнено! Усім гарного дня!

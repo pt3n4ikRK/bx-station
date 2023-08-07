@@ -41,6 +41,7 @@
     ClothingOuterCoatShogunMikola: 3
     ClothingHeadHatShogunMikolaHat: 3
     ClothingMaskShogunMikola: 3
+    ClothingUniformJumpsuitKimono: 3
     ClothingShoesColorBlack: 8
     ClothingShoesColorBrown: 4
     ClothingShoesColorWhite: 3
@@ -64,7 +65,7 @@
     ClothingBeltStorageWaistbag: 3
     ClothingEyesGlassesSunglasses: 3
     ClothingOuterCoatGentle: 2
-    ClothingHeadHatCatEars: 6
+    ClothingHeadHatCatEars: 10
   contrabandInventory:
     ClothingUniformJumpsuitTacticool: 1
     ClothingUniformJumpskirtTacticool: 1

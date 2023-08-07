@@ -330,6 +330,9 @@
   id: Folder
 
 - type: Tag
+  id: FoodSnack
+
+- type: Tag
   id: FootstepSound
 
 - type: Tag
@@ -589,8 +592,6 @@
 - type: Tag
   id: Multitool
 
-- type: Tag
-  id: NoSpinOnThrow
 
 - type: Tag
   id: NoBlockAnchoring
@@ -890,3 +891,4 @@
 
 - type: Tag
   id: ModularReceiver
+

@@ -73,6 +73,7 @@
     uiKey: enum.PdaUiKey.Key
     preinstalled:
       - BankingCartridge
+      - CrewManifestCartridge
       - NotekeeperCartridge
       - NewsReadCartridge
     cartridgeSlot:
@@ -625,7 +626,7 @@
 - type: entity
   parent: BasePDA
   id: SecurityPDA
-  name: Планшет кадета
+  name: Планшет офіцера
   description: Червоний щоб заховати кров пасажирів.
   components:
   - type: Pda

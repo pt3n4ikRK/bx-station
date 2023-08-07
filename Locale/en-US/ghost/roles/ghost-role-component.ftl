@@ -145,3 +145,6 @@ ghost-role-information-centcom-official-description = Огляньте стан�
 
 ghost-role-information-behonker-name = Бехонкер
 ghost-role-information-behonker-description = Ти - антагоніст, ти несеш смерть і хонк тим, хто не слідує за хонк-матір'ю.
+
+ghost-role-information-taxibot-name = ТаксіБот
+ghost-role-information-taxibot-description = Відвезти команду станції до місця призначення.

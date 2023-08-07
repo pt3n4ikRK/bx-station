@@ -86,3 +86,6 @@ alerts-pulling-desc = Ви щось тягнете. Клацніть спові�
 
 alerts-bleed-name = [color=red]Кровотеча[/color]
 alerts-bleed-desc = У тебе [color=red]кровотеча[/color].
+
+alerts-pacified-name = [color=green]Приборканий[/color]
+alerts-pacified-desc = Ви приборкані; ви не зможете нападати на кого-небудь безпосередньо.

@@ -6,6 +6,9 @@
   id: HandheldCrewMonitor
   description: A hand-held crew monitor displaying the status of suit sensors.
   components:
+  - type: BXPrices
+    price: 400
+  - type: BXPulseBlock
   - type: Sprite
     sprite: Objects/Specific/Medical/handheldcrewmonitor.rsi
     state: scanner
