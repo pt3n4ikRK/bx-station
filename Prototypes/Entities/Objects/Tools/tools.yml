@@ -171,10 +171,10 @@
     heldPrefix: red
 
 - type: entity
-  name: multitool
+  name: мультитул
   parent: BaseItem
   id: Multitool
-  description: An advanced tool to copy, store, and send electrical pulses and signals through wires and machines
+  description: Передовий інструмент для копіювання, зберігання, а також надсилання електричних імпульсів з сигналами через дроти та машини
   components:
   - type: EmitSoundOnLand
     sound:
