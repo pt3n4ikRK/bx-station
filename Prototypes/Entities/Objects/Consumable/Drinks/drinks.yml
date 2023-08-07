@@ -1279,8 +1279,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkMojito
-  name: mojito
-  description: Fresh from Spesscuba.
+  name: мохіто
+  description: Свіжий, прямо зі Спескуби.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1364,8 +1364,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkOrangeJuice
-  name: orange juice
-  description: Vitamins! Yay!
+  name: апельсиновий сік
+  description: Вітаміни! Ура!
   components:
   - type: Drink
   - type: SolutionContainerManager
@@ -1398,8 +1398,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkPoisonBerryJuice
-  name: poison berry juice
-  description: Looks like some deadly juice.
+  name: отруєнний ягідний сік
+  description: Виглядає, як якийсь смертельний сік.
   components:
   - type: Drink
   - type: SolutionContainerManager
