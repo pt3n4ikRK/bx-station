@@ -1,1 +1,1 @@
-failed-to-send-message = Надіслати повідомлення не вдалося!
+failed-to-send-message = Не вдалося надіслати повідомлення!
