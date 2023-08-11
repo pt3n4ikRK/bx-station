@@ -1,7 +1,7 @@
-accent-pirate-prefix-1 = Arrgh
-accent-pirate-prefix-2 = Garr
-accent-pirate-prefix-3 = Yarr
-accent-pirate-prefix-3 = Yarrgh
+accent-pirate-prefix-1 = Ар-ргх
+accent-pirate-prefix-2 = Гр-р-р
+accent-pirate-prefix-3 = Ар-р-р
+accent-pirate-prefix-3 = Яар-г-х
 
 accent-pirate-replaced-1 = my
 accent-pirate-replacement-1 = me
@@ -9,14 +9,14 @@ accent-pirate-replacement-1 = me
 accent-pirate-replaced-2 = you
 accent-pirate-replacement-2 = ya
 
-accent-pirate-replaced-3 = �����
-accent-pirate-replacement-3 = ����
+accent-pirate-replaced-3 = ïðèâ³ò
+accent-pirate-replacement-3 = àõîé
 
-accent-pirate-replaced-4 = ����
-accent-pirate-replacement-4 = ����
+accent-pirate-replaced-4 = â³òàþ
+accent-pirate-replacement-4 = àõîé
 
-accent-pirate-replaced-5 = ���
-accent-pirate-replacement-5 = ���-�
+accent-pirate-replaced-5 = òàê
+accent-pirate-replacement-5 = òàê-ñ
 
 accent-pirate-replaced-6 = there
 accent-pirate-replacement-6 = thar
@@ -42,11 +42,11 @@ accent-pirate-replacement-12 = dubloons
 accent-pirate-replaced-13 = cash
 accent-pirate-replacement-13 = doubloons
 
-accent-pirate-replaced-14 = crate
-accent-pirate-replacement-14 = coffer
+accent-pirate-replaced-14 = ящик
+accent-pirate-replacement-14 = сундук
 
-accent-pirate-replaced-15 = hello
-accent-pirate-replacement-15 = ahoy
+accent-pirate-replaced-15 = привіт
+accent-pirate-replacement-15 = ахой
 
 accent-pirate-replaced-16 = treasure
 accent-pirate-replacement-16 = booty
