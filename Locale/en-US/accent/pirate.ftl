@@ -36,14 +36,14 @@ accent-pirate-replacement-10 = ahoy
 accent-pirate-replaced-11 = hey
 accent-pirate-replacement-11 = oye
 
-accent-pirate-replaced-12 = money
-accent-pirate-replacement-12 = dubloons
+accent-pirate-replaced-12 = гроші
+accent-pirate-replacement-12 = дублони
 
 accent-pirate-replaced-13 = cash
 accent-pirate-replacement-13 = doubloons
 
 accent-pirate-replaced-14 = ящик
-accent-pirate-replacement-14 = сундук
+accent-pirate-replacement-14 = скриня
 
 accent-pirate-replaced-15 = привіт
 accent-pirate-replacement-15 = ахой
