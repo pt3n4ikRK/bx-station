@@ -9,14 +9,14 @@ accent-pirate-replacement-1 = me
 accent-pirate-replaced-2 = you
 accent-pirate-replacement-2 = ya
 
-accent-pirate-replaced-3 = ïðèâ³ò
-accent-pirate-replacement-3 = àõîé
+accent-pirate-replaced-3 = привіт
+accent-pirate-replacement-3 = ахой
 
-accent-pirate-replaced-4 = â³òàþ
-accent-pirate-replacement-4 = àõîé
+accent-pirate-replaced-4 = вітаю
+accent-pirate-replacement-4 = ахой
 
-accent-pirate-replaced-5 = òàê
-accent-pirate-replacement-5 = òàê-ñ
+accent-pirate-replaced-5 = так
+accent-pirate-replacement-5 = так-с
 
 accent-pirate-replaced-6 = there
 accent-pirate-replacement-6 = thar
