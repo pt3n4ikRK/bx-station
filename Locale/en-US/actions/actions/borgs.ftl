@@ -1,5 +1,5 @@
-﻿action-name-view-laws = View Laws
-action-description-view-laws = View the laws that you must follow.
+﻿action-name-view-laws = Переглянути закони
+action-description-view-laws = Перегляньте закони, яких ви повинні дотримуватися.
 
-action-name-swap-module = Swap Module
-action-desc-swap-module = Select this module, enabling you to use the tools it provides.
+action-name-swap-module = Змінити модуль
+action-desc-swap-module = Виберіть цей модуль, щоб скористатися інструментами, які він надає.
