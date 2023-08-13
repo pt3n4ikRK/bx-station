@@ -94,6 +94,9 @@ ghost-role-information-guardian-description = Слухай свого госпо
 ghost-role-information-holoparasite-name = Голопаразит
 ghost-role-information-holoparasite-description = Слухай свого господаря. Не відволікайся на пошкодження.
 
+ghost-role-information-holoclown-name = Holoclown
+ghost-role-information-holoclown-description = Listen to your owner. Utilize your pockets and hand to help your owner.
+
 ghost-role-information-ifrit-name = Іфріт
 ghost-role-information-ifrit-description = Слухай свого господаря. Не відволікайся на пошкодження.
 
@@ -146,5 +149,5 @@ ghost-role-information-centcom-official-description = Огляньте стан�
 ghost-role-information-behonker-name = Бехонкер
 ghost-role-information-behonker-description = Ти - антагоніст, ти несеш смерть і хонк тим, хто не слідує за хонк-матір'ю.
 
-ghost-role-information-taxibot-name = ТаксіБот
-ghost-role-information-taxibot-description = Відвезти команду станції до місця призначення.
+ghost-role-information-taxibot-name = Таксі-бот
+ghost-role-information-taxibot-description = Відвезіть екіпаж станції до місця призначення.

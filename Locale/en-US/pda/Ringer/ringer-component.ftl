@@ -3,7 +3,7 @@
 
 # For the PDA Ringer screen
 
-comp-ringer-vibration-popup = PDA vibrates
+comp-ringer-vibration-popup = КПК вібрує
 
 comp-ringer-ui-menu-title = Рінгтон
 

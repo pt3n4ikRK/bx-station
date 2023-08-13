@@ -58,6 +58,10 @@ petting-failure-medibot = Ви тягнетесь, аби попестити «{
 # Shown when knocking on a window
 comp-window-knock = *тук тук*
 
+## Rattling fences
+
+fence-rattle-success = *rattle*
+
 ## Hugging players
 
 hugging-success-generic = {THE($target)} тане у ваших обіймах.

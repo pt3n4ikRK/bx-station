@@ -26,6 +26,15 @@ gun-cartridge-unspent = Він [color=lime]не пустий[/color].
 # BatteryAmmoProvider
 gun-battery-examine = Тут достатньо заряду для [color={$color}]{$count}[/color] пострілів.
 
+# CartridgeAmmoProvider
+gun-chamber-bolt-ammo = Gun not bolted
+gun-chamber-bolt = The bolt is [color={$color}]{$bolt}[/color].
+gun-chamber-bolt-closed = Closed bolt
+gun-chamber-bolt-opened = Opened bolt
+gun-chamber-bolt-close = Close bolt
+gun-chamber-bolt-open = Open bolt
+gun-chamber-rack = Rack
+
 # MagazineAmmoProvider
 gun-magazine-examine = Вистачить на [color={$color}]{$count}[/color] пострілів.
 

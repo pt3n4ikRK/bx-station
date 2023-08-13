@@ -422,3 +422,67 @@
     modifiers:
       coefficients:
         Caustic: 0.75
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterSportyvka
+  name: Спортивна куртка
+  description: Для тих, хто любить спорт.
+  components:
+    - type: BXPrices
+      price: 60
+    - type: Sprite
+      sprite: Clothing/OuterClothing/Coats/sportyvka.rsi
+    - type: Clothing
+      sprite: Clothing/OuterClothing/Coats/sportyvka.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterDirtyJacket
+  name: Брудна куртка
+  description: Виглядає наче вже давно не прана.
+  components:
+    - type: BXPrices
+      price: 40
+    - type: Sprite
+      sprite: Clothing/OuterClothing/Coats/dirty_jacket.rsi
+    - type: Clothing
+      sprite: Clothing/OuterClothing/Coats/dirty_jacket.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatLeatherArmor
+  name: Шкіряна броня
+  description: Легка, але досить міцна броня.
+  components:
+    - type: BXPrices
+      price: 120
+    - type: Sprite
+      sprite: Clothing/OuterClothing/Coats/leather_armor.rsi
+    - type: Clothing
+      sprite: Clothing/OuterClothing/Coats/leather_armor.rsi
+    - type: Armor
+      modifiers:
+        coefficients:
+          Blunt: 0.9
+          Slash: 0.9
+          Piercing: 0.9
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatBoneArmor
+  name: Кістяна броня
+  description: Броня з кісток, виглядає досить страшно.
+  components:
+    - type: BXPrices
+      price: 120
+    - type: Sprite
+      sprite: Clothing/OuterClothing/Coats/bone_armor.rsi
+    - type: Clothing
+      sprite: Clothing/OuterClothing/Coats/bone_armor.rsi
+    - type: Armor
+      modifiers:
+        coefficients:
+          Blunt: 0.8
+          Slash: 0.8
+          Piercing: 0.8

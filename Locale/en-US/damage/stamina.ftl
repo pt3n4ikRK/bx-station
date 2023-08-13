@@ -1,2 +1,1 @@
-stamina-resist = Супротив
-melee-stamina = Недостатньо витривалості
+melee-stamina = Не вистачає витривалості

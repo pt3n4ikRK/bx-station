@@ -64,9 +64,6 @@ reagent-desc-pulped-banana-peel = Шкірка банана має певну е
 reagent-name-siderlac = сідерлак
 reagent-desc-siderlac = Потужний препарат рослинного походження, що протидіє їдким речовинам.
 
-reagent-name-spaceacillin = спейсацілін
-reagent-desc-spaceacillin = Тета-лактамний антибіотик. Поширені і дуже корисні ліки, ефективні проти багатьох хвороб, які можуть зустрітися в космосі. Уповільнює прогресування хвороб.
-
 reagent-name-stellibinin = стеллібінін
 reagent-desc-stellibinin = Природний антитоксин з особливою ефективністю проти аматоксину.
 

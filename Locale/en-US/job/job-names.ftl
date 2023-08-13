@@ -4,6 +4,7 @@ job-name-cadet = Кадет
 job-name-hos = Голова Безпеки
 job-name-detective = Детектив
 job-name-brigmedic = Медик Служби Безпеки
+job-name-borg = Кіборг
 job-name-scientist = Вчений
 job-name-research-assistant = Лаборант
 job-name-rd = Директор Наукового Відділу
@@ -43,10 +44,10 @@ job-name-ertmedic = ERT медик
 job-name-ertjanitor = ERT прибиральник
 job-name-boxer = Боксер
 job-name-zookeeper = Зоолог
-job-name-senior-engineer = Старший Інженер
-job-name-senior-researcher = Старший Вчений
-job-name-senior-physician = Старший Лікар
-job-name-senior-officer = Старший Офіцер
+job-name-senior-engineer = Старший інженер
+job-name-senior-researcher = Старший науковий співробітник
+job-name-senior-physician = Старший лікар
+job-name-senior-officer = Старший офіцер
 
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = Atmospheric Technician

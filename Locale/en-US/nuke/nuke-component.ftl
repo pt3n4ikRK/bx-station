@@ -8,6 +8,7 @@ nuke-component-doafter-warning = Ви починаєте возитися з д�
 # Nuke UI
 nuke-user-interface-title = Вибухівка Ядерного Розщеплення
 nuke-user-interface-arm-button = АКТИВУВАТИ
+nuke-user-interface-disarm-button = ДЕАКТИВУВАТИ
 nuke-user-interface-anchor-button = ЗАКРІПИТИ
 nuke-user-interface-eject-button = ВИЙНЯТИ
 
@@ -35,6 +36,5 @@ nuke-label-syndicate = SYN-{$serial}
 
 # Codes
 nuke-codes-message = [color=red]TOP SECRET![/color]
- Nuclear device activation code: {$name} - {$code}
 nuke-codes-list = {$name} code: {$code}
 nuke-codes-fax-paper-name = ядерні коди автентифікації

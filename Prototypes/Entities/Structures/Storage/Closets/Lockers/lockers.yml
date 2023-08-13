@@ -1,7 +1,7 @@
 - type: entity
   id: LockerBooze
   parent: LockerBase
-  name: Локер з випивкою.
+  name: шафа з випивкою
   description: Тут бармен зберігає свою випивку.
   components:
   - type: Appearance
@@ -22,7 +22,7 @@
 - type: entity
   id: LockerQuarterMaster
   parent: LockerBase
-  name: Локер голови карго.
+  name: локер голови карго
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -35,8 +35,8 @@
 - type: entity
   id: LockerSalvageSpecialist
   parent: LockerBase
-  name: Локер шахтаря.
-  description: Не звертай уваги на кайло.
+  name: локер шахтаря
+  description: Не звертай уваги на кайло
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -50,7 +50,7 @@
 - type: entity
   id: LockerCaptain
   parent: LockerBaseSecure
-  name: Локер капітана.
+  name: локер капітана
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -63,7 +63,7 @@
 - type: entity
   id: LockerHeadOfPersonnel
   parent: LockerBaseSecure
-  name: Локер голови персоналу.
+  name: локер голови персоналу
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -77,7 +77,7 @@
 - type: entity
   id: LockerChiefEngineer
   parent: LockerBaseSecure
-  name: Локер голови інженерії.
+  name: локер голови інженерії
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -91,7 +91,7 @@
 - type: entity
   id: LockerElectricalSupplies
   parent: LockerBase
-  name: Локер з електроприладами
+  name: локер з електроприладами
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -105,7 +105,7 @@
 - type: entity
   id: LockerWeldingSupplies
   parent: LockerBase
-  name: Локер з зварювальним приладдям.
+  name: локер з зварювальним приладдям
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -119,7 +119,7 @@
 - type: entity
   id: LockerAtmospherics
   parent: LockerBase
-  name: Локер атмосферного інженера.
+  name: локер атмосферного інженера
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -133,7 +133,7 @@
 - type: entity
   id: LockerEngineer
   parent: LockerBase
-  name: Локер інженера.
+  name: локер інженера.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -147,7 +147,7 @@
 - type: entity
   id: LockerFreezerBase
   parent: LockerBase
-  name: Холодильник.
+  name: холодильник
   suffix: No Access
   components:
   - type: Appearance
@@ -162,7 +162,7 @@
 - type: entity
   id: LockerFreezer
   parent: LockerFreezerBase
-  name: Холодильник.
+  name: холодильник
   suffix: Kitchen, Locked
   components:
   - type: AccessReader
@@ -172,7 +172,7 @@
 - type: entity
   id: LockerBotanist
   parent: LockerBase
-  name: Локер ботаніка.
+  name: локер ботаніка
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -186,7 +186,7 @@
 - type: entity
   id: LockerMedicine
   parent: LockerBase
-  name: Локер з медициною.
+  name: локер з медициною
   description: Наповнений медичним мотлохом.
   components:
   - type: Appearance
@@ -201,7 +201,7 @@
 - type: entity
   id: LockerMedical
   parent: LockerBase
-  name: Локер лікаря
+  name: локер лікаря
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -215,7 +215,7 @@
 - type: entity
   id: LockerParamedic
   parent: LockerBase
-  name: Локер парамедика.
+  name: локер парамедика
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -230,7 +230,7 @@
 - type: entity
   id: LockerChemistry
   parent: LockerBase
-  name: Локер хіміка.
+  name: локер хіміка
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -244,7 +244,7 @@
 - type: entity
   id: LockerChiefMedicalOfficer
   parent: LockerBaseSecure
-  name: Локер головного лікаря.
+  name: локер головного лікаря
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -258,7 +258,7 @@
 - type: entity
   id: LockerResearchDirector
   parent: LockerBase
-  name: Локер директора наукового відділу.
+  name: локер директора наукового відділу
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -271,7 +271,7 @@
 - type: entity
   id: LockerScientist
   parent: LockerBase
-  name: Локер Вченого.
+  name: локер вченого
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -285,7 +285,7 @@
 - type: entity
   id: LockerHeadOfSecurity
   parent: LockerBaseSecure
-  name: Локер голови безпеки.
+  name: локер голови безпеки
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -299,7 +299,7 @@
 - type: entity
   id: LockerWarden
   parent: LockerBaseSecure
-  name: Локер Вардена
+  name: локер вардена
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -313,7 +313,7 @@
 - type: entity
   id: LockerBrigmedic
   parent: LockerBaseSecure
-  name: Локер бріг медика
+  name: локер бріг медика
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -327,7 +327,7 @@
 - type: entity
   id: LockerSecurity
   parent: LockerBaseSecure
-  name: Локер офіцера безпеки.
+  name: локер офіцера безпеки
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -340,7 +340,7 @@
 - type: entity
   id: GunSafe
   parent: LockerBaseSecure
-  name: Сейф зі зброєю
+  name: сейф зі зброєю
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -354,7 +354,7 @@
 - type: entity
   id: LockerDetective
   parent: LockerBooze
-  name: Локер детектива
+  name: шафа детектива 
   description: Зазвичай пустий... як і ваше серце.
   components:
   - type: AccessReader
@@ -363,7 +363,7 @@
 - type: entity
   id: LockerEvidence
   parent: LockerSecurity
-  name: Локер з доказами.
+  name: локер з доказами
   description: Для зберігання мішків з гільзами та речами затриманих.
   components:
   - type: AccessReader
@@ -372,7 +372,7 @@
 # Syndicate
 - type: entity
   id: LockerSyndicatePersonal
-  name: Шафа зі зброєю.
+  name: шафа зі зброєю
   parent: LockerBaseSecure
   description: Це особисте сховище для речей оперативників.
   components:
@@ -385,7 +385,7 @@
 # Bluespace
 - type: entity
   id: LockerBluespaceStation
-  name: Блюспейс локер.
+  name: блюспейс локер
   suffix: once to station
   parent: LockerSyndicatePersonal
   description: Advanced locker technology.

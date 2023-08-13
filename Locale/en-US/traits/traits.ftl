@@ -26,5 +26,8 @@ trait-pirate-accent-desc = Ти не можеш перестати говори�
 trait-archaic-accent-name = Арахнідський акцент
 trait-archaic-accent-desc = Ви говорите старомодно
 
-trait-accentless-name = Accentless
-trait-accentless-desc = You don't have the accent that your species would usually have
+trait-accentless-name = Без акцентів
+trait-accentless-desc = У вас немає акценту, який зазвичай притаманний вашому виду
+
+trait-wheelchair-bound-name = Пересування на інвалідному візку
+trait-wheelchair-bound-desc = Ви не можете рухатися без інвалідного візка. Візок включено.

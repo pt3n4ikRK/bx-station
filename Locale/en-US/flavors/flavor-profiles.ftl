@@ -146,7 +146,7 @@ flavor-complex-electrons = як електрони
 flavor-complex-parents = як чиїсь батьки
 flavor-complex-plastic = як пластик
 flavor-complex-glue = як клей
-flavor-complex-spaceshroom-cooked = like space umami
+flavor-complex-spaceshroom-cooked = як космічні умамі
 
 # Drink-specific flavors.
 

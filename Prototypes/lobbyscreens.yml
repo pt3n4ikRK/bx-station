@@ -17,3 +17,19 @@
 - type: lobbyBackground
   id: SSXIV
   background: /Textures/LobbyScreens/ssxiv.png
+
+- type: lobbyBackground
+  id: bsa
+  background: /Textures/LobbyScreens/bsa.png
+
+- type: lobbyBackground
+  id: narsi
+  background: /Textures/LobbyScreens/narsi.png
+
+- type: lobbyBackground
+  id: ratvar
+  background: /Textures/LobbyScreens/ratvar.png
+
+- type: lobbyBackground
+  id: singulo
+  background: /Textures/LobbyScreens/singulo.png

@@ -25,6 +25,7 @@
     sprite: Clothing/Head/Hats/beret.rsi
   - type: Tag
     tags:
+    - ClothMade
     - HamsterWearable
     - WhitelistChameleon
 
@@ -55,6 +56,7 @@
     sprite: Clothing/Head/Hats/beret_rnd.rsi
   - type: Tag
     tags:
+    - ClothMade
     - HamsterWearable
     - WhitelistChameleon
 
@@ -72,6 +74,7 @@
     sprite: Clothing/Head/Hats/beret_engineering.rsi
   - type: Tag
     tags:
+    - ClothMade
     - HamsterWearable
     - WhitelistChameleon
 
@@ -89,6 +92,7 @@
     sprite: Clothing/Head/Hats/beret_hos.rsi
   - type: Tag
     tags:
+    - ClothMade
     - HamsterWearable
     - WhitelistChameleon
 
@@ -158,6 +162,7 @@
     sprite: Clothing/Head/Hats/captain.rsi
   - type: Tag
     tags:
+    - ClothMade
     - HamsterWearable
     - WhitelistChameleon
 
@@ -214,6 +219,7 @@
       storagebase: !type:Container
   - type: Tag
     tags:
+    - ClothMade
     - HamsterWearable
     - WhitelistChameleon
 
@@ -231,6 +237,7 @@
     sprite: Clothing/Head/Hats/brownfedora.rsi
   - type: Tag
     tags:
+    - ClothMade
     - HamsterWearable
     - WhitelistChameleon
 
@@ -274,6 +281,7 @@
     sprite: Clothing/Head/Hats/hopcap.rsi
   - type: Tag
     tags:
+    - ClothMade
     - HamsterWearable
     - WhitelistChameleon
 
@@ -291,6 +299,7 @@
     sprite: Clothing/Head/Hats/hoshat.rsi
   - type: Tag
     tags:
+    - ClothMade
     - HamsterWearable
     - WhitelistChameleon
 
@@ -412,6 +421,7 @@
     sprite: Clothing/Head/Hats/surgcap_blue.rsi
   - type: Tag
     tags:
+    - ClothMade
     - HamsterWearable
     - WhitelistChameleon
 
@@ -455,6 +465,7 @@
     sprite: Clothing/Head/Hats/tophat.rsi
   - type: Tag
     tags:
+    - ClothMade
     - HamsterWearable
     - WhitelistChameleon
 
@@ -539,6 +550,7 @@
     sprite: Clothing/Head/Hats/wizardhat.rsi
   - type: Tag
     tags:
+    - ClothMade
     - HamsterWearable
     - WhitelistChameleon
 
@@ -662,6 +674,7 @@
     sprite: Clothing/Head/Hats/nursehat.rsi
   - type: Tag
     tags:
+    - ClothMade
     - HamsterWearable
     - WhitelistChameleon
 
@@ -729,6 +742,7 @@
     sprite: Clothing/Head/Hats/beret_cmo.rsi
   - type: Tag
     tags:
+    - ClothMade
     - HamsterWearable
     - WhitelistChameleon
 
@@ -846,6 +860,7 @@
   - type: ContainerContainer
     containers:
       storagebase: !type:Container
+  - type: Tag
 
 - type: entity
   parent: ClothingHeadBase
@@ -853,12 +868,15 @@
   name: cap cap
   description: A grand, stylish captain cap.
   components:
+  - type: BXPrices
+    price: 50
   - type: Sprite
     sprite: Clothing/Head/Hats/capcap.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/capcap.rsi
   - type: Tag
     tags:
+    - ClothMade
     - WhitelistChameleon
     - HamsterWearable
 
@@ -874,3 +892,68 @@
       sprite: Clothing/Head/Hats/shogun_hat.rsi
     - type: Clothing
       sprite: Clothing/Head/Hats/shogun_hat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatTribalShaman
+  name: Шолом Шамана
+  description: Шолом Шамана - використовується для проведення ритуалів.
+  components:
+    - type: BXPrices
+      price: 30
+    - type: Sprite
+      sprite: Clothing/Head/Hats/tribal_shaman.rsi
+    - type: Clothing
+      sprite: Clothing/Head/Hats/tribal_shaman.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatKnittedHatBlack
+  name: В'язана шапка
+  description: Чорна в'язана шапка.
+  components:
+    - type: BXPrices
+      price: 15
+    - type: Sprite
+      sprite: Clothing/Head/Hats/knitted_black.rsi
+    - type: Clothing
+      sprite: Clothing/Head/Hats/knitted_black.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatKnittedHatBlue
+  name: В'язана шапка
+  description: Синя в'язана шапка.
+  components:
+    - type: BXPrices
+      price: 15
+    - type: Sprite
+      sprite: Clothing/Head/Hats/knitted_blue.rsi
+    - type: Clothing
+      sprite: Clothing/Head/Hats/knitted_blue.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatKnittedHatRed
+  name: В'язана шапка
+  description: Червона в'язана шапка.
+  components:
+    - type: BXPrices
+      price: 15
+    - type: Sprite
+      sprite: Clothing/Head/Hats/knitted_red.rsi
+    - type: Clothing
+      sprite: Clothing/Head/Hats/knitted_red.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatKnittedHatYellow
+  name: В'язана шапка
+  description: Жовта в'язана шапка.
+  components:
+    - type: BXPrices
+      price: 15
+    - type: Sprite
+      sprite: Clothing/Head/Hats/knitted_yellow.rsi
+    - type: Clothing
+      sprite: Clothing/Head/Hats/knitted_yellow.rsi

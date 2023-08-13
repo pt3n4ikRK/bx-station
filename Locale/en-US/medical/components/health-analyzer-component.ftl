@@ -1,7 +1,7 @@
 health-analyzer-window-no-patient-data-text = Дані про пацієнта відсутні.
 health-analyzer-window-entity-health-text = Стан здоров'я {$entityName}:
 health-analyzer-window-entity-temperature-text = Температура: {$temperature}
-health-analyzer-window-entity-blood-level-text = Рівень Крові: {$bloodLevel}
+health-analyzer-window-entity-blood-level-text = Об'єм крові: {$bloodLevel}
 health-analyzer-window-entity-damage-total-text = Сумарні пошкодження: {$amount}
 health-analyzer-window-damage-group-text = {$damageGroup}: {$amount}
 health-analyzer-window-damage-type-text = {$damageType}: {$amount}

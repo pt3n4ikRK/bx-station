@@ -1,14 +1,17 @@
 guide-entry-engineering = Інженерія
 guide-entry-construction = Будівництво
+guide-entry-airlock-security = Airlock Upgrades
 guide-entry-atmospherics = Атмосферність
 guide-entry-botany = Ботаніка
 guide-entry-fires = Пожежі та розгерметизації
 guide-entry-shuttle-craft = Шатлобудування
 guide-entry-networking = Створення мереж
 guide-entry-network-configurator = Мережевий конфігуратор
+guide-entry-access-configurator = Access Configurator
 guide-entry-power = Електроживлення
 guide-entry-ame = Двигун антиматерії (АМД)
 guide-entry-singularity = Сингулярність
+guide-entry-teg = Термо-електричний генератор (ТЕГ)
 guide-entry-controls = Керування
 guide-entry-radio = Радіо
 guide-entry-jobs = Вакансії
@@ -38,13 +41,10 @@ guide-entry-artifact-reports = Дослідження артефактів
 guide-entry-traversal-distorter = Спотворювач обхіду
 guide-entry-machine-upgrading = Покращення обладнання
 guide-entry-robotics = Робототехніка
-
-
 guide-entry-security = Безпека станції
 guide-entry-dna = ДНК
-
 guide-entry-antagonists = Антагоніст
 guide-entry-nuclear-operatives = Ядерні Оперативники
-guide-entry-traitors = Traitors
-guide-entry-zombies = Zombies
-guide-entry-minor-antagonists = Minor Antagonists
+guide-entry-traitors = Зрадник
+guide-entry-zombies = Зомбі
+guide-entry-minor-antagonists = Другорядні антагоністи

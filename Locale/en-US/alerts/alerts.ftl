@@ -45,6 +45,12 @@ alerts-dead-desc = Ви померли, але вас ще можуть відр
 alerts-health-name = Здоров'я
 alerts-health-desc = [color=green]Зелений[/color] — це добре. [color=red]Червоний[/color] — це погано.
 
+alerts-battery-name = Battery
+alerts-battery-desc = If your battery depletes, you will be unable to use your abilities.
+
+alerts-no-battery-name = No Battery
+alerts-no-battery-desc = You don't have a battery, rendering you unable to charge or use your abilities.
+
 alerts-internals-name = Перемкнути балон
 alerts-internals-desc = Перемикає подачу газу у вашому балоні.
 
@@ -61,7 +67,7 @@ alerts-stamina-name = Витривалість
 alerts-stamina-desc = Оглушує вас, якщо на занадто низьому рівні.
 
 alerts-starving-name = [color=red]Сильний голод[/color]
-alerts-starving-desc = Ви сильно хочете їсти. Біль у шлунку сповільнює ваш рух.
+alerts-starving-desc = Ви сильно хочете їсти. Біль у шлунку сповільнює ваші рухи.
 
 alerts-thirsty-name = [color=yellow]Легка спрага[/color]
 alerts-thirsty-desc = Трохи водички зараз не завадить.
@@ -85,7 +91,7 @@ alerts-pulling-name = Ви тягнете
 alerts-pulling-desc = Ви щось тягнете. Клацніть сповіщення, щоб перестати.
 
 alerts-bleed-name = [color=red]Кровотеча[/color]
-alerts-bleed-desc = У тебе [color=red]кровотеча[/color].
+alerts-bleed-desc = Ти [color=red]стікаєш кров'ю[/color].
 
-alerts-pacified-name = [color=green]Приборканий[/color]
-alerts-pacified-desc = Ви приборкані; ви не зможете нападати на кого-небудь безпосередньо.
+alerts-pacified-name = [color=green]Заспокоєний[/color]
+alerts-pacified-desc = Ви заспокоєні, ви не зможете напасти на когось безпосередньо.

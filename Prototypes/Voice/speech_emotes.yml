@@ -1,6 +1,7 @@
 # vocal emotes
 - type: emote
   id: Scream
+  icon: Interface/Emotes/scream.png
   category: Vocal
   chatMessages: [кричить!]
   chatTriggers:
@@ -31,6 +32,7 @@
 
 - type: emote
   id: Laugh
+  icon: Interface/Emotes/laugh.png
   category: Vocal
   chatMessages: [сміється]
   chatTriggers:
@@ -55,8 +57,9 @@
 
 - type: emote
   id: Sigh
+  icon: Interface/Emotes/sighn.png
   category: Vocal
-  chatMessages: [sighs]
+  chatMessages: [зітхає]
   chatTriggers:
     - sigh
     - sighs
@@ -67,8 +70,9 @@
 
 - type: emote
   id: Whistle
+  icon: Interface/Emotes/whistle.png
   category: Vocal
-  chatMessages: [whistle]
+  chatMessages: [свистить]
   chatTriggers:
     - whistle
     - whistle.
@@ -82,8 +86,9 @@
 
 - type: emote
   id: Crying
+  icon: Interface/Emotes/crying.png
   category: Vocal
-  chatMessages: [crying]
+  chatMessages: [плаче]
   chatTriggers:
     - cry
     - cry.
@@ -98,7 +103,7 @@
 - type: emote
   id: Squish
   category: Vocal
-  chatMessages: [squishing]
+  chatMessages: [хлюпає]
   chatTriggers:
     - squish
     - squish.
@@ -113,7 +118,7 @@
 - type: emote
   id: Chitter
   category: Vocal
-  chatMessages: [chitters.]
+  chatMessages: [скригоче]
   chatTriggers:
    - chitter
    - chitter.
@@ -125,9 +130,25 @@
    - chittered.
    - chittered!
 
+- type: emote
+  id: Squeak
+  category: Vocal
+  chatMessages: [пищить]
+  chatTriggers:
+   - squeak
+   - squeak.
+   - squeak!
+   - squeaks
+   - squeaks.
+   - squeaks!
+   - squeaked
+   - squeaked.
+   - squeaked!
+
 # hand emotes
 - type: emote
   id: Clap
+  icon: Interface/Emotes/claps.png
   category: Hands
   chatMessages: [хлопає!]
   chatTriggers:
@@ -140,6 +161,7 @@
 
 - type: emote
   id: Snap
+  icon: Interface/Emotes/snaps-fingers.png
   category: Hands
   chatMessages: [клацає пальцями] # snaps <{THEIR($ent)}> fingers?
   chatTriggers:
@@ -159,8 +181,9 @@
 
 - type: emote
   id: Salute
+  icon: Interface/Emotes/salute.png
   category: Hands
-  chatMessages: [Salute]
+  chatMessages: [Салютує!]
   chatTriggers:
     - salute
     - salute.
@@ -169,3 +192,8 @@
     - salutes.
     - salutes!
 
+- type: emote
+  id: DefaultDeathgasp
+  chatMessages: ["emote-deathgasp"]
+  chatTriggers:
+  - deathgasp

@@ -25,6 +25,9 @@ reagent-desc-ketchunaise = Кетчуп змішаний з майонезом, 
 reagent-name-mayo = майонез
 reagent-desc-mayo = Вершковий соус, виготовлений з олії, яйця та (харчової) кислоти.
 
+reagent-name-mustard = mustard
+reagent-desc-mustard = Basic yellow mustard, made from the seeds of the mustard plant.
+
 reagent-name-vinaigrette = салатна заправка
 reagent-desc-vinaigrette = Основна заправка для салатів з олії, оцту та приправ.
 

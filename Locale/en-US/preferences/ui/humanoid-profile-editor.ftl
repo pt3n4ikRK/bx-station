@@ -2,6 +2,7 @@ humanoid-profile-editor-randomize-everything-button = Обрати все вип
 humanoid-profile-editor-name-label = Ім'я:
 humanoid-profile-editor-name-random-button = Випадково
 humanoid-profile-editor-appearance-tab = Зовнішність
+humanoid-profile-editor-clothing = Показати одяг
 humanoid-profile-editor-sex-label = Стать:
 humanoid-profile-editor-sex-male-text = Чоловіча
 humanoid-profile-editor-sex-female-text = Жіноча

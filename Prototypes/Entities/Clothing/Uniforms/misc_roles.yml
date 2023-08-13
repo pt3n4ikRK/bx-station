@@ -19,3 +19,14 @@
     sprite: Clothing/Uniforms/Shorts/Color/red_female.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Shorts/Color/red_female.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: UniformTribalPeople
+  name: Одяг племені
+  description: Цей одяг виглядає дуже примітивно.
+  components:
+    - type: Sprite
+      sprite: Clothing/Uniforms/Jumpsuit/tribal.rsi
+    - type: Clothing
+      sprite: Clothing/Uniforms/Jumpsuit/tribal.rsi

@@ -19,3 +19,4 @@ chatsan-waves = махає рукою
 chatsan-salutes = вітає
 chatsan-tearfully-salutes = слізно вітає
 chatsan-shrugs = знизує плечима
+chatsan-blocked = матюкається
