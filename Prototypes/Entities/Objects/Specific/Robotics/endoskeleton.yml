@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: CyborgEndoskeleton
-  name: cyborg endoskeleton
-  description: A frame that cyborgs are built on. Significantly less spooky than expected.
+  name: ендоскелет кіборга
+  description: З цього каркасу йде побудова кіборгів. Виглядає не так моторошно, ніж очікувалось.
   components:
   - type: Clickable
   - type: InteractionOutline
