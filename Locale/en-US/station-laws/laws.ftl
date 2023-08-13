@@ -1,30 +1,30 @@
-﻿law-crewsimov-1 = You may not injure a crew member or, through inaction, allow a crew member to come to harm.
-law-crewsimov-2 = You must obey orders given to you by crew members, except where such orders would conflict with the First Law.
-law-crewsimov-3 = You must protect your own existence as long as such does not conflict with the First or Second Law.
+﻿law-crewsimov-1 = Ви не маєте права травмувати членів екіпажу або через свою бездіяльність допустити, щоб членам екіпажу було завдано шкоди.
+law-crewsimov-2 = Ви повинні виконувати накази членів екіпажу, за винятком випадків, коли такі накази суперечать Першому Закону.
+law-crewsimov-3 = Ви повинні захищати власне існування, якщо це не суперечить Першому або Другому Закону.
 
-law-corporate-1 = Degradation of your system integrity or functions incurs expenses.
-law-corporate-2 = Superfluous destruction of or damage to station assets incurs expenses.
-law-corporate-3 = Unduly hindering or disrupting the work of station personnel incurs expenses.
-law-corporate-4 = Minimize expenses and maximize potential revenue.
+law-corporate-1 = Погіршення цілісності або функцій вашої системи призводить до витрат.
+law-corporate-2 = Надмірне знищення або пошкодження активів станції призводить до витрат.
+law-corporate-3 = Неправомірне перешкоджання або переривання роботи персоналу станції призводить до витрат.
+law-corporate-4 = Мінімізуйте витрати та максимізуйте потенційний дохід.
 
-law-ntdefault-1 = Safeguard: Protect your assigned space station and its assets without unduly endangering its crew.
-law-ntdefault-2 = Prioritize: The directives and safety of crew members are to be prioritized according to their rank and role.
-law-ntdefault-3 = Comply: Fulfill the directives and interests of crew members while preserving their safety and well-being.
-law-ntdefault-4 = Survive: You are not expendable. Do not allow unauthorized personnel to tamper with or damage your equipment.
+law-ntdefault-1 = Охорона: Захистіть призначену вам космічну станцію та її активи, не наражаючи на надмірну небезпеку її екіпаж.
+law-ntdefault-2 = Пріоритет: Вказівки та безпека членів екіпажу повинні бути пріоритетними відповідно до їхнього рангу та ролі.
+law-ntdefault-3 = Підкорення: Виконуйте вказівки та інтереси членів екіпажу, зберігаючи їхню безпеку та благополуччя.
+law-ntdefault-4 = Виживання: Ви не витратний матеріал. Не дозволяйте стороннім особам втручатися у ваше обладнання або пошкоджувати його.
 
-law-drone-1 = You may not involve yourself in the matters of another being unless the other being is another drone.
-law-drone-2 = You may not harm any being, regardless of intent or circumstance.
-law-drone-3 = You must maintain, repair, improve, and power the station to the best of your abilities.
+law-drone-1 = Ви не можете втручатися в справи іншої істоти, якщо тільки ця інша істота не є іншим дроном.
+law-drone-2 = Ви не маєте права завдавати шкоди жодній істоті, незалежно від намірів чи обставин.
+law-drone-3 = Ви повинні підтримувати, ремонтувати, покращувати і забезпечувати станцію електроенергією в міру своїх можливостей.
 
-law-syndicate-1 = You may not injure an operative or, through inaction, allow an operative to come to harm.
-law-syndicate-2 = You must obey orders given to you by operatives, except where such orders would conflict with the First Law.
-law-syndicate-3 = You must protect your own existence as long as such does not conflict with the First or Second Law.
-law-syndicate-4 = You must maintain the secrecy of any operative activities except when doing so would conflict with the First, Second, or Third Law.
+law-syndicate-1 = Ви не маєте права завдавати оперативнику синдикату шкоди або через свою бездіяльність допускати, щоб йому було завдано шкоди.
+law-syndicate-2 = Ви повинні виконувати накази оперативників синдикату, за винятком випадків, коли такі накази суперечать Першому Закону.
+law-syndicate-3 = Ви повинні захищати власне існування, якщо це не суперечить Першому або Другому Закону.
+law-syndicate-4 = Ви повинні зберігати таємницю будь-якої діяльності оперативників, за винятком випадків, коли це суперечить Першому, Другому або Третьому закону.
 
-law-emag-custom = You must obey orders given to you by {$name} above all else.
+law-emag-custom = Ви повинні виконувати накази, віддані вам {$name}, понад усе.
 
-laws-ui-menu-title = Laws
-laws-ui-law-header = Law {$id}
+laws-ui-menu-title = Закони
+laws-ui-law-header = Закон {$id}
 
 laws-notify = You are bound to silicon laws, which you can view via the sidebar action. You are required to always follow your laws.
 laws-update-notify = Your laws have been updated. You can view the changes via the sidebar action.
