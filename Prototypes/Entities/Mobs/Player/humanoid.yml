@@ -4,7 +4,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerERTLeader
-  name: ERT leader
+  name: Лідер ГШР
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -59,7 +59,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTJanitor
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT janitor
+  name: Прибиральник ГШР
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -89,7 +89,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTJanitorEVA
   parent: RandomHumanoidSpawnerERTJanitor
-  name: ERT janitor
+  name: Прибиральник ГШР
   suffix: EVA
   components:
     - type: Sprite
@@ -114,7 +114,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTEngineer
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT engineer
+  name: Інженер ГШР
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -144,7 +144,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTEngineerEVA
   parent: RandomHumanoidSpawnerERTEngineer
-  name: ERT engineer
+  name: Інженер ГШР
   suffix: EVA
   components:
     - type: Sprite
@@ -169,7 +169,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTSecurity
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT security
+  name: Охоронець ГШР
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -199,7 +199,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTSecurityEVA
   parent: RandomHumanoidSpawnerERTSecurity
-  name: ERT security
+  name: Охоронець ГШР
   suffix: EVA
   components:
     - type: Sprite
@@ -224,7 +224,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTMedical
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT medic
+  name: Лікар ГШР
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -254,7 +254,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTMedicalEVA
   parent: RandomHumanoidSpawnerERTMedical
-  name: ERT medic
+  name: Лікар ГШР
   suffix: EVA
   components:
     - type: Sprite
@@ -278,7 +278,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerCBURNUnit
-  name: CBURN Agent
+  name: Агент CBURN
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -325,7 +325,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerSyndicateAgent
-  name: Syndicate Agent
+  name: Агент синдикату
   components:
     - type: Sprite
       sprite: Mobs/Species/Human/parts.rsi
@@ -343,7 +343,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerNukeOp
-  name: Nuclear Operative
+  name: Ядерний оперативник
   components:
     - type: Sprite
       sprite: Mobs/Species/Human/parts.rsi
