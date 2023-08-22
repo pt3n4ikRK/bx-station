@@ -27,7 +27,7 @@ law-emag-require-panel = The panel must be open to use the EMAG.
 laws-ui-menu-title = Закони
 laws-ui-law-header = Закон {$id}
 
-laws-notify = You are bound to silicon laws, which you can view via the sidebar action. You are required to always follow your laws.
-laws-update-notify = Your laws have been updated. You can view the changes via the sidebar action.
+laws-notify = Ви зобов'язані дотримуватися законів, які ви можете переглянути на бічній панелі. Ви зобов'язані завжди дотримуватися своїх законів.
+laws-update-notify = Ваші закони були оновлені. Ви можете переглянути зміни на бічній панелі.
 
 laws-compromised-examine = The [color=red]law-governing[/color] internals seem damaged...
