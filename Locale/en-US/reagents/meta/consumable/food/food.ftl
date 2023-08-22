@@ -9,3 +9,6 @@ reagent-desc-vitamin = Міститься у здоровій, повноцін�
 
 reagent-name-protein = білок
 reagent-desc-protein = Міститься в певних продуктах харчування, корисний для здоров'я організму.
+
+reagent-name-cocoapowder = какао порошок
+reagent-desc-cocoapowder = From the best varieties of cocoa beans

@@ -139,7 +139,7 @@
   parent: BasePDA
   id: MedicalInternPDA
   name: Планшет інтерна
-  description: Чому не білий? Має вбудований аналізатор здоров*я.
+  description: Чому не білий? Має вбудований аналізатор здоров'я.
   components:
   - type: Pda
     id: MedicalInternIDCard
@@ -486,7 +486,7 @@
   parent: BasePDA
   id: CMOPDA
   name: Планшет головного лікаря
-  description: Надзвичайно блискучий і стерильний. Має вбудований сканер здоров*я.
+  description: Надзвичайно блискучий і стерильний. Має вбудований сканер здоров'я.
   components:
   - type: Pda
     id: CMOIDCard
@@ -506,7 +506,7 @@
   parent: BasePDA
   id: MedicalPDA
   name: Планшет лікаря
-  description: Блискучий і стерильний. Має вбудований сканер здоров*я.
+  description: Блискучий і стерильний. Має вбудований сканер здоров'я.
   components:
   - type: Pda
     id: MedicalIDCard

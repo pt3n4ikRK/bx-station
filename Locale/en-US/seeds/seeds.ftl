@@ -75,3 +75,5 @@ seeds-watermelon-name = кавун
 seeds-watermelon-display-name = рослина кавуна
 seeds-grape-name = виноград
 seeds-grape-display-name = рослина виноград
+seeds-cocoa-name = какао
+seeds-cocoa-display-name = какао рослина

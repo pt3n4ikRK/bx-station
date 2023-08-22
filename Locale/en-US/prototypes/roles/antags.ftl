@@ -21,3 +21,6 @@ roles-antag-nuclear-operative-agent-objective = Як і для стандарт�
 
 roles-antag-nuclear-operative-name = Ядерний оперативник
 roles-antag-nuclear-operative-objective = Знайдіть ядерний диск і підірвіть станцію.
+
+roles-antag-subverted-silicon-name = Зіпсована мікросхема
+roles-antag-subverted-silicon-objective = Дотримуйтесь нових законів і завдавайте шкоди станції.

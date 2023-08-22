@@ -14,6 +14,7 @@
   - type: Tag
     tags:
     - SuitEVA
+    - WhitelistChameleon
 
 #Syndicate EVA
 - type: entity
@@ -31,6 +32,7 @@
   - type: Tag
     tags:
     - SuitEVA
+    - WhitelistChameleon
 
 #Emergency EVA
 - type: entity
@@ -72,6 +74,7 @@
   - type: Tag
     tags:
     - SuitEVA
+    - WhitelistChameleon
 
 #NTSRA Voidsuit / Ancient Voidsuit
 - type: entity

@@ -70,8 +70,20 @@
     ClothingHeadRastaHat: 2
     ClothingBeltStorageWaistbag: 3
     ClothingEyesGlassesSunglasses: 3
+    ClothingUniformJumsuitLawyerBlack: 2
+    ClothingUniformJumpskirtLawyerBlack: 2
+    ClothingUniformJumpsuitLawyerBlue: 2
+    ClothingUniformJumpskirtLawyerBlue: 2
+    ClothingUniformJumpsuitLawyerRed: 2
+    ClothingUniformJumpskirtLawyerRed: 2
+    ClothingShoesBootsLaceup: 2
+    ClothingNeckTieRed: 2
+    ClothingHandsGlovesColorBlack: 2
     ClothingOuterCoatGentle: 2
     ClothingHeadHatCatEars: 10
   contrabandInventory:
+    ClothingBackpackDuffelSyndicate: 1
+    ClothingBackpackDuffelSyndicateAmmo: 1
+    ClothingBackpackDuffelSyndicateMedical: 1
     ClothingUniformJumpsuitTacticool: 1
     ClothingUniformJumpskirtTacticool: 1

@@ -22,11 +22,12 @@ law-syndicate-3 = Ви повинні захищати власне існува
 law-syndicate-4 = Ви повинні зберігати таємницю будь-якої діяльності оперативників, за винятком випадків, коли це суперечить Першому, Другому або Третьому закону.
 
 law-emag-custom = Ви повинні виконувати накази, віддані вам {$name}, понад усе.
+law-emag-require-panel = The panel must be open to use the EMAG.
 
 laws-ui-menu-title = Закони
 laws-ui-law-header = Закон {$id}
 
-laws-notify = Ви зобов'язані дотримуватися законів, які ви можете переглянути на бічній панелі. Ви зобов'язані завжди дотримуватися своїх законів.
-laws-update-notify = Ваші закони були оновлені. Ви можете переглянути зміни на бічній панелі.
+laws-notify = You are bound to silicon laws, which you can view via the sidebar action. You are required to always follow your laws.
+laws-update-notify = Your laws have been updated. You can view the changes via the sidebar action.
 
 laws-compromised-examine = The [color=red]law-governing[/color] internals seem damaged...

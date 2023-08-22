@@ -32,6 +32,7 @@
   - type: Tag
     tags:
     - NozzleBackTank
+    - WhitelistChameleon
   - type: Sprite
     sprite: Clothing/Back/Backpacks/waterbackpack.rsi
     state: icon

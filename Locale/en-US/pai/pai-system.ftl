@@ -6,7 +6,10 @@ pai-system-searching = Зараз шукаю ПШІ...
 pai-system-role-name = Персональний ШІ
 pai-system-role-description = Станьте чиїмось електронним ПШІ!
                               (Спогади *не* включені.)
-
+pai-system-role-name-syndicate = Станьте чиїмось електронним ПШІ Синдикату!
+pai-system-role-description-syndicate = Станьте чиїмось електронним ПШІ Синдикату!
+                                        (Спогади *не* включені.)
+                                        
 pai-system-wipe-device-verb-text = Видалити ПШІ
 pai-system-wiped-device = ПШІ був видалений з пристрою.
 

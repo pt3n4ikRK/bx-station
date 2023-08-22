@@ -23,6 +23,7 @@
   - type: Tag
     tags:
     - Hardsuit
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingOuterBaseLarge
@@ -50,7 +51,7 @@
     walkModifier: 0.8
     sprintModifier: 0.7
   - type: GroupExamine
-    
+
 - type: entity
   parent: ClothingOuterBaseLarge
   id: ClothingOuterSuitAtmosFire

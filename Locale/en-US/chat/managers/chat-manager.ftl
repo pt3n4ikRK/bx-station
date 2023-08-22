@@ -21,7 +21,8 @@ chat-manager-whisper-headset-on-message = По радіо не можна шеп
 chat-manager-server-wrap-message = [bold]СЕРВЕР: {$message}[/bold]
 chat-manager-sender-announcement-wrap-message = [font size=14][bold]{$sender} Оголошення:[/font][font size=12]
                                                 {$message}[/bold][/font]
-chat-manager-entity-say-wrap-message = [bold]{$entityName}[/bold] каже, "{$message}"
+chat-manager-entity-say-wrap-message = [bold]{$entityName}[/bold] {$verb}, [font={$fontType} size={$fontSize}]"{$message}"[/font]
+chat-manager-entity-say-bold-wrap-message = [bold]{$entityName}[/bold] {$verb}, [font={$fontType} size={$fontSize}][bold]"{$message}"[/bold][/font]
 
 chat-manager-entity-whisper-wrap-message = [font size=11][italic]{$entityName} шепоче, "{$message}"[/italic][/font]
 chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic]Хтось прошепотів, "{$message}"[/italic][/font]
@@ -45,3 +46,34 @@ chat-manager-send-hook-ooc-wrap-message = OOC: [bold](D){$senderName}:[/bold] {$
 
 chat-manager-dead-channel-name = МЕРТВИЙ
 chat-manager-admin-channel-name = АДМІН
+
+## Speech verbs for chat
+
+chat-speech-verb-suffix-exclamation = !
+chat-speech-verb-suffix-exclamation-strong = !!
+chat-speech-verb-suffix-question = ?
+
+chat-speech-verb-default = каже
+chat-speech-verb-exclamation = кричить
+chat-speech-verb-exclamation-strong = кричить
+chat-speech-verb-question = запитує
+
+chat-speech-verb-insect-1 = стрекоче
+chat-speech-verb-insect-2 = дзижчить
+
+chat-speech-verb-slime = стрікоче
+
+chat-speech-verb-robotic = стверджує
+chat-speech-verb-reptilian = шипить
+
+chat-speech-verb-skeleton = торохтить
+
+chat-speech-verb-small-mob = пищить
+
+chat-speech-verb-large-mob = гарчить
+
+chat-speech-verb-monkey = кричить
+
+chat-speech-verb-cluwne-1 = хихикає
+chat-speech-verb-cluwne-2 = хихотіння
+chat-speech-verb-cluwne-3 = сміється

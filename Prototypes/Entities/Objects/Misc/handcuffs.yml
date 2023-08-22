@@ -23,6 +23,9 @@
     damage:
       types:
         Blunt: 0
+  - type: GuideHelp
+    guides:
+    - Security
 
 - type: entity
   name: makeshift handcuffs

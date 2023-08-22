@@ -29,5 +29,5 @@ trait-archaic-accent-desc = Ви говорите старомодно
 trait-accentless-name = Без акцентів
 trait-accentless-desc = У вас немає акценту, який зазвичай притаманний вашому виду
 
-trait-wheelchair-bound-name = Пересування на інвалідному візку
-trait-wheelchair-bound-desc = Ви не можете рухатися без інвалідного візка. Візок включено.
+trait-wheelchair-bound-name = Пристосований до інвалідного візка
+trait-wheelchair-bound-desc = Ви не можете пересуватися без інвалідного візка. Інвалідний візок додається.

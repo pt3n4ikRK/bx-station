@@ -32,7 +32,7 @@
         - Multitool
         - AppraisalTool
       components:
-        - AirlockPainter
+        - SprayPainter
         - NetworkConfigurator
         - RCD
         - RCDAmmo
@@ -107,7 +107,7 @@
         - Multitool
         - AppraisalTool
       components:
-        - AirlockPainter
+        - SprayPainter
         - NetworkConfigurator
         - RCD
         - RCDAmmo

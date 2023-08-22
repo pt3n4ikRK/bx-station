@@ -5,9 +5,9 @@ analysis-console-scan-tooltip-info = Скануйте артефакти, щоб
 analysis-console-print-button = Друкувати
 analysis-console-print-tooltip-info = Надрукувати поточну інформацію про артефакт.
 analysis-console-extract-button = Вилучити
-analysis-console-extract-button-info = Вилучіть бали з артефакту на основі досліджених вузлів.
+analysis-console-extract-button-info = Вилучіть бали з артефакту на основі нещодовно досліджених вузлів.
 
-analysis-console-info-no-scanner = Аналізатор не підключено! Будь ласка, підключіть один за допомогою мультитула.
+analysis-console-info-no-scanner = Аналізатор не підключено! Будь ласка, підключіть його за допомогою мультитула.
 analysis-console-info-no-artifact = Артефакт відсутній! Помістіть один на платформу і проскануйте.
 analysis-console-info-ready = Системи працюють. Готовий до сканування.
 

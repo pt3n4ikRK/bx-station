@@ -45,14 +45,11 @@ alerts-dead-desc = Ви померли, але вас ще можуть відр
 alerts-health-name = Здоров'я
 alerts-health-desc = [color=green]Зелений[/color] — це добре. [color=red]Червоний[/color] — це погано.
 
-alerts-battery-name = Battery
-alerts-battery-desc = If your battery depletes, you will be unable to use your abilities.
+alerts-battery-name = Батарея
+alerts-battery-desc = Якщо батарея розрядиться, ви не зможете використовувати свої здібності.
 
-alerts-no-battery-name = No Battery
-alerts-no-battery-desc = You don't have a battery, rendering you unable to charge or use your abilities.
-
-alerts-internals-name = Перемкнути балон
-alerts-internals-desc = Перемикає подачу газу у вашому балоні.
+alerts-no-battery-name = Немає батареї
+alerts-no-battery-desc = У вас немає акумулятора, через що ви не можете заряджати або використовувати свої здібності.
 
 alerts-internals-name = Перемкнути балон
 alerts-internals-desc = Перемикає подачу газу у вашому балоні.
@@ -90,8 +87,12 @@ alerts-pulled-desc = Вас хтось тягне. Рухайтесь, щоб з
 alerts-pulling-name = Ви тягнете
 alerts-pulling-desc = Ви щось тягнете. Клацніть сповіщення, щоб перестати.
 
+alerts-pulling-name = Тягнеш
+alerts-pulling-desc = Ти щось тягнеш. Клацніть на попередження, щоб зупинитися.
+
 alerts-bleed-name = [color=red]Кровотеча[/color]
 alerts-bleed-desc = Ти [color=red]стікаєш кров'ю[/color].
 
 alerts-pacified-name = [color=green]Заспокоєний[/color]
 alerts-pacified-desc = Ви заспокоєні, ви не зможете напасти на когось безпосередньо.
+

@@ -5,6 +5,7 @@ gun-selector-verb = Перемкнути на {$mode} режим
 gun-selected-mode = Обрано {$mode} режим
 gun-disabled = Ви не можете використовувати зброю!
 gun-clumsy = Ви закурткобейнились!
+gun-set-fire-mode = Виставити на {$mode}
 
 # SelectiveFire
 gun-SemiAuto = напівавтоматичний
@@ -33,6 +34,8 @@ gun-chamber-bolt-closed = Closed bolt
 gun-chamber-bolt-opened = Opened bolt
 gun-chamber-bolt-close = Close bolt
 gun-chamber-bolt-open = Open bolt
+gun-chamber-bolt-closed-state = open
+gun-chamber-bolt-open-state = closed
 gun-chamber-rack = Rack
 
 # MagazineAmmoProvider

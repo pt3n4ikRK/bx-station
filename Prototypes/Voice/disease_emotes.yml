@@ -1,13 +1,13 @@
 - type: emote
   id: Sneeze
   category: Vocal
-  chatMessages: [чхає]
+  chatMessages: [С‡С…Р°С”]
 
 - type: emote
   id: Cough
   icon: Interface/Emotes/coughs.png
   category: Vocal
-  chatMessages: [кашляє]
+  chatMessages: [РєР°С€Р»СЏС”]
   chatTriggers:
     - cough
     - coughs
@@ -15,28 +15,28 @@
 - type: emote
   id: CatMeow
   category: Vocal
-  chatMessages: [мявчить]
+  chatMessages: [РјСЏРІС‡РёС‚СЊ]
 
 - type: emote
   id: CatHisses
   category: Vocal
-  chatMessages: [шипить]
+  chatMessages: [С€РёРїРёС‚СЊ]
 
 - type: emote
   id: MonkeyScreeches
   category: Vocal
-  chatMessages: [верещить]
+  chatMessages: [РІРµСЂРµС‰РёС‚СЊ]
 
 - type: emote
   id: RobotBeep
   category: Vocal
-  chatMessages: [біпає]
+  chatMessages: [Р±С–РїР°С”]
 
 - type: emote
   id: Yawn
   icon: Interface/Emotes/yawns.png
   category: Vocal
-  chatMessages: [позіхає]
+  chatMessages: [РїРѕР·С–С…Р°С”]
   chatTriggers:
     - yawn
     - yawns
@@ -44,7 +44,7 @@
 - type: emote
   id: Snore
   category: Vocal
-  chatMessages: [хропе]
+  chatMessages: [С…СЂРѕРїРµ]
 
 - type: emote
   id: Honk

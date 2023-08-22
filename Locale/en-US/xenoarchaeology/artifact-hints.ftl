@@ -34,4 +34,5 @@ artifact-trigger-hint-radiation = Радіація
 artifact-trigger-hint-pressure = Екстримальний тиск
 artifact-trigger-hint-regular-gases = Стандартні атмосферні гази
 artifact-trigger-hint-plasma = Газоподібна плазма
+artifact-trigger-hint-gas = Газ
 artifact-trigger-hint-land = Активне гальмування

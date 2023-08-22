@@ -8,6 +8,7 @@ anomaly-vessel-component-upgrade-output = генерація балів
 anomaly-particles-delta = Дельта частинки
 anomaly-particles-epsilon = Епсілон частинки
 anomaly-particles-zeta = Зета частинки
+anomaly-particles-omega = Омега частинки
 
 anomaly-scanner-component-scan-complete = Сканування завершено!
 

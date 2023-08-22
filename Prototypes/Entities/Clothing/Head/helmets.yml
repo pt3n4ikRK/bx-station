@@ -168,6 +168,7 @@
   - type: Tag
     tags:
     - HidesHair
+    - WhitelistChameleon
 
 #Space Ninja Helmet
 - type: entity
@@ -186,6 +187,7 @@
   - type: Tag
     tags:
     - HidesHair
+    - WhitelistChameleon
   - type: IdentityBlocker
 
 #Templar Helmet
