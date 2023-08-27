@@ -9,6 +9,7 @@ guide-entry-networking = Створення мереж
 guide-entry-network-configurator = Мережевий конфігуратор
 guide-entry-access-configurator = Конфігуратор доступу
 guide-entry-power = Електроживлення
+guide-entry-portable-generator = Портативні генератори
 guide-entry-ame = Двигун антиматерії (АМД)
 guide-entry-singularity = Сингулярність
 guide-entry-teg = Термоелектричний генератор (ТЕГ)
@@ -48,3 +49,5 @@ guide-entry-nuclear-operatives = Ядерні Оперативники
 guide-entry-traitors = Зрадник
 guide-entry-zombies = Зомбі
 guide-entry-minor-antagonists = Другорядні антагоністи
+
+guide-entry-writing = Письмо

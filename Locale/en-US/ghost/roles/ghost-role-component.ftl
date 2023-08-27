@@ -21,6 +21,9 @@ ghost-role-information-slimes-name = Слайм
 ghost-role-information-slimes-description = Звичайний слимак без особливих потреб та інтересів. Він просто живе.
 ghost-role-information-angry-slimes-description = Все навколо дратує ваші інстинкти, знищіть все!
 
+ghost-role-information-smile-name = Smile the Slime
+ghost-role-information-smile-description = The sweetest creature in the world. Smile Slime!
+
 ghost-role-information-punpun-name = Пун Пун
 ghost-role-information-punpun-description = Почесний член мавпячого товариства, який відповідає за бар і допомагає барменам усіма можливими способами.
 
@@ -69,6 +72,9 @@ ghost-role-information-jonkbot-description = Штучна істота чист�
 
 ghost-role-information-mimebot-name = Мімбот
 ghost-role-information-mimebot-description = Мімбот - поводьтеся як мім, але не як клоун.
+
+ghost-role-information-taxibot-name = Таксі-бот
+ghost-role-information-taxibot-description = Відвезіть екіпаж станції до місця призначення.
 
 ghost-role-information-space-bear-name = Космічний ведмідь
 ghost-role-information-space-bear-description = Ти ведмідь! Роби ведмежі речі.
@@ -146,8 +152,11 @@ ghost-role-information-cburn-agent-description = Висококваліфіко�
 ghost-role-information-centcom-official-name = Представник ЦК
 ghost-role-information-centcom-official-description = Огляньте станцію, запишіть відгуки про роботу керівників, поставте прослушку капітану.
 
+ghost-role-information-nukeop-rules = You are a syndicate operative tasked with the destruction of the station. As an antagonist, do whatever is required to complete this task.
+
+ghost-role-information-loneop-name = Lone Operative
+ghost-role-information-loneop-description = You are a lone nuclear operative. Destroy the station!
+ghost-role-information-loneop-rules = You are a syndicate operative tasked with the destruction of the station. As an antagonist, do whatever is required to complete this task.
+
 ghost-role-information-behonker-name = Бехонкер
 ghost-role-information-behonker-description = Ти - антагоніст, ти несеш смерть і хонк тим, хто не слідує за хонк-матір'ю.
-
-ghost-role-information-taxibot-name = Таксі-бот
-ghost-role-information-taxibot-description = Відвезіть екіпаж станції до місця призначення.

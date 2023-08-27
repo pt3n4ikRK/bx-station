@@ -73,7 +73,6 @@
     uiKey: enum.PdaUiKey.Key
     preinstalled:
       - BankingCartridge
-      - CrewManifestCartridge
       - NotekeeperCartridge
       - NewsReadCartridge
     cartridgeSlot:
