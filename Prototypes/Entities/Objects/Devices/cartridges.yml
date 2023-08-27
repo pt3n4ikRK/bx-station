@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: NotekeeperCartridge
-  name: notekeeper cartridge
-  description: A program for keeping notes
+  name: картридж нотатків
+  description: додаток для запису нотатків
   components:
   - type: Sprite
     sprite: Objects/Devices/cartridge.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: BaseItem
   id: NewsReadCartridge
-  name: News Cartridge
-  description: A program for reading news
+  name: Картридж новин
+  description: додаток для читання новин
   components:
   - type: Sprite
     sprite: Objects/Devices/cartridge.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: BaseItem
   id: CrewManifestCartridge
-  name: Crew Manifest Cartridge
-  description: A program for listing your fellow crewmembers
+  name: Картридж маніфесту екіпажу
+  description: додаток для перегляду екіпажу та їх посади
   components:
     - type: BXPrices
       price: 15
