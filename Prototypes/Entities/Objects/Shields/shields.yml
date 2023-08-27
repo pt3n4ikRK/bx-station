@@ -133,7 +133,7 @@
   name: дерев'яний щит
   parent: BaseShield
   id: WoodenBuckler
-  description: Невеликий круглий дерев'яний імпровізований щит.
+  description: Невеликий, круглий, дерев'яний імпровізований щит.
   components:
     - type: BXPrices
       price: 100
