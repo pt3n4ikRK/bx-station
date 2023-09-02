@@ -1,5 +1,5 @@
-﻿advertisement-sovietsoda-1 = За дєда і страну.
-advertisement-sovietsoda-2 = А вьі ісполнілі севодняшнюю норму патреблєнія піщі?
-advertisement-sovietsoda-3 = Красівоє!
-advertisement-sovietsoda-4 = Мьі прастьіє люді! А шьто мьі можєм сдєлать?
-advertisement-sovietsoda-5 = Чєлавєк — праблєма. Нєт чєлавєка — нєт праблєм!
+﻿advertisement-sovietsoda-1 = За товариша та країну.
+advertisement-sovietsoda-2 = Чи виконали ви сьогодні свою норму харчування?
+advertisement-sovietsoda-3 = Чудово!
+advertisement-sovietsoda-4 = Ми звичайні люди, адже це все, що ми їмо.
+advertisement-sovietsoda-5 = Якщо є людина, то є проблема. Якщо немає людини, то немає проблеми.
