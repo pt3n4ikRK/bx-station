@@ -127,13 +127,3 @@
   cost: 750
   category: Medical
   group: market
-
-- type: cargoProduct
-  id: MedicalCryoSleepPod
-  icon:
-    sprite: Structures/Machines/cryopod.rsi
-    state: closed
-  product: CrateMedicalCryoSleepPod
-  cost: 1000
-  category: Medical
-  group: market

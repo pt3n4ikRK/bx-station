@@ -5,6 +5,7 @@ research-discipline-arsenal = Озброєння
 research-discipline-experimental = Експериментальний
 research-discipline-civilian-services = Цивільні Послуги
 
+research-technology-fulton = Fultons
 research-technology-salvage-equipment = Шахтарське обладнання
 research-technology-advanced-powercells = Передові Електронакопичувачі
 research-technology-compact-power = Компактна енергетика

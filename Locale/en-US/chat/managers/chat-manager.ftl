@@ -52,28 +52,61 @@ chat-manager-admin-channel-name = АДМІН
 chat-speech-verb-suffix-exclamation = !
 chat-speech-verb-suffix-exclamation-strong = !!
 chat-speech-verb-suffix-question = ?
+chat-speech-verb-suffix-stutter = -
+chat-speech-verb-suffix-mumble = ..
 
 chat-speech-verb-default = каже
 chat-speech-verb-exclamation = кричить
 chat-speech-verb-exclamation-strong = кричить
 chat-speech-verb-question = запитує
+chat-speech-verb-stutter = stutters
+chat-speech-verb-mumble = mumbles
 
 chat-speech-verb-insect-1 = стрекоче
 chat-speech-verb-insect-2 = дзижчить
+chat-speech-verb-insect-3 = клацає
 
-chat-speech-verb-slime = стрікоче
+chat-speech-verb-winged-1 = тріпоче
+chat-speech-verb-winged-2 = махає
+chat-speech-verb-winged-3 = дзижчить
 
-chat-speech-verb-robotic = стверджує
-chat-speech-verb-reptilian = шипить
+chat-speech-verb-slime-1 = хлюпає
+chat-speech-verb-slime-2 = бурмоче
+chat-speech-verb-slime-3 = сочиться
 
-chat-speech-verb-skeleton = торохтить
+chat-speech-verb-plant-1 = шелестить
+chat-speech-verb-plant-2 = гойдається
+chat-speech-verb-plant-3 = скрипить
 
-chat-speech-verb-small-mob = пищить
+chat-speech-verb-robotic-1 = констатує
+chat-speech-verb-robotic-2 = біпає
 
-chat-speech-verb-large-mob = гарчить
+chat-speech-verb-reptilian-1 = шипить
+chat-speech-verb-reptilian-2 = пирхає
+chat-speech-verb-reptilian-3 = пихкає
 
-chat-speech-verb-monkey = кричить
+chat-speech-verb-skeleton-1 = брязкає
+chat-speech-verb-skeleton-2 = клацає
+chat-speech-verb-skeleton-3 = скрегоче
+
+chat-speech-verb-canine-1 = гавкає
+chat-speech-verb-canine-2 = гавкає
+chat-speech-verb-canine-3 = виє
+
+chat-speech-verb-small-mob-1 = пищить
+chat-speech-verb-small-mob-2 = пищить
+
+chat-speech-verb-large-mob-1 = реве
+chat-speech-verb-large-mob-2 = гарчить
+
+chat-speech-verb-monkey-1 = кричить
+chat-speech-verb-monkey-2 = кричить
 
 chat-speech-verb-cluwne-1 = хихикає
-chat-speech-verb-cluwne-2 = хихотіння
+chat-speech-verb-cluwne-2 = хихотить
 chat-speech-verb-cluwne-3 = сміється
+
+chat-speech-verb-ghost-1 = скаржиться
+chat-speech-verb-ghost-2 = дихає
+chat-speech-verb-ghost-3 = наспівує
+chat-speech-verb-ghost-4 = бурмоче

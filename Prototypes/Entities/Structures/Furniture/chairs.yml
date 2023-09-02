@@ -1,8 +1,8 @@
 - type: entity
-  name: стілець
+  name: chair
   id: SeatBase
   abstract: true
-  description: Можна сидіти на ньому. Волею чи силою.
+  description: You sit in this. Either by will or force.
   placement:
     mode: SnapgridCenter
   components:
@@ -50,7 +50,7 @@
     price: 10
 
 - type: entity
-  name: стілець
+  name: chair
   id: Chair
   parent: SeatBase
   components:
@@ -67,10 +67,10 @@
     node: chair
 
 - type: entity
-  name: стільчик
+  name: stool
   id: Stool
   parent: SeatBase
-  description: Приклади сідницю.
+  description: Apply butt.
   components:
   - type: Anchorable
   - type: Sprite
@@ -80,7 +80,7 @@
     node: stool
 
 - type: entity
-  name: барний стільчик
+  name: bar stool
   id: StoolBar
   parent: SeatBase
   components:
@@ -98,7 +98,7 @@
     node: stoolBar
 
 - type: entity
-  name: біле офісне крісло
+  name: white office chair
   id: ChairOfficeLight
   parent: SeatBase
   components:
@@ -111,7 +111,7 @@
     node: chairOffice
 
 - type: entity
-  name: темне офісне крісло
+  name: dark office chair
   id: ChairOfficeDark
   parent: ChairOfficeLight
   components:
@@ -122,10 +122,10 @@
     node: chairOfficeDark
 
 - type: entity
-  name: зручне крісло
+  name: comfy chair
   id: ComfyChair
   parent: SeatBase
-  description: Виглядає зручно.
+  description: It looks comfy.
   components:
   - type: Transform
     anchored: true
@@ -140,10 +140,10 @@
     node: chairComfy
 
 - type: entity
-  name: крісло пілота
+  name: pilot seat
   id: ChairPilotSeat
   parent: SeatBase
-  description: Крісло пілота престижного судна.
+  description: The pilot seat of a prestigious ship.
   components:
   - type: Transform
     anchored: true
@@ -158,7 +158,7 @@
     node: chairPilotSeat
 
 - type: entity
-  name: дерев'яний стілець
+  name: wooden chair
   id: ChairWood
   parent: SeatBase
   components:
@@ -193,10 +193,10 @@
     price: 75
 
 - type: entity
-  name: ритуальний стілець
+  name: ritual chair
   id: ChairRitual
   parent: SeatBase
-  description: Виглядає незручно.
+  description: Looks uncomfortable.
   components:
   - type: Anchorable
   - type: Rotatable
@@ -209,8 +209,8 @@
 - type: entity
   id: ChairMeat
   parent: SeatBase
-  name: м'ясний стілець
-  description: Неприємно спітнілий.
+  name: meat chair
+  description: Uncomfortably sweaty.
   components:
   - type: Anchorable
   - type: Rotatable
@@ -221,10 +221,10 @@
     node: chairMeat
 
 - type: entity
-  name: проклятий стілець
+  name: cursed chair
   id: ChairCursed
   parent: SeatBase
-  description: Воно озирається.
+  description: It's staring back.
   components:
   - type: Anchorable
   - type: Rotatable
@@ -248,9 +248,9 @@
     node: chairCursed
 
 - type: entity
-  name: стілець з павутини
+  name: web chair
   id: WebChair
-  description: Для справжніх творців павутини
+  description: For true web developers.
   parent: SeatBase
   components:
   - type: Transform
@@ -289,8 +289,8 @@
 - type: entity
   parent: [SeatBase, BaseFoldable]
   id: ChairFolding
-  name: складний стілець
-  description: Якщо ви носите шість таких стільців, то ви стаєте найкрутішою дитиною в церкві
+  name: folding chair
+  description: If you carry six of these you become the coolest kid at church.
   components:
   - type: Rotatable
   - type: Sprite

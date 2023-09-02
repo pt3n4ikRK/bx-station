@@ -1,5 +1,5 @@
 - type: entity
-  parent: Clothing
+  parent: ClothingBackpack
   id: ClothingBackpackSatchel
   name: satchel
   description: A trendy looking satchel.
@@ -8,26 +8,6 @@
     price: 15
   - type: Sprite
     sprite: Clothing/Back/Satchels/satchel.rsi
-    state: icon
-  - type: Item
-    size: 9999
-  - type: Clothing
-    quickEquip: false
-    slots:
-    - back
-  - type: Storage
-    capacity: 100
-  - type: ContainerContainer
-    containers:
-      storagebase: !type:Container
-        ents: []
-  - type: UserInterface
-    interfaces:
-    - key: enum.StorageUiKey.Key
-      type: StorageBoundUserInterface
-  # to prevent bag open/honk spam
-  - type: UseDelay
-    delay: 0.5
 
 - type: entity
   parent: ClothingBackpackSatchel

@@ -76,6 +76,9 @@ ghost-role-information-mimebot-description = Мімбот - поводьтеся
 ghost-role-information-taxibot-name = Таксі-бот
 ghost-role-information-taxibot-description = Відвезіть екіпаж станції до місця призначення.
 
+ghost-role-information-supplybot-name = SupplyBot
+ghost-role-information-supplybot-description = Доставляти товари по станції.
+
 ghost-role-information-space-bear-name = Космічний ведмідь
 ghost-role-information-space-bear-description = Ти ведмідь! Роби ведмежі речі.
 

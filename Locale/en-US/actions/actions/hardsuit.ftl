@@ -1,2 +1,2 @@
 action-name-hardsuit = Перемкнути Шолом
-action-description-hardsuit = Не забудьте одягнути шолом перед тим, як кинутись у космос.
+action-description-hardsuit = Remember to equip the important pieces of your suit before going into action.

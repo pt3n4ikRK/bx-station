@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: звичайний щит
+  name: base shield
   parent: BaseItem
   id: BaseShield
-  description: Щит!
+  description: A shield!
   abstract: true
   components:
     - type: BXPrices
@@ -70,10 +70,10 @@
 #Security Shields
 
 - type: entity
-  name: захисний щит
+  name: riot shield
   parent: BaseShield
   id: RiotShield
-  description: Великий щит. Добре підходить для контролю натовпу.
+  description: A large tower shield. Good for controlling crowds.
   components:
     - type: BXPrices
       price: 100
@@ -81,10 +81,10 @@
       price: 100
 
 - type: entity
-  name: захисний лазерний щит
+  name: riot laser shield
   parent: BaseShield
   id: RiotLaserShield
-  description: Щит, створений для того, щоб протистояти лазерам, не більше.
+  description: A riot shield built for withstanding lasers, but not much else.
   components:
     - type: BXPrices
       price: 50
@@ -103,10 +103,10 @@
           Heat: 2
 
 - type: entity
-  name: кулезахисний щит
+  name: riot bullet shield
   parent: BaseShield
   id: RiotBulletShield
-  description: Балістичний щит, створений для того, щоб протистояти кулям, не більше.
+  description: A ballistic riot shield built for withstanding bullets, but not much else.
   components:
     - type: BXPrices
       price: 50
@@ -130,10 +130,10 @@
 #Craftable shields
 
 - type: entity
-  name: дерев'яний щит
+  name: wooden buckler
   parent: BaseShield
   id: WoodenBuckler
-  description: Невеликий, круглий, дерев'яний імпровізований щит.
+  description: A small round wooden makeshift shield.
   components:
     - type: BXPrices
       price: 100
@@ -186,10 +186,10 @@
       price: 150
 
 - type: entity
-  name: імпровізований щит
+  name: makeshift shield
   parent: BaseShield
   id: MakeshiftShield
-  description: На вигляд не дуже, мало на що здатний.
+  description: A rundown looking shield, not good for much.
   components:
     - type: BXPrices
       price: 100
@@ -274,10 +274,10 @@
       #Have it break into brass when clock cult is in
 
 - type: entity
-  name: Дзеркальний щит
+  name: Mirror Shield
   parent: BaseShield
   id: MirrorShield
-  description: Моторошно світиться червоним... чути шепотіння геометру.
+  description: Eerily glows red... you hear the geometer whispering
   components:
     - type: BXPrices
       price: 100
@@ -319,10 +319,10 @@
                   max: 5
 
 - type: entity
-  name: енергетичний щит
+  name: energy shield
   parent: BaseItem
   id: EnergyShield
-  description: Екзотичний енергетичний щит, у складеному вигляді може поміститися навіть у кишені.
+  description: Exotic energy shield, when folded, can even fit in your pocket.
   components:
     - type: BXPrices
       price: 100
@@ -412,10 +412,10 @@
       price: 350
 
 - type: entity
-  name: зламаний енергетичний щит
+  name: broken energy shield
   parent: BaseItem
   id: BrokenEnergyShield
-  description: Щось згоріло всередині, більше не працює.
+  description: Something inside is burned out, it is no longer functional.
   components:
     - type: BXPrices
       price: 100

@@ -30,6 +30,3 @@ ent-ChemistryS = { ent-CrateChemistryS }
 
 ent-ChemistryD = { ent-CrateChemistryD }
     .desc = { ent-CrateChemistryD.desc }
-
-ent-MedicalCryoSleepPod = { ent-CrateMedicalCryoSleepPod }
-    .desc = { ent-CrateMedicalCryoSleepPod.desc }

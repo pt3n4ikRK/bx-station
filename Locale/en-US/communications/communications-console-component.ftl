@@ -7,6 +7,7 @@ comms-console-menu-recall-shuttle = Перевідкликати шатл
 
 # Popup
 comms-console-permission-denied = Немає доступу
+comms-console-shuttle-unavailable = Шатл наразі недоступний
 
 # Placeholder values
 comms-console-announcement-sent-by = Надіслано:
