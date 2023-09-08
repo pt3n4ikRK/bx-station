@@ -43,6 +43,8 @@
   id: AdvMopItem
   description: Моторизована швабра, яка має більший резервуар і швидко замінює реагенти всередині водою. Автоматична протидія клоунам не входить до комплекту.
   components:
+    - type: BXPrices
+      price: 75
     - type: Sprite
       sprite: Objects/Specific/Janitorial/advmop.rsi
       state: advmop
@@ -417,6 +419,8 @@
       sound:
         path: /Audio/Ambience/Objects/drain.ogg
     - type: Drain
+    - type: DumpableSolution
+      solution: drainBuffer
     - type: Appearance
     - type: SolutionContainerVisuals
       maxFillLevels: 1

@@ -20,6 +20,28 @@
             Poison: 4
 
 - type: reagent
+  id: Venom
+  name: reagent-name-venom
+  group: Toxins
+  desc: reagent-desc-venom
+  flavor: bitter
+  color: "#cf3600"
+  physicalDesc: reagent-physical-desc-opaque
+  plantMetabolism:
+  - !type:PlantAdjustToxins
+    amount: 10
+  - !type:PlantAdjustHealth
+    amount: -5
+  metabolisms:
+    Poison:
+      metabolismRate : 0.1
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Poison: 0.75
+
+- type: reagent
   id: CarpoToxin
   name: reagent-name-carpotoxin
   group: Toxins
@@ -140,6 +162,29 @@
       - !type:Emote
         emote: Scream
         probability: 0.3
+
+- type: reagent
+  id: FerrochromicAcid
+  name: reagent-name-ferrochromic-acid
+  group: Toxins
+  desc: reagent-desc-ferrochromic-acid
+  flavor: sour
+  color: "#48b3b8"
+  physicalDesc: reagent-physical-desc-ferrous
+  slippery: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: -1.5
+      - !type:HealthChange
+        scaleByQuantity: true
+        ignoreResistances: true
+        damage:
+          types:
+            Heat: 2.5
+            Caustic: 1
+
 - type: reagent
   id: FluorosulfuricAcid
   name: reagent-name-fluorosulfuric-acid
@@ -179,6 +224,7 @@
       - !type:Emote
         emote: Scream
         probability: 0.25
+
 - type: reagent
   id: SulfuricAcid
   name: reagent-name-sulfuric-acid

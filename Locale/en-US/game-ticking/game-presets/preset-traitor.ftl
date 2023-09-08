@@ -1,31 +1,11 @@
-
 ## Traitor
 
-# Shown at the end of a round of Traitor
-traitor-round-end-result = {$traitorCount ->
-    [one] Там був один зрадник.
-    *[other] Там було {$traitorCount} зрадника.
-}
+traitor-round-end-codewords = Кодові слова були: [color=White]{$codewords}[/color]
+traitor-round-end-agent-name = зрадник
 
-traitor-round-end-codewords = The codewords were: [color=White]{$codewords}[/color]
+objective-issuer-syndicate = [color=#87cefa]Синдикат[/color]
 
 # Shown at the end of a round of Traitor
-traitor-user-was-a-traitor = [color=gray]{$user}[/color] бу(в/ла) зрадником.
-traitor-user-was-a-traitor-named = [color=White]{$name}[/color] ([color=gray]{$user}[/color]) бу(в/ла) зрадником.
-traitor-was-a-traitor-named = [color=White]{$name}[/color] бу(в/ла) зрадником.
-
-traitor-user-was-a-traitor-with-objectives = Член екіпажу, [color=gray]{$user}[/color], був зрадником з такими цілями:
-traitor-user-was-a-traitor-with-objectives-named = Член екіпажу, [color=White]{$name}[/color] ([color=gray]{$user}[/color]), був зрадником з такими цілями:
-traitor-was-a-traitor-with-objectives-named = Член екіпажу, [color=White]{$name}[/color], був зрадником з такими цілями:
-
-preset-traitor-objective-issuer-syndicate = [color=#87cefa]Синдикат[/color]
-preset-traitor-objective-issuer-spiderclan = [color=#33cc00]Клан Павука[/color]
-
-# Shown at the end of a round of Traitor
-traitor-objective-condition-success = {$condition} | [color={$markupColor}]Успіх![/color]
-
-# Shown at the end of a round of Traitor
-traitor-objective-condition-fail = {$condition} | [color={$markupColor}]Провал![/color] ({$progress}%)
 
 traitor-title = Зрадник
 traitor-description = Серед нас є зрадники...

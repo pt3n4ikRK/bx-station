@@ -13,6 +13,9 @@ reagent-desc-polytrinic-acid = Надзвичайно їдка хімічна р
 reagent-name-chloral-hydrate = хлоралгідрат
 reagent-desc-chloral-hydrate = У малих дозах викликає сонливість. У вищих дозах - присипляє. Передозування спричиняє токсичну шкоду.
 
+reagent-name-ferrochromic-acid = ferrochromic acid
+reagent-desc-ferrochromic-acid = A mildy corrosive solution, unable of causing severe danger unless ingested.
+
 reagent-name-fluorosulfuric-acid = фторсульфонова кислота
 reagent-desc-fluorosulfuric-acid = Надзвичайно їдка хімічна речовина.
 
@@ -60,3 +63,6 @@ reagent-desc-honk = Токсин виявлений у бананіумі. Ви�
 
 reagent-name-lead = свинець
 reagent-desc-lead = Повільно діючий, але неймовірно смертельний токсин, що міститься в сталі, хоча у незначних кількостях. Не має смаку.
+
+reagent-name-venom = отрута
+reagent-desc-venom = Повільна отрута котру зазвичай використовують павуки

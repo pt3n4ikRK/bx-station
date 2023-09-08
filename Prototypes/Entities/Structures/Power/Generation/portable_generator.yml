@@ -38,6 +38,7 @@
     - type: Appearance
     - type: Sprite
       sprite: Structures/Power/Generation/portable_generator.rsi
+      noRot: true
 
     # Construction, interaction
     - type: WiresPanel
@@ -151,7 +152,7 @@
       fuelMaterial: Plasma
       multiplier: 0.01
     - type: MaterialStorage
-      storageLimit: 3000
+      storageLimit: 6000
       materialWhiteList: [Plasma]
     - type: PortableGenerator
       startChance: 0.8
@@ -205,7 +206,7 @@
       fuelMaterial: Uranium
       multiplier: 0.01
     - type: MaterialStorage
-      storageLimit: 3000
+      storageLimit: 6000
       materialWhiteList: [Uranium]
     - type: PortableGenerator
     - type: UpgradePowerSupplier
@@ -263,7 +264,7 @@
       targetPower: 2000
       minTargetPower: 1000
       optimalPower: 5000
-      maxTargetPower: 5000
+      maxTargetPower: 10000
       # 7.5 minutes at full tank.
       optimalBurnRate: 0.11111111
       # Shallow curve that allows you to just barely eek out 12 minutes at lowest.
@@ -274,7 +275,7 @@
     - type: SolutionContainerManager
       solutions:
         tank:
-          maxVol: 50
+          maxVol: 400
     - type: RefillableSolution
       solution: tank
     - type: PortableGenerator

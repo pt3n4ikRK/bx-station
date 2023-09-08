@@ -34,12 +34,13 @@ research-technology-cloning = Клонування
 research-technology-salvage-weapons = Шахтарське Зброя
 research-technology-draconic-munitions = Запалювальні Боєприпаси
 research-technology-explosive-technology = Технологія Вибухівки
-research-technology-advanced-laser-manipulation = Передові Лазерні Маніпуляції
+research-technology-weaponized-laser-manipulation = Передові Лазерні Маніпуляції
 research-technology-nonlethal-ammunition = Нелетальні Боєприпаси
 research-technology-concentrated-laser-weaponry = Зосереджена Лазерна Зброя
 research-technology-wave-particle-harnessing = Використання X-променів
 research-technology-advanced-riot-control = Удосконалений RIOT контроль
 research-technology-handheld-electrical-propulsion = Ручний Електростримувач
+research-technology-portable-microfusion-weaponry = Portable Microfusion Weaponry
 
 research-technology-basic-robotics = Базова Робототехніка
 research-technology-basic-anomalous-research = Базові Аномальні Дослідження
