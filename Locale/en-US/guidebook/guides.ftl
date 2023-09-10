@@ -49,5 +49,6 @@ guide-entry-nuclear-operatives = Ядерні Оперативники
 guide-entry-traitors = Зрадник
 guide-entry-zombies = Зомбі
 guide-entry-minor-antagonists = Другорядні антагоністи
+guide-entry-space-ninja = Космічний ніндзя
 
 guide-entry-writing = Письмо

@@ -87,12 +87,11 @@ alerts-pulled-desc = Вас хтось тягне. Рухайтесь, щоб з
 alerts-pulling-name = Ви тягнете
 alerts-pulling-desc = Ви щось тягнете. Клацніть сповіщення, щоб перестати.
 
-alerts-pulling-name = Тягнеш
-alerts-pulling-desc = Ти щось тягнеш. Клацніть на попередження, щоб зупинитися.
-
 alerts-bleed-name = [color=red]Кровотеча[/color]
 alerts-bleed-desc = Ти [color=red]стікаєш кров'ю[/color].
 
 alerts-pacified-name = [color=green]Заспокоєний[/color]
 alerts-pacified-desc = Ви заспокоєні, ви не зможете напасти на когось безпосередньо.
 
+alerts-suit-power-name = Потужність костюма
+alerts-suit-power-desc = Скільки енергії має ваш космічний костюм ніндзя.

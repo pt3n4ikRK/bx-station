@@ -24,3 +24,6 @@ roles-antag-nuclear-operative-objective = Знайдіть ядерний дис
 
 roles-antag-subverted-silicon-name = Зіпсована мікросхема
 roles-antag-subverted-silicon-objective = Дотримуйтесь нових законів і завдавайте шкоди станції.
+
+roles-antag-space-ninja-name = Космічний ніндзя
+roles-antag-space-ninja-objective = Використовуйте свою скритність, щоб саботувати станцію, заряджайтесь від електричних дротів.
